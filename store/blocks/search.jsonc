@@ -350,6 +350,7 @@
     }
   },
   "rich-text#categ-name":{
+    "title": "Nome da Categoria",
     "props": {
       "text": "### Máquinas de tosa",
       "textAlignment": "CENTER",
@@ -363,6 +364,7 @@
     "children": ["rich-text#categ-desc"]
   },
   "rich-text#categ-desc":{
+    "title": "Descrição de Categoria",
     "props": {
       "text": "As melhores Máquinas de Tosa para Cães e Gatos, Máquinas de Tosa Profissional, Máquinas de Tosa para Acabamento, Máquinas de Tosa para Tricotomia, Máquinas de Tosa Doméstica, Máquinas de Tosa para Pet Shops. Aqui você encontra as melhores máquinas de tosa do mercado pelo menor preço à vista ou até 10x sem juros nos cartões, com frete grátis para todo  o Brasil, confira. Além disso é compatível com as Lâminas de Tosa, Propetz, Oster, Wahl, Andis.",
       "textAlignment": "CENTER",

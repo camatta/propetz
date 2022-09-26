@@ -19,7 +19,7 @@
 
   "rich-text#title-institucional": {
     "props": {
-      "text": "# Política de Privacidade e Termo de Consentimento",
+      "text": "# Quem Somos",
       "blockClass": "title-institucional"
     }
   },

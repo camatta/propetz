@@ -7,7 +7,7 @@
       /* You can make references to blocks defined in other files.
        * For example, `flex-layout.row#deals` is defined in the `deals.json` file. */
       "__fold__.experimentalLazyAssets",
-      "flex-layout.row#deals",
+      "experimental__visibility-layout#deals",
       "flex-layout.row#dealsmob",
       "slider-layout#mosaico-sup",
       "tab-layout#home",

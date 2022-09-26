@@ -12,10 +12,11 @@
       "showNavigationArrows": "desktopOnly",
       "blockClass": ["carousel", "mosaico-sup"]
     },
-    "children": ["image#1", "image#2", "image#3", "image#4", "image#5", "image#6", "image#7", "image#8", "image#9", "image#10", "image#11", "image#12"]
+    "children": ["image#1", "image#2", "image#3", "image#4"]
   },
 
-  "image#1": {
+
+ "image#1": {
     "props": {
       "src": "assets/imgs/mosaicos/promocao-mosaico.png"
     }
