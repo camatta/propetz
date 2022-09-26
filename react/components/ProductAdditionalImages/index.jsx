@@ -16,7 +16,7 @@ const ProductAdditionalImages = () => {
 
     return (
         <>
-            {!!imagensToShow && (
+            {!imagensToShow && (
                 <section className="product-additional-carousel">
                     <Swiper
                     slidesPerView={2}

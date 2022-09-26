@@ -42,20 +42,3 @@
   font-size: 14px;
   font-weight: bold;
 }
-
-@media (max-width: 428px) {
-
-  .sliderText {
-    font-size: 12px;
-  }
-
-}
-
-
-@media (max-width: 404px) {
-
-  .sliderText {
-    font-size: 11px;
-  }
-
-}

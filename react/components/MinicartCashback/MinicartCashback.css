@@ -51,9 +51,3 @@
   color: #292929;
   text-decoration: underline;
 }
-
-@media (max-width: 428px) {
-  .cashbackCartContainer {
-    font-size: 10px;
-  }
-}

@@ -9,7 +9,8 @@
     "children": [
       "flex-layout.row#top-bar",
       "sticky-layout#4-desktop",
-      "flex-layout.row#2-desktop"
+      "flex-layout.row#2-desktop",
+      "flex-layout.row#lele-contact"
     ]
   },
 
@@ -60,6 +61,10 @@
       "login",
       "minicart.v2"
     ]
+  },
+
+  "flex-layout.row#lele-contact": {
+    "children":["lele-contact"]
   },
 
 

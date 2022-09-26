@@ -14,7 +14,7 @@ export const Wrapper = styled.section`
         padding: 0 12px 24px;
     }
     @media (max-width: 768px) {
-        padding: 0px;
+        padding: 0 12px;
     }
 `;
 
@@ -38,14 +38,6 @@ export const Input = styled.input`
     font-size: 16px;
     width: 65%;
     font-family: Montserrat,arial,sans-serif;
-
-    @media (max-width: 428px) {
-        font-size: 14px;
-    }
-
-    @media (max-width: 404px) {
-        font-size: 12px;
-    }
 
     &:focus {
         outline: none;
@@ -74,14 +66,6 @@ export const Button = styled.button`
     border-radius: 8px;
     transition: all .3s ease-in-out;
     font-family: Montserrat,arial,sans-serif;
-
-    @media (max-width: 428px) {
-        font-size: 14px;
-    }
-
-    @media (max-width: 404px) {
-        font-size: 12px;
-    }
 
     &:focus {
         outline: none;
