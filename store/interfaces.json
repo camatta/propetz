@@ -21,9 +21,5 @@
     
     "minicart-cashback": {
         "component": "MinicartCashback"
-    },
-
-    "lele-contact": {
-        "component": "LeleContact"
     }
 }
