@@ -10,7 +10,6 @@
       "flex-layout.row#top-bar",
       "sticky-layout#4-desktop",
       "flex-layout.row#2-desktop"
-      // "flex-layout.row#3-lele"
     ]
   },
 
@@ -63,9 +62,6 @@
     ]
   },
 
-  "flex-layout.row#3-lele": {
-    "children":["lele-contact"]
-  },
 
   // MENU
 
