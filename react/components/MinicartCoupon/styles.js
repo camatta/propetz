@@ -9,12 +9,11 @@ const colors = {
 export const Wrapper = styled.section`
     display: flex;
     flex-direction: column;
-
     @media (max-width: 1025px) {
         padding: 0 12px 24px;
     }
     @media (max-width: 768px) {
-        padding: 0 12px;
+        padding: 0px;
     }
 `;
 
@@ -38,17 +37,20 @@ export const Input = styled.input`
     font-size: 16px;
     width: 65%;
     font-family: Montserrat,arial,sans-serif;
-
+    @media (max-width: 428px) {
+        font-size: 14px;
+    }
+    @media (max-width: 404px) {
+        font-size: 12px;
+    }
     &:focus {
         outline: none;
     }
-
     &[disabled] {
         border: 0;
         font-weight: bold;
         padding-left: 35px;
     }
-
     &::placeholder {
         color: #292929;
     }
@@ -66,7 +68,12 @@ export const Button = styled.button`
     border-radius: 8px;
     transition: all .3s ease-in-out;
     font-family: Montserrat,arial,sans-serif;
-
+    @media (max-width: 428px) {
+        font-size: 14px;
+    }
+    @media (max-width: 404px) {
+        font-size: 12px;
+    }
     &:focus {
         outline: none;
         border: none;
@@ -98,7 +105,6 @@ export const DiscountWrapper = styled.div`
     width: 100%;
     position: relative;
     z-index: 0;
-
     button {
         padding: 2px 8px;
         width: initial;
