@@ -1,0 +1,61 @@
+/* Carrinho Lateral */
+
+.sliderContainer {
+  background-color: #EEEEEE;
+  border: unset;
+  margin-top: 0;
+  height: 12px;
+}
+
+.barContainer {
+  background-color: #2EA8BC;
+  height: 12px;
+}
+
+.freigthScaleContainer {
+  box-shadow: unset;
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.text1,
+.text2 {
+  display: none;
+  font-size: 28px;
+}
+
+.freigthScaleContainer .text4 {
+  text-align: left;
+  padding-left: 1.4rem;
+  position: relative;
+}
+
+.freigthScaleContainer .text4::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 2px;
+  width: 14px;
+  height: 14px;
+  background-image: url('/assets/vtex/assets-builder/dcorp.store-theme/5.0.0/imgs/icones/check-frete.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.sliderText {
+  text-align: left !important;
+}
+
+.currencyContainer {
+  padding-right: 10.6rem;
+  position: relative;
+}
+
+.currencyContainer::after {
+  content: 'para ganhar frete grátis';
+  position: absolute;
+  right: 0;
+  width: 166px;
+  top: 0;
+  font-weight: 400;
+}

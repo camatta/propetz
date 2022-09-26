@@ -1,0 +1,5 @@
+@media (max-width: 991px){
+  :global(.vtex-store-components-3-x-searchBarContainer) :global(.vtex-input-prefix__group){
+      width: 100%;
+  }
+}

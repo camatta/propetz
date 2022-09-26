@@ -1,0 +1,61 @@
+.containerNormal--minicart-shelf-related {
+  background: 0;
+  border: none;
+  border-radius: 0;
+  padding: 0;
+}
+
+.element--minicart-shelf-related,
+.priceContainer--minicart-related-price,
+.price_sellingPriceContainer {
+  padding: 0;
+}
+
+.nameContainer--minicart-related-name {
+  padding: 0 0 20px;
+}
+
+.nameWrapper--minicart-related-name {
+  text-align: left;
+}
+
+.brandName--minicart-related-name {
+  font-size: 16px;
+  line-height: 24px;
+  height: 70px;
+  overflow: hidden;
+  display: inline-block;
+}
+
+.priceContainer--minicart-related-price {
+  justify-content: start;
+  align-items: start;
+}
+
+.currencyContainer--minicart-related-price {
+  font-weight: 500;
+}
+
+.buyButtonContainer--minicart-related-add-to-cart {
+  padding: 0;
+}
+
+.buyButton--minicart-related-add-to-cart :global(.vtex-button) {
+  background: 0;
+  border: 1px solid #707070;
+  border-radius: 13px;
+  color: #292929;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+.buyButton--minicart-related-add-to-cart .buyButtonText--minicart-related-add-to-cart {
+  font-size: 0;
+}
+.buyButton--minicart-related-add-to-cart .buyButtonText--minicart-related-add-to-cart::before {
+  content: "Adicionar";
+  font-size: 16px;
+}
+
+.buyButton--minicart-related-add-to-cart :global(.vtex-button__label) {
+  padding: 13px!important;
+}

@@ -1,0 +1,22 @@
+.homeLink,
+.arrow--1 .caretIcon {
+    display: none;
+}
+
+.container--bread__pdp {
+    padding-top: 0;
+}
+
+.arrow--1,
+.arrow--1 .link--1 {
+    padding-left: 0;
+}
+
+.arrow,
+.link,
+.term {
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #202020;
+}

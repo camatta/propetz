@@ -1,0 +1,20 @@
+@media(max-width: 991px){
+    :global(.vtex-search-result-3-x-orderByButton){
+        border: none!important;
+        background:none;
+        padding: .8rem 0 .8rem .8rem;
+    }
+    :global(.vtex-flex-layout-0-x-flexCol--filterMobileCol){
+        z-index: 9;
+    }
+    .filterPopupButton{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .filterPopupArrowIcon{
+        padding: 0 0.5rem 0 0!important;
+    }
+    .buttonShowMore{
+        margin: 20px 0!important;
+    }
+}

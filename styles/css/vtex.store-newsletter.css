@@ -1,0 +1,41 @@
+.newsletterForm {
+  display: flex;
+  justify-content: center;
+}
+
+.nameInputContainer,
+.emailInputContainer {
+  margin-right: 0.7rem;
+}
+
+.formSubmitContainer--submit-newsletter {
+  font-size: 14px;
+  text-transform: capitalize !important;
+  border-radius: 13px;
+}
+
+.emailInputContainer {
+  width: 40%;
+}
+
+:global(.vtex-store-newsletter-1-x-newsletterForm) :global(.vtex-styleguide-9-x-input) {
+  background-color: transparent;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+:global(.vtex-store-newsletter-1-x-newsletterForm) :global(.vtex-styleguide-9-x-input)::placeholder {
+  color: #fff;
+}
+
+:global(.vtex-store-newsletter-1-x-newsletterForm) :global(.vtex-input-prefix__group),
+:global(.vtex-store-newsletter-1-x-formSubmitContainer) :global(.vtex-button) {
+  border-radius: 12px
+}
+
+:global(.vtex-store-newsletter-1-x-formSubmitContainer) :global(.vtex-button__label) {
+  text-transform: capitalize;
+  font-size: 14px;
+  width: 100px;
+}

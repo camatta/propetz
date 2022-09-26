@@ -1,0 +1,495 @@
+{
+  "store.home": {
+    "blocks": [
+      "list-context.image-list#demo",
+      "experimental__visibility-layout#modelo2",
+      "experimental__visibility-layout#modelo3",
+      /* You can make references to blocks defined in other files.
+       * For example, `flex-layout.row#deals` is defined in the `deals.json` file. */
+      "__fold__.experimentalLazyAssets",
+      "flex-layout.row#deals",
+      "flex-layout.row#dealsmob",
+      "slider-layout#mosaico-sup",
+      "tab-layout#home",
+      "flex-layout.row#mosaico-meio",
+      "flex-layout.row#mosaicomeiomob",
+      "flex-layout.row#mosaicomeiolinhamob",
+      "flex-layout.row#mosaicomeiolinhamob3",
+      "flex-layout.row#wrapper-shelf-title2",
+      "flex-layout.row#shelf2",
+      "flex-layout.row#shelf3",
+      "flex-layout.row#mosaico-meio2",
+      "slider-layout#carrossel-meio2mobile",
+      "flex-layout.row#wrapper-shelf-title3",
+      "flex-layout.row#shelf4",
+      "flex-layout.row#shelf5",
+      "flex-layout.row#banner-final",
+      "flex-layout.row#banner-finalmobile",
+      "flex-layout.row#banner-blog",
+      "flex-layout.row#banner-blogmobile",
+      "flex-layout.row#marcas",
+      "flex-layout.row#sobre-nos"
+    ]
+  },
+
+  "list-context.image-list#demo": {
+    "title": "Slider Principal",
+    "children": ["slider-layout#demo-images"],
+    "props": {
+      "height": 720,
+      "images": [
+        {
+          "image": "assets/imgs/slider/banner-principal.png",
+          "mobileImage": "assets/imgs/slider/banner-principal-mobile.png"
+        },
+        {
+          "image": "assets/imgs/slider/banner-principal.png",
+          "mobileImage": "assets/imgs/slider/banner-principal-mobile.png"
+        }
+      ]
+    }
+  },
+  "slider-layout#demo-images": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "arrowSize": 12,
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": ["carousel", "banner-principal"]
+    }
+  },
+
+  "experimental__visibility-layout#modelo2": {
+    "title": "Banner Topo Modelo 2",
+    "children": ["flex-layout.row#slider-m2"]
+  },
+
+  "flex-layout.row#slider-m2": {
+    "children": [
+      "flex-layout.col#slider-m2-col-left",
+      "flex-layout.col#slider-m2-col-right-1",
+      "flex-layout.col#slider-m2-col-right-2"
+    ],
+    "props": {
+      "blockClass": "mosaico-topo-m2"
+    }
+  },
+
+  "flex-layout.col#slider-m2-col-left": {
+    "children": [
+      "image#m2-1"
+    ],
+    "props": {
+      "width": "50%"
+    }
+  },
+
+  "flex-layout.col#slider-m2-col-right-1": {
+    "children": [
+      "image#m2-2"
+    ]
+  },
+
+  "flex-layout.col#slider-m2-col-right-2": {
+    "children": [
+      "image#m2-3"
+    ]
+  },
+
+  "image#m2-1": {
+    "props": {
+      "src": "assets/imgs/slider/banner-m3.png"
+    }
+  },
+
+  "image#m2-2": {
+    "props": {
+      "src": "assets/imgs/slider/banner-m2.png"
+    }
+  },
+
+  "image#m2-3": {
+    "props": {
+      "src": "assets/imgs/slider/banner-m2.png"
+    }
+  },
+
+  "experimental__visibility-layout#modelo3": {
+    "title": "Banner Topo Modelo 3",
+    "children": ["flex-layout.row#slider-m3"]
+  },
+
+  "flex-layout.row#slider-m3": {
+    "children": [
+      "flex-layout.col#slider-m3-col-left",
+      "flex-layout.col#slider-m3-col-right"
+    ],
+    "props": {
+      "blockClass": "mosaico-topo-m3"
+    }
+  },
+
+  "flex-layout.col#slider-m3-col-left": {
+    "children": [
+      "image#m3-1"
+    ]
+  },
+
+  "flex-layout.col#slider-m3-col-right": {
+    "children": [
+      "image#m3-2",
+      "image#m3-3"
+    ]
+  },
+
+  "image#m3-1": {
+    "props": {
+      "src": "assets/imgs/slider/banner-m3.png"
+    }
+  },
+
+  "image#m3-2": {
+    "props": {
+      "src": "assets/imgs/slider/banner-m4.png"
+    }
+  },
+
+  "image#m3-3": {
+    "props": {
+      "src": "assets/imgs/slider/banner-m4.png"
+    }
+  },
+
+  "flex-layout.row#wrapper-title-tabs": {
+    "children": [
+      "tab-list#home"
+    ],
+    "props": {
+      "blockClass": ["wrapper-title-grid"]
+    }
+  },
+
+  "flex-layout.row#wrapper-content-tabs": {
+    "children": [
+      "tab-content#home"
+    ],
+    "props": {
+      "blockClass": ["wrapper-content-grid"]
+    }
+  },
+
+
+  "tab-layout#home": {
+    "title": "Navegação em Abas",
+    "children": [
+      "flex-layout.row#wrapper-title-tabs",
+      "flex-layout.row#wrapper-content-tabs"
+    ],
+    "props": {
+      "blockClass": "nav-abas",
+      "defaultActiveTabId": "home1"
+    }
+  },
+
+  "tab-list#home": {
+    "children": [
+      "tab-list.item#home1",
+      "tab-list.item#home2",
+      "tab-list.item#home3"
+    ]
+  },
+  "tab-list.item#home1": {
+    "props": {
+      "tabId": "home1",
+      "label": "Lançamentos",
+      "defaultActiveTab": true,
+      "blockClass": "titulo-grid"
+    }
+  },
+  "tab-list.item#home2": {
+    "props": {
+      "tabId": "home2",
+      "label": "Mais Vendidos"
+    }
+  },
+
+  "tab-list.item#home3": {
+    "props": {
+      "tabId": "home3",
+      "label": "Destaques"
+    }
+  },
+
+   "tab-content#home": {
+       "children": [
+         "tab-content.item#home1",
+         "tab-content.item#home2",
+         "tab-content.item#home3"
+       ]
+     },
+     "tab-content.item#home1": {
+       "children": [
+         "list-context.product-list#demo1"
+       ],
+       "props": {
+         "tabId": "home1"
+       }
+    },
+
+    "tab-content.item#home2": {
+      "children": [
+        "list-context.product-list#demo2"
+      ],
+      "props": {
+        "tabId": "home2"
+      }
+   },
+
+   "tab-content.item#home3": {
+    "children": [
+      "list-context.product-list#demo3"
+    ],
+    "props": {
+      "tabId": "home3"
+    }
+ },
+
+  "rich-text#shelf-title-abas2": {
+    "props": {
+      "text": "## Mais Vendidos",
+      "blockClass": ["shelfTitle", "titulo-grid", "nav-abas"]
+    }
+  },
+
+  "rich-text#shelf-title-abas3": {
+    "props": {
+      "text": "## Destaques",
+      "blockClass": ["shelfTitle", "titulo-grid"]
+    }
+  },
+
+  "flex-layout.row#shelf": {
+    "children": ["list-context.product-list#demo1"]
+  },
+  "list-context.product-list#demo1": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#demo-products"],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC",
+      "category": "9"
+    }
+  },
+  "slider-layout#demo-products": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 3,
+        "phone": 2
+      },
+      "infinite": true,
+      "fullWidth": true,
+      "blockClass": "shelf",
+      "arrowSize": 12
+    }
+  },
+
+  "flex-layout.row#wrapper-shelf-title2": {
+    "title": "Título - Grid 2",
+    "children": [
+      "rich-text#shelf-title2"
+    ],
+    "props": {
+      "blockClass": "wrapper-title-grid"
+    }
+  },
+
+  "rich-text#shelf-title2": {
+    "props": {
+      "text": "## Escolhidos para você!",
+      "blockClass": ["shelfTitle", "titulo-grid", "ativo"]
+    }
+  },
+  "flex-layout.row#shelf2": {
+    "children": ["list-context.product-list#demo2"]
+  },
+  "list-context.product-list#demo2": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#demo-products2"],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC",
+      "category": "11"
+    }
+  },
+  "slider-layout#demo-products2": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 3,
+        "phone": 2
+      },
+      "infinite": true,
+      "fullWidth": false,
+      "blockClass": "shelf",
+      "arrowSize": 12
+    }
+  },
+
+
+  "flex-layout.row#shelf3": {
+    "children": ["list-context.product-list#demo3"]
+  },
+  "list-context.product-list#demo3": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#demo-products3"],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC",
+      "category": "8"
+    }
+  },
+  "slider-layout#demo-products3": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 3,
+        "phone": 2
+      },
+      "infinite": true,
+      "fullWidth": false,
+      "blockClass": "shelf",
+      "arrowSize": 12
+    }
+  },
+
+  "flex-layout.row#wrapper-shelf-title3": {
+    "title": "Título - Grid 3",
+    "children": [
+      "rich-text#shelf-title3"
+    ],
+    "props": {
+      "blockClass": "wrapper-title-grid"
+    }
+  },
+
+  "rich-text#shelf-title3": {
+    "props": {
+      "text": "## Imperdíveis!",
+      "blockClass": ["shelfTitle", "titulo-grid", "ativo"]
+    }
+  },
+  "flex-layout.row#shelf4": {
+    "title": "Grid de Produtos 3",
+    "children": ["list-context.product-list#demo1"]
+  },
+  "list-context.product-list#demo4": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#demo-products4"],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC",
+      "category": "78"
+    }
+  },
+  "slider-layout#demo-products4": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 3,
+        "phone": 2
+      },
+      "infinite": true,
+      "fullWidth": false,
+      "blockClass": "shelf",
+      "arrowSize": 12
+    }
+  },
+
+  "flex-layout.row#shelf5": {
+    "title": "Grid de Produtos 3.2",
+    "children": ["list-context.product-list#demo5"]
+  },
+  "list-context.product-list#demo5": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#demo-products5"],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC",
+      "category": "36"
+    }
+  },
+  
+  "slider-layout#demo-products5": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 3,
+        "phone": 2
+      },
+      "infinite": true,
+      "fullWidth": false,
+      "blockClass": "shelf",
+      "arrowSize": 12
+    }
+  },
+
+  "flex-layout.row#newsletter": {
+    "children": [
+      "image#icon-newsletter", "rich-text#title-newsletter", "rich-text#text-newsletter", "newsletter-form"
+    ],
+    "props": {
+      "blockClass": "wrapper-newsletter"
+    }
+  },
+
+  "image#icon-newsletter": {
+    "props": {
+      "src": "assets/imgs/newsletter/icon-newsletter.svg",
+      "blockClass": "icon-newsletter"
+    }
+  },
+
+  "rich-text#title-newsletter": {
+    "props": {
+      "text": "Inscreva-se na nossa\n\n**Newsletter**",
+      "blockClass": "title-newsletter"
+    }
+  },
+
+  "rich-text#text-newsletter": {
+    "props": {
+      "text": "Fique por dentro de todas as nossas novidades!",
+      "blockClass": "text-newsletter"
+    }
+  },
+
+  "newsletter-form": {
+    "children": [
+      "newsletter-input-name",
+      "newsletter-input-email",
+      "newsletter-submit"
+    ],
+    "props": {
+      "width": "50%"
+    }
+  },
+
+  "newsletter-input-name": {
+    "props": {
+      "placeholderText": "Digite seu nome aqui"
+    }
+  },
+
+  "newsletter-input-email": {
+    "props": {
+      "placeholderText": "Digite seu e-mail aqui"
+    }
+  },
+
+  "newsletter-submit": {
+    "props": {
+      "submitButtonLabel": "Enviar"
+    }
+  }
+
+}

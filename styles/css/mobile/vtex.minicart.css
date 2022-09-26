@@ -1,0 +1,57 @@
+@media (max-width: 428px) {
+
+  .minicartProductListContainer :global(.vtex-flex-layout-0-x-flexRowContent) {
+    display: flex;
+  }
+
+  .minicartProductListContainer :global(.vtex-product-list-0-x-productName) {
+    font-size: 14px;
+    font-weight: 400;
+  }
+
+  .childrenContainer .minicartProductListContainer :global(.vtex-product-list-0-x-productImageContainer) {
+    width: 96px !important;
+    height: 96px !important;
+  }
+
+  .closeIconContainer--minicart-wrapper {
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 2;
+  }
+
+  .minicartTitle {
+    padding-top: 0.8rem;
+    text-align: left !important
+  }
+
+  .minicartTitle::after{
+    display: none;
+  }
+
+  .minicartSideBarContentWrapper {
+    height: 93vh !important;
+  }
+
+  .minicartQuantityBadgeDefault {
+    display: flex !important;
+  }
+
+  .minicartQuantityBadge {
+    left: 1rem !important;
+  }
+
+}
+
+@media (max-width: 320px) {
+  .minicartProductListContainer :global(.vtex-product-list-0-x-productName) {
+    font-size: 12px;
+  }
+
+  .childrenContainer .minicartProductListContainer :global(.vtex-product-list-0-x-productImageContainer) {
+    width: 78px !important;
+    height: 78px !important;
+  }
+
+}

@@ -1,0 +1,13 @@
+.drawer {
+    background-color: #2EA8BC;
+}
+.closeIconContainer{
+  justify-content: flex-end;
+  top: 20px;
+  position: relative;
+  z-index: 99;
+}
+.closeIcon,
+.openIconContainer .menuIcon{
+  color: #fff;
+}

@@ -1,0 +1,41 @@
+@media (max-width: 428px) {
+
+  .logoContainer {
+    padding: 1rem 0;
+    width: 150px;
+  }
+
+  .searchBarContainer :global(.vtex-input-prefix__group) {
+    width: 100% !important;
+  }
+
+  .discountInsideContainer {
+    left: 0;
+    width: 34px;
+    height: 34px;
+    border-radius: 30px;
+    background-color: #2ea8bc;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+  }
+
+  .productDescriptionText .showMoreButton {
+    padding: 1rem;
+    border-radius: 10px;
+    text-transform: capitalize;
+    color: #fff;
+    background-color: #2ea8bc;
+  }
+
+  .productNameContainer {
+    margin-top: 1rem;
+  }
+
+  .productDescriptionContainer .productDescriptionTitle {
+    font-size: 15px;
+  }
+
+}

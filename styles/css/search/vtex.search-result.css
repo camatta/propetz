@@ -1,0 +1,102 @@
+.filterMessage{
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 0px;
+    color: #202020;
+}
+
+.filtersWrapper .filter__container:nth-child(3n) {
+    margin-top: 2.9rem;
+}
+
+.filter__container{
+    background-color: #E7E7E7;
+    border-radius: 17px;
+    padding: 25px;
+    margin: 1.5rem 0;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.filterAvailable{
+    padding: 0;
+}
+.filterIsOpen{
+    border-bottom: 1px solid #D0D0D0;
+    padding: 0 0 7px 0;
+}
+.filterTitleSpan{
+    font: normal normal bold 16px/20px Montserrat;
+    letter-spacing: 0px;
+    color: #0099A9;
+}
+
+.filter__container--title{
+    background-color: transparent;
+    border: 1px solid #D0D0D0;
+    border-radius: 11px;
+    padding: 0 15px;
+}
+
+.filterItem :global(.vtex-checkbox__line-container ){
+    display: flex;
+    align-items: center;
+
+    margin: 10px 0;
+}
+
+.orderByButton{
+    border: 1px solid #D0D0D0;
+    border-radius: 11px;
+    padding: .6rem;
+    margin-top: 0;
+    margin-bottom: .5rem;
+}
+
+.filter__container--selectedFilters{
+    display: none;
+}
+
+.filterContent .filterItem {
+    font-size: 14px;
+}
+
+.orderByText {
+    font-size: 14px;
+    font-weight: 500;
+    color: #202020;
+    text-transform: initial;
+}
+
+.filterPopupTitle {
+    text-transform: capitalize;
+}
+
+.orderByOptionItem {
+    font-size: 13px;
+    font-family: 'Montserrat';
+}
+
+.orderByOptionsContainer {
+    z-index: 4;
+}
+
+.filterIcon {
+    padding-right: 2px;
+}
+
+.filterIcon .caretIcon {
+    color: #707070;
+    width: 12px;
+}
+
+.searchResultContainer {
+    padding-top: 2rem;
+}
+
+.searchResultContainer  .buttonShowMore--layout:last-child {
+    margin: 2rem;
+}
+
+.searchResultContainer  .buttonShowMore--layout :global(.vtex-button) {
+    text-transform: initial;
+}

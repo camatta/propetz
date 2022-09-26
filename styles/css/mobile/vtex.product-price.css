@@ -1,0 +1,34 @@
+@media (max-width: 428px) {
+
+  .sellingPriceValue {
+    color: #292929;
+    font-size: 34px !important;
+  }
+
+  .installments .currencyContainer--summary {
+    font-size: 9px;
+  }
+
+  .installments--pdp-parcelado .currencyContainer--summary,
+  .installments--summary.installments--pdp-parcelado {
+    font-size: 14px;
+}
+
+
+}
+
+@media (max-width: 404px) {
+  .installments .currencyContainer--summary {
+    font-size: 8px;
+  }
+}
+
+@media (max-width: 385px) {
+  .installments--summary {
+    padding-left: 0;
+  }
+
+  .installments--summary::before {
+    display: none;
+  }
+}

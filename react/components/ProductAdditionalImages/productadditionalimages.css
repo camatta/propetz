@@ -1,0 +1,15 @@
+:global(.product-additional-carousel) {
+  margin-bottom: 4rem;
+  overflow-x: hidden;
+}
+
+:global(.imgPDP) {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+:global(.render-route-store-product) {
+  overflow-x: hidden;
+}

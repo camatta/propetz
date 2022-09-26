@@ -1,0 +1,12 @@
+{
+  "login": {
+    "props": {
+      "emailAndPasswordTitle": "LOG-IN",
+      "accessCodeTitle": "Acess Code LOG-IN",
+      "emailPlaceholder": "e-mail",
+      "passwordPlaceholder": "password",
+      "iconLabel": "Acessar Perfil",
+      "showPasswordVerificationIntoTooltip": true
+    }
+  }
+}

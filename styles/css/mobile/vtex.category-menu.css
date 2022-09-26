@@ -1,0 +1,39 @@
+@media (max-width: 428px) {
+  .sidebarContainer {
+    color: #fff;
+  }
+
+  .sidebarHeader {
+    justify-content: end;
+    padding-right: 0;
+    color: #fff;
+    position: relative;
+  }
+
+  .sidebarHeader .closeIcon {
+    color: #fff;
+    width: 17px;
+    position: relative;
+  }
+
+  .sidebarHeader::after {
+    content: '';
+    width: 171px;
+    height: 46px;
+    position: absolute;
+    left: 0rem;
+    top: 0rem;
+    background-image: url(/assets/vtex/assets-builder/dcorp.store-theme/5.0.0/imgs/header/logo___7a8e060….svg);
+    background-repeat: no-repeat;
+  }
+
+  .sidebarItemContainer .plusIcon,
+  .sidebarItemContainer .minusIcon {
+    color: #fff;
+    width: 10px;
+  }
+
+  .sidebarContainer .sidebarScrim {
+    background-color: #000;
+  }
+}

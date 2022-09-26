@@ -1,0 +1,14 @@
+.summarySmallContent .summaryItemContainer:last-child {
+  background-color: #EEEEEE;
+  padding: 0.8rem 1.7rem;
+  font-size: 16px;
+  border-radius: 13px;
+}
+
+.summarySmallContent .summaryItemContainer:last-child .summaryItemPrice {
+  font-weight: 700;
+}
+
+.summarySmallDisclaimer {
+  display: none;
+}

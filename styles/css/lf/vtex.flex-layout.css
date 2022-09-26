@@ -1,0 +1,32 @@
+@media(max-width: 991px){
+    .flexCol--productRating{
+        display: none;
+    }
+
+    .flexRow--wrapper__categ-top{
+        position: relative;
+        margin-bottom: 30px;
+    }
+
+    .flexRow--wrapper__categ-top::before{
+        content: "";
+        background: #F2F2F2;
+        width: 100vw;
+        height: 100%;
+        position: absolute;
+        left: -2%;
+    }
+
+    .flexRowContent--wrapper__categ-top {
+        flex-direction: row-reverse;
+        align-items: center;
+    }
+
+    .flexRowContent--wrapper__categ-top::before {
+        content: " ";
+        height: 75%;
+        width: 1px;
+        background: #707070;
+        position: absolute;
+    }
+}

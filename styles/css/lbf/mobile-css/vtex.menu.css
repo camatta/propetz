@@ -1,0 +1,15 @@
+@media (max-width: 991px) {
+  .menuItem .styledLink {
+    font: normal normal normal 14px/18px Montserrat;
+    letter-spacing: 0.38px;
+    color: #FFFFFF;
+    text-transform: initial;
+  }
+  .menuItem {
+    margin-bottom: 1rem;
+
+  }
+  .styledLinkContent--title-footer, .styledLinkContent--item-menu-footer, .styledLinkContent--title-contato-footer {
+    justify-content: center;
+  }
+}

@@ -1,0 +1,47 @@
+.productBrandName--summaryListDesktop {
+  text-decoration: none;
+  font-weight: 500;
+  color: #0067C7;
+  font-size: .875rem;
+}
+
+.productBrandName--summaryListMobile {
+  text-decoration: none;
+  color: #0067C7;
+  font-size: .875rem;
+}
+
+/* DESCRIÇÃO */
+:global(.vtex-flex-layout-0-x-flexColChild--category-name) .imageElement{
+  height: 100%;
+}
+
+/*  */
+:global(.vtex-stack-layout-0-x-stackItem){
+  left: auto;
+  right: 0;
+  top: -10px;
+}
+:global(.vtex-wish-list-1-x-wishlistIconContainer) :global(.vtex-button__label){
+  padding: 0!important;
+}
+:global(.vtex-wish-list-1-x-wishlistIconContainer) :global(.vtex-button ):hover,
+:global(.vtex-wish-list-1-x-wishlistIconContainer) :global(.vtex-button ):focus{
+  background-color: transparent;
+}
+:global(.vtex-wish-list-1-x-wishlistIcon){
+  background: url('assets/imgs/categoria/heart.png') center;
+  background-size: contain;
+  width: 27px;
+}
+
+/* filter mobile */
+:global(.vtex-search-result-3-x-filterApplyButtonWrapper) :global(.vtex-button){
+  background-color: #FFA124;
+}
+:global(.vtex-search-result-3-x-filterClearButtonWrapper) :global(.vtex-button){
+  background-color: #2EA8BC;
+}
+:global(.vtex-search-result-3-x-filterButtonsBox) :global(.vtex-button__label){
+  color: #fff;
+}

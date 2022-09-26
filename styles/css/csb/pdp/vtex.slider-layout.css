@@ -1,0 +1,22 @@
+.sliderLayoutContainer--slider-related {
+    max-width: 94rem;
+    margin: 0 auto 4rem;
+}
+
+@media screen and (max-width: 1025px) {
+
+    :global(.vtex-store-components-3-x-swiper-pagination) {
+        bottom: 0 !important;
+    }
+
+    :global(.vtex-store-components-3-x-swiperBullet) {
+        width: 15px;
+        height: 5px;
+        border-radius: 10px;
+        transition: all .2s ease-in-out;
+    }
+    :global(.vtex-store-components-3-x-swiperBullet--active) {
+        color: #707070;
+        width: 25px;
+    }
+}

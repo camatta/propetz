@@ -1,0 +1,267 @@
+@media (max-width: 1536px) {
+  :global(.vtex-store-components-3-x-container) {
+    max-width: 1490px;
+    margin: auto;
+  }
+
+  :global(.vtex-product-summary-2-x-containerNormal) {
+    max-width: 350px!important;
+  }
+
+  :global(.vtex-flex-layout-0-x-flexRow--box-deal) {
+    padding: 1.5rem 0.9rem;
+  }
+
+}
+
+.sliderLayoutContainer {
+  justify-content: center;
+}
+.sliderLayoutContainer--carousel {
+  background-color: #F0F0F0;
+}
+
+.sliderTrackContainer {
+  max-width: 100%;
+}
+
+.paginationDotsContainer {
+  margin-top: .5rem;
+  margin-bottom: 1rem;
+  align-items: center;
+}
+
+.layoutContainer--shelf {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  max-width: 96rem;
+}
+
+.slide--shelf {
+  margin-bottom: 25px;
+  padding-left: .5rem;
+  padding-right: .5rem;
+}
+
+.paginationDot--banner-principal {
+  background: #FFF5F5 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #00000061;
+}
+
+.paginationDot--banner-principal--isActive {
+  border: 3px solid #ffa124;
+}
+
+.caretIcon--carousel {
+  color: #fff;
+}
+
+.sliderRightArrow--mosaico-sup {
+  right: -0.8rem;
+}
+
+.sliderLeftArrow--mosaico-sup {
+  left: -0.8rem;
+}
+
+.imageElement--banner-principal {
+  transition: transform .4s;
+}
+
+.imageElement--banner-principal:hover {
+  transform: scale(1.1);
+}
+
+/* Mosaico Superior - Carrossel */
+.sliderLayoutContainer--mosaico-sup {
+  background-color: unset;
+  max-width: 1560px;
+  margin: auto;
+}
+
+/* Mosaico Superior - Carrossel */
+@media (max-width: 1536px) {
+  .sliderLayoutContainer--mosaico-sup {
+    background-color: unset;
+    max-width: 1490px;
+    margin: auto;
+  }
+}
+
+.caretIcon--mosaico-sup {
+  color: #707070;
+  background-color: #fff;
+  border-radius: 30px;
+  padding: 10px;
+  border: 1px solid #707070;
+}
+
+.paginationDotsContainer--mosaico-sup {
+  bottom: -3rem
+}
+
+.paginationDot--mosaico-sup {
+  width: 9px !important;
+  height: 2px !important;
+  border: unset;
+  border-radius: 0;
+  box-shadow: unset;
+  background-color: #d3d0d0;
+  padding: 0;
+  margin: 1.2px;
+}
+
+.paginationDot--mosaico-sup--isActive {
+  width: 13px !important;
+  height: 2px !important;
+  border: unset;
+  border-radius: 0;
+  box-shadow: unset;
+  background-color: #707070;
+  padding: 0;
+}
+
+/* Carrossel de Marcas */
+
+.caretIcon--slidermarcas {
+  color: #707070;
+  background-color: #fff;
+  border-radius: 30px;
+  padding: 10px;
+  border: 1px solid #707070;
+}
+
+
+.sliderLeftArrow--banner-principal {
+  display: block;
+}
+
+.sliderRightArrow--slidermarcas {
+  right: -1.7rem;
+}
+
+.paginationDotsContainer--slidermarcas {
+  bottom: -3rem
+}
+
+.paginationDot--slidermarcas {
+  width: 9px !important;
+  height: 2px !important;
+  border: unset;
+  border-radius: 0;
+  box-shadow: unset;
+  background-color: #d3d0d0;
+  padding: 0;
+  margin: 1.2px;
+}
+
+.paginationDot--slidermarcas--isActive {
+  width: 13px !important;
+  height: 2px !important;
+  border: unset;
+  border-radius: 0;
+  box-shadow: unset;
+  background-color: #707070;
+  padding: 0;
+}
+
+.slideChildrenContainer--slidermarcas :global(.vtex-button) {
+  background: #fff 0% 0% no-repeat padding-box;
+  border-radius: 13px;
+  border: 1px solid #707070;
+  transition: all 0.3s ease 0s;
+}
+
+.slideChildrenContainer--slidermarcas :global(.vtex-button):hover {
+  background: rgb(46, 168, 188);
+  border: 1px solid rgb(46, 168, 188);
+}
+
+.slideChildrenContainer--slidermarcas :global(.vtex-button__label) {
+  font: normal normal 300 14px/18px Montserrat;
+  color: #202020;
+  text-transform: initial;
+  width: 160px;
+  padding: 11px 17px!important;
+}
+
+.slideChildrenContainer--slidermarcas :global(.vtex-button):hover :global(.vtex-button__label) {
+  color: #fff;
+}
+
+.sliderLayoutContainer--slidermarcas {
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #00000029;
+  border: 1px solid #D0D0D0;
+  border-radius: 20px;
+  padding: 1rem;
+}
+
+.slide--slidermarcas {
+  position: relative;
+}
+
+.slide--slidermarcas::after {
+  content: "";
+  width: 1px;
+  height: 95px;
+  background: rgba(0, 0, 0, 0.16);
+  position: absolute;
+  left: 0rem;
+  top: 22%;
+}
+
+/* Vitrines Home */
+
+.sliderLayoutContainer--shelf {
+  margin-bottom: 2rem;
+}
+
+.paginationDot {
+  width: 9px !important;
+  height: 2px !important;
+  border: unset;
+  border-radius: 0;
+  box-shadow: unset;
+  background-color: #d3d0d0;
+  padding: 0;
+  margin: 1.2px;
+}
+
+.paginationDot--isActive {
+  width: 13px !important;
+  height: 2px !important;
+  border: unset;
+  border-radius: 0;
+  box-shadow: unset;
+  background-color: #707070;
+  padding: 0;
+}
+
+.caretIcon--shelf {
+  color: #707070;
+  background-color: #fff;
+  border-radius: 30px;
+  padding: 10px;
+  border: 1px solid #707070;
+}
+
+.paginationDotsContainer--shelf {
+  bottom: -1.5rem;
+}
+
+.slide--shelf {
+  padding: 0;
+}
+
+/* .sliderLayoutContainer .sliderLeftArrow {
+  left: -1.3rem;
+}
+
+.sliderLayoutContainer .sliderRightArrow {
+  right: -1.3rem;
+} */
+
+.sliderLayoutContainer--shelf {
+  padding: 0 !important;
+}

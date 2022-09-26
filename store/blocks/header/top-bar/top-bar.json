@@ -1,0 +1,52 @@
+{
+
+  "flex-layout.row#lele": {
+    "children": [
+      "lele-contact-v2"
+    ]
+  },
+
+  "flex-layout.row#top-bar": {
+    "title": "Informações Topo",
+    "props": {
+      "blockClass": "wrapper-topbar"
+    },
+    "children": [
+      "rich-text#text-frete-gratis",
+      "rich-text#text-parcelamento",
+      "rich-text#text-fidelidade",
+      "link#text-rastreio"
+    ]
+  },
+
+  "rich-text#text-frete-gratis": {
+    "props": {
+      "blockClass": "text-topbar",
+      "text": "**Frete grátis** acima de R$499*"
+    }
+  },
+
+  "rich-text#text-parcelamento": {
+    "props": {
+      "blockClass": "text-topbar",
+      "text": "Parcelamento em até **10x sem juros**"
+    }
+  },
+
+  "rich-text#text-fidelidade": {
+    "props": {
+      "blockClass": "text-topbar",
+      "text": "Programa de **fidelidade**"
+    }
+  },
+
+  "link#text-rastreio": {
+    "props": {
+      "blockClass": ["text-topbar","last-item-topbar"],
+      "label": "Rastreie o seu pedido",
+      "href": "https://rastreamento.correios.com.br/app/index.php",
+      "target": "_blank"
+    }
+  }
+
+}

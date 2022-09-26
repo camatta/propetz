@@ -1,0 +1,105 @@
+{
+  "list-context.product-list#minicartRelated": {
+    "props": {
+      "maxItems": 3
+    },
+    "blocks": ["product-summary.shelf#minicart"],
+    "children": ["flex-layout.col#minicart-related-container"]
+  },
+
+  "flex-layout.col#minicart-related-container": {
+    "props": {
+      "blockClass": "container-minicart-related"
+    },
+    "children": ["rich-text#minicart-related-title", "slider-layout#related-minicart"]
+  },
+
+  "rich-text#minicart-related-title": {
+    "props": {
+      "display": "block",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Compre junto",
+      "font": "t-heading-5",
+      "blockClass": "minicart-related-title"
+    }
+  },
+
+  "product-summary.shelf#minicart": {
+    "props": {
+      "blockClass": "minicart-shelf-related"
+    },
+    "children": [
+      "flex-layout.row#product-infos",
+      "flex-layout.row#product-add-to-cart"
+    ]
+  },
+
+  "flex-layout.row#product-infos": {
+    "children": ["flex-layout.col#product-image", "flex-layout.col#product-name-price"]
+  },
+
+  "flex-layout.col#product-image": {
+    "props": {
+      "width": "35%",
+      "marginRight": "4",
+      "blockClass": "minicart-related-image"
+    },
+    "children": ["product-summary-image#minicart-related"]
+  },
+
+  "product-summary-image#minicart-related": {
+    "props": {
+      "showBadge": false,
+      "height": 133
+    }
+  },
+
+  "flex-layout.col#product-name-price": {
+    "props": {
+      "blockClass": "minicart-related-name-price"
+    },
+    "children": ["product-summary-name#minicart-related", "product-summary-price#minicart-related"]
+  },
+
+  "product-summary-name#minicart-related": {
+    "props": {
+      "blockClass": "minicart-related-name"
+    }
+  },
+
+  "product-summary-price#minicart-related": {
+    "props": {
+      "showListPrice": false,
+      "showInstallments": false,
+      "blockClass": "minicart-related-price"
+    }
+  },
+
+  "flex-layout.row#product-add-to-cart": {
+    "children": ["product-summary-buy-button#minicart-related"]
+  },
+
+  "product-summary-buy-button#minicart-related": {
+    "props": {
+      "buyButtonText": "Adicionar",
+      "blockClass": "minicart-related-add-to-cart",
+      "buyButtonBehavior": "alwaysGoToProduct"
+    }
+  },
+
+  "slider-layout#related-minicart": {
+    "props": {
+      "itemsPerPage": {
+          "desktop": 3,
+          "tablet": 1,
+          "phone": 1
+      },
+      "showNavigationArrows": "never",
+      "showPaginationDots": "never",
+      "infinite": false,
+      "fullWidth": false,
+      "blockClass": ["shelf", "slider-related-minicart"]
+    }
+  }
+}

@@ -1,0 +1,32 @@
+
+@media (max-width: 991px){
+  .minicartIconContainer {
+      padding-right: 0;
+      position: relative;
+    }
+
+    .minicartIconContainer::after {
+      display: none;
+    }
+
+  .minicartIconContainer::after,
+  .minicartQuantityBadgeDefault {
+      display: none;
+  }
+
+  .minicartIconContainer :global(.vtex-store-icons-0-x-cartIcon){
+      width: 30px;
+      height: 30px;
+  }
+
+  .minicartIconContainer::before {
+    display: none;
+  }
+
+}
+
+@media (max-width: 428px){
+  .minicartIconContainer {
+      padding-right: 0.75rem;
+    }
+  }

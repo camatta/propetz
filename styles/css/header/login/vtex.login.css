@@ -1,0 +1,60 @@
+.label {
+  color: #fff;
+  text-transform: initial;
+  padding: 0;
+  position: relative;
+  width: 60%;
+  text-align: left;
+  line-height: 1.2;
+  font-weight: 400;
+}
+
+.label::before {
+  content: '';
+  width: 27px;
+  height: 33px;
+  position: absolute;
+  left: -2.4rem;
+  top: 0rem;
+  background-image: url(/assets/vtex/assets-builder/dcorp.store-theme/5.0.0/imgs/header/user___7a8e060….svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.label::after {
+  content: 'Perfil';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  font-weight: 500;
+}
+
+.container :global(.vtex-button:hover),
+.container :global(.vtex-button:focus) {
+  background-color: unset;
+}
+
+.accessCodeOptionBtn :global(.vtex-button) {
+  background-color: #2ea8bc;
+  color: #fff;
+  border: unset;
+  text-transform: initial;
+  line-height: 1.4;
+  font-size: 15px;
+}
+
+.emailPasswordOptionBtn :global(.vtex-button) {
+  background-color: #ffa124;
+  color: #fff;
+  border: unset;
+  text-transform: initial;
+  line-height: 1.4;
+  font-size: 15px;
+}
+
+.container .profile {
+  color: #fff;
+  text-transform: capitalize;
+  margin-right: 1rem;
+}

@@ -1,0 +1,9 @@
+.sliderLayoutContainer--topbarmob, .sliderLayoutContainer--carro-mob {
+  display: none;
+}
+
+@media (max-width: 991px) {
+  .sliderLayoutContainer--topbarmob, .sliderLayoutContainer--carro-mob {
+    display: block;
+  }
+}

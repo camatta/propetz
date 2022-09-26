@@ -1,0 +1,123 @@
+{
+  "flex-layout.row#redes-sociais": {
+    "children": ["flex-layout.col#pinterest", "flex-layout.col#youtube", "flex-layout.col#twitter", "flex-layout.col#insta", "flex-layout.col#facebook" ],
+    "props": {
+      "textPosition": "center",
+        "horizontalAlign": "center",
+        "verticalAlign": "center",
+        "preventHorizontalStretch": true,
+        "preventVerticalStretch": true,
+        "paddingTop": 6,
+        "paddingBottom": 4,
+        "blockClass": "social-elevage"
+    }
+  },
+
+  "flex-layout.col#pinterest": {
+    "children": [
+      "image#pinterest"
+    ],
+    "props": {
+      "blockClass": "box-icone-social"
+    }
+  },
+
+  "image#pinterest": {
+    "props": {
+      "src": "assets/imgs/footer/awesome-pinterest.svg",
+      "textAlignment": "center",
+      "blockClass": "img-redes-sociais",
+      "link": {
+        "url":"https://br.pinterest.com/elevagemoi/",
+        "newTab": true
+      }
+    }
+    
+  },
+
+  "flex-layout.col#youtube": {
+    "children": [
+      "image#youtube"
+    ],
+    "props": {
+      "blockClass": "box-icone-social"
+    }
+  },
+
+  "image#youtube": {
+    "props": {
+      "src": "assets/imgs/footer/awesome-youtube.svg",
+      "textAlignment": "center",
+      "blockClass": "img-redes-sociais",
+      "link": {
+        "url":"https://www.youtube.com/c/ELEVAGECENTER",
+        "newTab": true
+      }
+    }
+  },
+
+  "flex-layout.col#twitter": {
+    "children": [
+      "image#twitter"
+    ],
+    "props": {
+      "blockClass": "box-icone-social"
+    }
+  },
+
+
+  "image#twitter": {
+    "props": {
+      "src": "assets/imgs/footer/awesome-twitter-square.svg",
+      "textAlignment": "center",
+      "blockClass": "img-redes-sociais",
+      "link": {
+        "url":"https://twitter.com/elevagecenter",
+        "newTab": true
+      }
+    }
+  },
+
+
+  "flex-layout.col#insta": {
+    "children": [
+      "image#insta"
+    ],
+    "props": {
+      "blockClass": "box-icone-social"
+    }
+  },
+
+  "image#insta": {
+    "props": {
+      "src": "assets/imgs/footer/awesome-instagram.svg",
+      "textAlignment": "center",
+      "blockClass": "img-redes-sociais",
+      "link": {
+        "url":"https://www.instagram.com/elevagecenter/",
+        "newTab": true
+      }
+    }
+  },
+
+  "flex-layout.col#facebook": {
+    "children": [
+      "image#facebook"
+    ],
+    "props": {
+      "blockClass": "box-icone-social"
+    }
+  },
+
+  "image#facebook": {
+    "props": {
+      "src": "assets/imgs/footer/facebook-square.svg",
+      "textAlignment": "center",
+      "blockClass": "img-redes-sociais",
+      "link": {
+        "url":"https://www.facebook.com/elevagecenter",
+        "newTab": true
+      }
+    }
+  }
+}

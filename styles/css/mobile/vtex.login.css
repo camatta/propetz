@@ -1,0 +1,20 @@
+@media (max-width: 428px) {
+
+  .buttonLink :global(.vtex-button) {
+    position: relative;
+  }
+
+  .buttonLink :global(.vtex-button)::before {
+    content: '';
+    width: 21px;
+    height: 24px;
+    position: absolute;
+    right: 0;
+    top: 5px;
+    background-image: url(/assets/vtex/assets-builder/dcorp.store-theme/5.0.0/imgs/header/user___7a8e060….svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+}

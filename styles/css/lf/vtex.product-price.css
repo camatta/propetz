@@ -1,0 +1,90 @@
+@media(max-width: 1224px){
+    :global(.vtex-product-price-1-x-installments--summary)::before{
+        left: 1rem;
+    }
+}
+@media(max-width: 991px){
+    .list-price{
+        font-size: 14px;
+    }
+    .installments--summary{
+        /* padding: 0; */
+        font: normal normal normal 14px/10px Montserrat;
+        margin-bottom: 11px;
+    }
+
+    :global(.vtex-product-price-1-x-installments--summary)::before{
+        left: 0.8rem;
+        top: 0px;
+        transform: scale(1.35);
+    }
+    :global(.vtex-search-result-3-x-galleryItem){
+        padding: 0.45rem!important;
+    }
+    :global(.vtex-search-result-3-x-galleryItem) :global(.vtex-button__label ){
+        padding: 5px 0!important;
+    }
+    :global(.vtex-search-result-3-x-galleryItem) :global(.vtex-add-to-cart-button-0-x-buttonText){
+        font: normal normal bold 13px/16px Montserrat!important;
+    }
+}
+
+@media(max-width: 669px){
+    :global(.vtex-product-price-1-x-listPrice ){
+        font-size: 12px!important;
+    }
+    .installments--summary{
+        /* padding: 0; */
+        font: normal normal normal 10px/12px Montserrat;
+        margin-bottom: 11px;
+    }
+
+    :global(.vtex-product-price-1-x-installments--summary)::before{
+        left: 0.7rem;
+        top: 0px;
+        transform: scale(0.7);
+    }
+    :global(.vtex-search-result-3-x-galleryItem){
+        padding: 0.45rem!important;
+    }
+    :global(.vtex-search-result-3-x-galleryItem) :global(.vtex-button__label ){
+        padding: 5px 0!important;
+    }
+    :global(.vtex-search-result-3-x-galleryItem) :global(.vtex-add-to-cart-button-0-x-buttonText),
+    :global(.vtex-product-summary-2-x-container) :global(.vtex-add-to-cart-button-0-x-buttonText) {
+        font: normal normal bold 10px/10px Montserrat!important;
+        text-transform: uppercase !important;
+        max-width: 100px;
+        line-height: 12px !important;
+    }
+}
+
+@media(max-width: 545px){
+    .list-price{
+        font-size: 12px;
+    }
+    .installments--summary{
+        /* padding: 0; */
+        font: normal normal normal 10px/10px Montserrat;
+        margin-bottom: 11px;
+    }
+
+    :global(.vtex-product-price-1-x-installments--summary)::before{
+        left: 0.7rem;
+        top: 0px;
+        transform: scale(0.7);
+    }
+    :global(.vtex-search-result-3-x-galleryItem){
+        padding: 0.45rem!important;
+    }
+    :global(.vtex-search-result-3-x-galleryItem) :global(.vtex-button__label ){
+        padding: 5px 0!important;
+    }
+    :global(.vtex-search-result-3-x-galleryItem) :global(.vtex-add-to-cart-button-0-x-buttonText),
+    :global(.vtex-product-summary-2-x-container) :global(.vtex-add-to-cart-button-0-x-buttonText) {
+        font: normal normal bold 10px/10px Montserrat!important;
+        text-transform: uppercase !important;
+        max-width: 100px;
+        line-height: 12px !important;
+    }
+}

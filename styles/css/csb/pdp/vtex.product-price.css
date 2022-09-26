@@ -1,0 +1,30 @@
+.savings {
+    display: none;
+}
+
+.sellingPriceValue {
+    color: #292929;
+    font-size: 24px;
+}
+
+.listPrice {
+    color: #D0D0D0;
+    font-size: 15px;
+}
+
+
+.installments--pdp-parcelado .currencyContainer--summary {
+    font-size: 16px;
+}
+
+.installments--summary.installments--pdp-parcelado {
+    padding-left: 1.4rem;
+}
+
+.installments--summary.installments--pdp-parcelado::before {
+    left: -10px;
+    top: 50%;
+    transform: translate(50%,-50%);
+    width: 19px;
+    height: 15px;
+}

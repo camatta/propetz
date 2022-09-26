@@ -1,0 +1,44 @@
+{
+  "store.custom#about-us": {
+    "path": "/about-us"
+  },
+  "store.custom#faq": {
+    "path": "/faq"
+  },
+  "store.custom#contact-us": {
+    "path": "/contact-us"
+  },
+  "store.custom#politica-de-privacidade": {
+    "path": "/politica-de-privacidade"
+  },
+  "store.custom#quem-somos": {
+    "path": "/quem-somos"
+  },
+  "store.custom#garantia": {
+    "path": "/garantia"
+  },
+  "store.custom#fale-conosco": {
+    "path": "/fale-conosco"
+  },
+  "store.custom#trocas-devolucoes": {
+    "path": "/trocas-e-devolucoes"
+  },
+  "store.custom#regras-de-promocao": {
+    "path": "/regras-de-promocao"
+  },
+  "store.custom#seguranca-para-voce": {
+    "path": "/seguranca-para-voce"
+  },
+  "store.custom#central-de-atendimento": {
+    "path": "/central-de-atendimento"
+  },
+  "store.custom#sitemap": {
+    "path": "/sitemap"
+  },
+  "store.custom#antecipacao-de-icms": {
+    "path": "/antecipacao-de-icms"
+  },
+  "store.custom#frete": {
+    "path": "/frete"
+  }
+}

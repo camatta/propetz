@@ -1,0 +1,115 @@
+.minicartContainer :global(.vtex-button) {
+  padding: 0 !important;
+}
+
+.minicartContainer :global(.vtex-button__label),
+.openIconContainer {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+.minicartContainer :global(.vtex-button) {
+  background-color: unset;
+}
+
+.minicartIconContainer {
+  padding-right: 4.3rem;
+  position: relative;
+}
+
+.minicartIconContainer::after {
+  content: 'Ver Carrinho';
+  width: 50px;
+  height: 40px;
+  position: absolute;
+  right: 0.7rem;
+  top: 0.1rem;
+  font-size: 14px;
+  color: #fff;
+  text-transform: initial;
+  text-align: left;
+  line-height: 1.2;
+}
+
+.minicartIconContainer .minicartQuantityBadge {
+  top: -0.7rem;
+  left: 1.6rem;
+  background-color: #ffa124;
+}
+
+.opened {
+  max-width: 520px !important;
+}
+
+.overlay--visible {
+  background-color: #292929e3;
+}
+
+.minicartTitle {
+  font-size: 14px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 700;
+  position: relative;
+  padding-bottom: 1rem;
+  border-bottom: 3px solid #D0D0D0;
+}
+
+:global(.vtex-minicart-2-x-minicartTitle)::after {
+  content: "";
+  width: 6rem;
+  background-color: rgb(112 107 107);
+  height: 2px;
+  position: absolute;
+  left: 50%;
+  bottom: -2px;
+  transform: translate(-50%);
+}
+
+.minicartProductListContainer :global(.vtex-product-list-0-x-productBrandName) {
+  display: none;
+}
+
+.closeIconContainer {
+  justify-content: end;
+}
+
+.closeIcon {
+  color: #7A7A7A;
+  width: 24px;
+  height: 24px;
+}
+
+.minicartProductListContainer :global(.vtex-product-list-0-x-productImageContainer) {
+  width: 146px !important;
+  border: 1px solid #D0D0D0;
+  border-radius: 12px;
+  padding: 4px;
+  margin-right: 1rem;
+}
+
+.minicartProductListContainer :global(.vtex-flex-layout-0-x-flexRowContent) {
+  position: relative;
+}
+
+.minicartProductListContainer :global(.vtex-product-list-0-x-productPriceContainer) {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.minicartProductListContainer :global(.vtex-product-list-0-x-productPriceCurrency) {
+  text-align: right;
+}
+
+.minicartProductListContainer :global(.vtex-product-list-0-x-productPriceContainer) :global(.vtex-product-list-0-x-price) {
+  font-size: 18px;
+  color: #292929;
+  text-align: right;
+}
+
+@media (max-width: 992px) {
+  .minicartProductListContainer :global(.vtex-product-list-0-x-productPriceContainer) {
+    position: relative !important;
+  }
+}

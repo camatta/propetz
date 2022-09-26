@@ -1,0 +1,76 @@
+@media (max-width: 991px) {
+  :global(.vtex-store-drawer-0-x-drawer) .container{
+    display: block;
+    margin-bottom: 20px;
+}
+
+:global(.vtex-store-drawer-0-x-drawer) .departmentList{
+    height: 100%;
+}
+:global(.vtex-store-drawer-0-x-drawer) .itemContainer{
+    padding: 5px 0;
+    border-bottom: 1px solid #fff;
+    max-width: 100%;
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+:global(.vtex-store-drawer-0-x-drawer) .itemContainer--category{
+    border: none;
+    background-color: transparent;
+    position: relative;
+    top:0!important;
+}
+:global(.vtex-store-drawer-0-x-drawer) .itemContainer--category .firstLevelList{
+    padding: 0;
+}
+:global(.vtex-store-drawer-0-x-drawer) .itemContainer .departmentLink,
+:global(.vtex-store-drawer-0-x-drawer) .itemContainer .submenuItem .firstLevelLink{
+    font: normal normal normal 14px/20px Montserrat;
+    text-align: left;
+    border: none;
+}
+:global(.vtex-store-drawer-0-x-drawer) .itemContainer .submenuItem .firstLevelLink{
+    color: #fff;
+    text-transform: uppercase;
+    /* letter-spacing: 2.38px; */
+}
+:global(.vtex-store-drawer-0-x-drawer) .itemContainer:first-child{
+    border-top: 1px solid #fff;
+    order: initial;
+}
+:global(.vtex-store-drawer-0-x-drawer) .itemContainer:first-child .departmentLink{
+    background-color: transparent;
+    border: none;
+    padding-left: 0;
+    padding-right: 0;
+    text-align: left;
+}
+:global(.vtex-store-drawer-0-x-drawer) .itemContainer:first-child .departmentLink::before{
+    display: none;
+}
+
+:global(.vtex-store-drawer-0-x-drawer) .itemContainer--department::after{
+    content: '';
+    background-image: url("data:image/svg+xml,%3Csvg id='SvgjsSvg1001' width='288' height='288' xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs'%3E%3Cdefs id='SvgjsDefs1002'%3E%3C/defs%3E%3Cg id='SvgjsG1008'%3E%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 384 512' width='288' height='288'%3E%3C!--! Font Awesome Pro 6.1.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc.--%3E%3Cpath d='M192 384c-8.188 0-16.38-3.125-22.62-9.375l-160-160c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L192 306.8l137.4-137.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-160 160C208.4 380.9 200.2 384 192 384z' fill='%23ffffff' class='color000 svgShape'%3E%3C/path%3E%3C/svg%3E%3C/g%3E%3C/svg%3E");    background-size: 16px;
+    /* background-size: cover; */
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 20px;
+    right: 0;
+    left: auto;
+    width: 20px;
+    height: 20px;
+    z-index: 0;
+}
+:global(.vtex-store-drawer-0-x-drawer) .itemContainer--category .submenuItem{
+    width: 100%;
+}
+:global(.vtex-store-drawer-0-x-drawer) .itemContainer--category .section--category,
+:global(.vtex-store-drawer-0-x-drawer) .itemContainer--category .firstLevelLink{
+    padding-left: 0;
+}
+}
+

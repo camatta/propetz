@@ -1,0 +1,11 @@
+:global(.vtex-product-summary-2-x-productNameContainer) {
+  height: 110px;
+  overflow: hidden;
+}
+
+@media (max-width: 428px) {
+  :global(.vtex-product-summary-2-x-productNameContainer) {
+    height: auto;
+    overflow: hidden;
+  }
+}

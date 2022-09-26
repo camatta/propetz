@@ -1,0 +1,93 @@
+{
+  "footer": {
+    "blocks": ["footer-layout.desktop", "footer-layout.mobile"]
+  },
+  "footer-layout.desktop": {
+    "children": ["flex-layout.row#newsletter", "flex-layout.row#redes-sociais", "flex-layout.row#footer-4", "flex-layout.row#copyrights"]
+  },
+  "flex-layout.row#footer-4" : {
+    "children": ["vtex.menu@2.x:menu#footer-coluna1","vtex.menu@2.x:menu#footer-coluna2", "vtex.menu@2.x:menu#footer-coluna3", "flex-layout.col#pagamento", "flex-layout.col#pagamento2" ],
+    "props": {
+      "blockClass": "menu-row",
+      "paddingTop": 6,
+      "paddingBottom": 3
+    }
+  },
+
+  "flex-layout.col#pagamento": {
+    "children": ["rich-text#pagamento","image#bandeiras"],
+    "props": {
+      "blockClass": "col-selos-footer"
+    }
+  },
+  "rich-text#pagamento": {
+    "props": {
+      "text": "Formas de pagamento",
+    "blockClass": "titulo-pagar"
+    }
+  },
+  "image#bandeiras": {
+    "props": {
+      "src":"assets/imgs/footer/bandeiras-elevage.png",
+      "width": "120px"
+    }
+  },
+  "flex-layout.col#pagamento2": {
+    "children": ["rich-text#pagamento2","image#bandeiras2"],
+    "props": {
+      "blockClass": "col-selos-footer"
+    }
+  },
+  "rich-text#pagamento2": {
+    "props": {
+      "text": "Selos de segurança",
+    "blockClass": "titulo-pagar"
+    }
+  },
+  "image#bandeiras2": {
+    "props": {
+      "src":"assets/imgs/footer/selo2.png"
+    }
+  },
+  "flex-layout.row#copyrights": {
+    "children": ["flex-layout.col#copytexto", "flex-layout.col#copyimg"],
+    "props": {
+      "blockClass": "copyrights"
+    }
+  },
+  "flex-layout.col#copyimg": {
+    "children": ["rich-text#imgnairuz", "image#nairuz"],
+    "props": {
+      "width": "60%",
+      "blockClass": "copyimg"
+    }
+  },
+  "rich-text#imgnairuz": {
+    "props": {
+      "text": "Design",
+      "blockClass": "text-copy"
+   }
+  },
+  "image#nairuz": {
+    "props": {
+      "src": "assets/imgs/footer/nairuz.png",
+      "blockClass": "nairuz-logo"
+    }
+  },
+  "flex-layout.col#copytexto": {
+    "children": ["rich-text#el"],
+    "props": {
+      "width": "60%",
+      "blockClass": "copytexto"
+    }
+  },
+  "rich-text#el": {
+    "props": {
+      "text": "Elevage® | Todos os direitos reservados.",
+      "blockClass": "text-copy"
+   }
+  },
+  "footer-layout.mobile": {
+    "children": ["flex-layout.row#newsletter", "flex-layout.row#redes-sociais","flex-layout.row#footer-4", "flex-layout.row#copyrights"]
+  }
+}

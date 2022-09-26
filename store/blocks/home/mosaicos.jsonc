@@ -1,0 +1,399 @@
+{
+  "slider-layout#mosaico-sup": {
+    "title": "Carrossel Superior - Promoções 1",
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 2,
+        "phone": 2
+      },
+      "arrowSize": 12,
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": ["carousel", "mosaico-sup"]
+    },
+    "children": ["image#1", "image#2", "image#3", "image#4", "image#5", "image#6", "image#7", "image#8", "image#9", "image#10", "image#11", "image#12"]
+  },
+
+  "image#1": {
+    "props": {
+      "src": "assets/imgs/mosaicos/promocao-mosaico.png"
+    }
+  },
+  "image#2": {
+    "props": {
+      "src": "assets/imgs/mosaicos/promocao-mosaico.png"
+    }
+  },
+  "image#3": {
+    "props": {
+      "src": "assets/imgs/mosaicos/promocao-mosaico.png"
+    }
+  },
+  "image#4": {
+    "props": {
+      "src": "assets/imgs/mosaicos/promocao-mosaico.png"
+    }
+  },
+  "image#5": {
+    "props": {
+      "src": "assets/imgs/mosaicos/promocao2-mosaico.png"
+    }
+  },
+  "image#6": {
+    "props": {
+      "src": "assets/imgs/mosaicos/promocao2-mosaico.png"
+    }
+  },
+  "image#7": {
+    "props": {
+      "src": "assets/imgs/mosaicos/promocao2-mosaico.png"
+    }
+  },
+  "image#8": {
+    "props": {
+      "src": "assets/imgs/mosaicos/promocao2-mosaico.png"
+    }
+  },
+  "image#9": {
+    "props": {
+      "src": "assets/imgs/mosaicos/promocao3-mosaico.png"
+    }
+  },
+  "image#10": {
+    "props": {
+      "src": "assets/imgs/mosaicos/promocao3-mosaico.png"
+    }
+  },
+  "image#11": {
+    "props": {
+      "src": "assets/imgs/mosaicos/promocao3-mosaico.png"
+    }
+  },
+  "image#12": {
+    "props": {
+      "src": "assets/imgs/mosaicos/promocao3-mosaico.png"
+    }
+  },
+
+"flex-layout.row#mosaico-meio": {
+    "title": "Mosaico Meio",
+    "children": [
+      "flex-layout.col#left-mosaico",
+      "flex-layout.col#right-mosaico"
+    ],
+    "props": {
+      "blockClass": "mosaico-meio-wrapper"
+    }
+  },
+
+  "flex-layout.col#left-mosaico": {
+    "children": [
+      "image#img-mosaico-left"
+    ],
+    "props": {
+      "blockClass": "imagem-mosaico-left"
+    }
+  },
+
+  "image#img-mosaico-left": {
+    "props": {
+      "src": "assets/imgs/mosaicos/mosaico-meio-left.png"
+    }
+  },
+
+  "flex-layout.col#right-mosaico": {
+    "children": [
+      "flex-layout.row#linha1-topo",
+      "flex-layout.row#linha2-bottom"
+    ],
+    "props": {
+      "blockClass": "mosaico-right-wrapper"
+    }
+  },
+
+  "flex-layout.row#linha1-topo": {
+    "children":[
+      "flex-layout.col#linha1-col1-topo",
+      "flex-layout.col#linha1-col2-topo"
+    ],
+    "props": {
+      "blockClass": "linha1-topo"
+    }
+  },
+
+  "flex-layout.row#linha2-bottom": {
+    "children":[
+      "flex-layout.col#linha2-col1-bottom",
+      "flex-layout.col#linha2-col2-bottom"
+    ],
+    "props": {
+      "blockClass": "linha2-bottom"
+    }
+  },
+
+  "flex-layout.col#linha1-col1-topo": {
+    "children":[
+      "image#img-mosaico-right1"
+    ]
+  },
+
+  "flex-layout.col#linha1-col2-topo": {
+    "children":[
+      "image#img-mosaico-right2"
+    ]
+  },
+
+  "flex-layout.col#linha2-col1-bottom": {
+    "children":[
+      "image#img-mosaico-right3"
+    ]
+  },
+
+  "flex-layout.col#linha2-col2-bottom": {
+    "children":[
+      "image#img-mosaico-right4"
+    ]
+  },
+
+  "image#img-mosaico-right1": {
+    "props": {
+      "src": "assets/imgs/mosaicos/mosaico-meio-right.png"
+    }
+  },
+
+  "image#img-mosaico-right2": {
+    "props": {
+      "src": "assets/imgs/mosaicos/mosaico-meio-right2.png"
+    }
+  },
+
+  "image#img-mosaico-right3": {
+    "props": {
+      "src": "assets/imgs/mosaicos/mosaico-meio-right.png"
+    }
+  },
+
+  "image#img-mosaico-right4": {
+    "props": {
+      "src": "assets/imgs/mosaicos/mosaico-meio-right2.png"
+    }
+  },
+
+
+  "flex-layout.row#mosaico-meio2": {
+    "title": "Mosaico Meio 2",
+    "children": [
+      "flex-layout.col#left-mosaico2",
+      "flex-layout.col#right-mosaico2"
+    ],
+    "props": {
+      "blockClass": "mosaico-meio2-wrapper"
+    }
+  },
+
+  "flex-layout.col#left-mosaico2": {
+    "children": [
+      "image#img-mosaico2-left"
+    ],
+    "props": {
+      "blockClass": "imagem-mosaico2-left"
+    }
+  },
+
+  "flex-layout.col#right-mosaico2": {
+    "children": [
+      "image#img-mosaico2-right"
+    ],
+    "props": {
+      "blockClass": "imagem-mosaico2-right"
+    }
+  },
+
+  "image#img-mosaico2-left": {
+    "props": {
+      "src": "assets/imgs/mosaicos/mosaico-meio2.png"
+    }
+  },
+
+  "image#img-mosaico2-right": {
+    "props": {
+      "src": "assets/imgs/mosaicos/mosaico-meio2.png"
+    }
+  },
+
+  "flex-layout.row#banner-final": {
+    "title": "Banner Contato",
+    "children": [
+      "flex-layout.col#imgfinal"
+    ],
+    "props": {
+      "blockClass": "bannerfinal"
+    }
+  },
+  "flex-layout.col#imgfinal": {
+    "children": [
+      "image#bannerfinal"
+    ]
+  },
+  "image#bannerfinal": {
+    "props": {
+      "src": "assets/imgs/mosaicos/Banner_Display.jpg"
+    }
+  },
+
+  "flex-layout.row#banner-blog": {
+    "title": "Banner Blog",
+    "children": [
+      "flex-layout.col#imgblog"
+    ],
+    "props": {
+      "blockClass": "bannerblog"
+    }
+  },
+  "flex-layout.col#imgblog": {
+    "children": [
+      "image#bannerblog"
+    ]
+  },
+  "image#bannerblog": {
+    "props": {
+      "src": "assets/imgs/mosaicos/banner-blog.svg"
+    }
+  },
+
+  "flex-layout.row#banner-blogmobile": {
+    "title": "Banner Blog Mobile",
+    "children": ["image#blogmob"],
+    "props": {
+      "blockClass": "blog__mob"
+    }
+  },
+
+  "image#blogmob": {
+    "props": {
+      "src": "assets/imgs/mosaicos/banner-blog-mobile.png"
+    }
+  },
+
+  "flex-layout.row#banner-finalmobile": {
+    "title": "Banner Contato Mobile",
+    "children": ["image#bannermob"],
+    "props": {
+      "blockClass": "final__mob"
+    }
+  },
+
+  "image#bannermob": {
+    "props": {
+      "src": "assets/imgs/mosaicos/banner-fim-mobile.png"
+    }
+  },
+
+  "slider-layout#carrossel-meio2mobile": {
+    "title": "Mosaico ",
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 2,
+        "phone": 1
+      },
+      "arrowSize": 12,
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": ["carousel", "carro-mob"]
+    },
+    "children": ["image#mob1", "image#mob2"]
+  },
+
+    "image#mob1": {
+      "props": {
+        "src": "assets/imgs/mosaicos/mosaico-meio2.png"
+      }
+    },
+
+    "image#mob2": {
+      "props": {
+        "src": "assets/imgs/mosaicos/mosaico-meio2.png"
+      }
+    },
+
+    "flex-layout.row#mosaicomeiomob": {
+      "children": ["flex-layout.row#bloco1meio" ],
+      "props": {
+        "blockClass": "mosaicomeio-mob"
+      }
+    },
+    "flex-layout.row#mosaicomeiolinhamob": {
+      "children": ["flex-layout.row#bloco2meio"],
+      "props": {
+        "blockClass": "mosaicomeio-mob"
+      }
+    },
+    "flex-layout.row#mosaicomeiolinhamob3": {
+      "children": ["flex-layout.row#bloco3meio"],
+      "props": {
+        "blockClass": "mosaicomeio-mob"
+      }
+    },
+    "flex-layout.row#bloco1meio": {
+      "children": ["flex-layout.col#imagemos1"]
+    },
+    "flex-layout.col#imagemos1": {
+      "children": ["image#meio1mob"]
+    },
+    "image#meio1mob": {
+      "props": {
+        "src": "assets/imgs/mosaicos/maquina-tosa-mob.png"
+      }
+
+    },
+    "flex-layout.row#bloco2meio": {
+      "children": ["flex-layout.col#imagemosm2", "flex-layout.col#imagemosm3"],
+      "props": {
+        "blockClass": "flex__me"
+      }
+    },
+
+    "flex-layout.col#imagemosm2": {
+      "children": ["image#meio2mob"]
+    },
+    "image#meio2mob": {
+      "props": {
+        "src": "assets/imgs/mosaicos/lamina-tosa-mob.png"
+      }
+    },
+    "flex-layout.col#imagemosm3": {
+      "children": ["image#meio3mob"]
+    },
+    "image#meio3mob": {
+      "props": {
+        "src": "assets/imgs/mosaicos/secador-mob.png"
+      }
+    },
+    "flex-layout.row#bloco3meio": {
+      "children": ["flex-layout.col#imagemos4", "flex-layout.col#imagemosm5"],
+      "props": {
+        "blockClass": "flex__me"
+      }
+    },
+    "flex-layout.col#imagemos4": {
+      "children": ["image#meio4mob"]
+    },
+    "image#meio4mob": {
+      "props": {
+        "src": "assets/imgs/mosaicos/lamina-tosa-mob.png"
+      }
+    },
+    "flex-layout.col#imagemosm5": {
+      "children": ["image#meio5mob"]
+    },
+    "image#meio5mob": {
+      "props": {
+        "src": "assets/imgs/mosaicos/secador-mob.png"
+      }
+    }
+
+
+}
+

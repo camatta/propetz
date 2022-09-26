@@ -1,0 +1,28 @@
+:global(.vtex-flex-layout-0-x-flexRowContent--buttons_buy) :global(.vtex-button){
+    border-radius: 13px;
+}
+:global(.vtex-flex-layout-0-x-flexColChild--wrapper__button-buy) :global(.vtex-button){
+    background-color: #fff;
+    border: 1px solid #000;
+    transition: all .3s;
+}
+:global(.vtex-flex-layout-0-x-flexColChild--wrapper__button-buy) :global(.vtex-button):hover{
+    background: #2EA8BC;
+    border: 1px solid #2EA8BC;
+}
+.buttonText{
+    text-transform: initial!important;
+    font: normal normal bold 14px/18px Montserrat;
+    transition: all .3s;
+}
+
+.buttonText--oneclick_buy{
+    color: #000;
+}
+:global(.vtex-button):hover .buttonText--oneclick_buy{
+    color: #fff
+}
+:global(.vtex-button__label){
+    padding: 9px 14px!important
+}
+

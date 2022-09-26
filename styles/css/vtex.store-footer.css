@@ -1,0 +1,25 @@
+.row--menu-row {
+  padding-right: 24px;
+}
+
+.row--menu-row .rowContainer {
+  align-items: flex-start;
+}
+
+.row--payment-methods {
+  padding-top: 16px;
+}
+
+.footerLayout {
+  position: relative;
+}
+
+.footerLayout::before {
+  content: '';
+  width: 56%;
+  background-color: #EEEEEEB8;
+  position: absolute;
+  bottom: 3.1rem;
+  left: 0;
+  height: 44%;
+}

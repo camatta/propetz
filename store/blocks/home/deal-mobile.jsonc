@@ -1,0 +1,156 @@
+{
+  "flex-layout.row#dealsmob": {
+    "title": "Benefícios - Mobile",
+    "children": ["flex-layout.col#carrosselmob"],
+    "props": {
+      "blockClass": "wrapper-dealsmobile"
+    }
+  },
+  "flex-layout.col#carrosselmob": {
+    "children": ["slider-layout#dealsmob"]
+  },
+  "slider-layout#dealsmob": {
+    "children": ["flex-layout.col#frete", "flex-layout.col#parcelamentos", "flex-layout.col#pix", "flex-layout.col#fidelidade"],
+    "props": {
+        "blockClass": "dealsmob",
+        "itemsPerPage": {
+          "desktop": 1,
+          "tablet": 1,
+          "phone": 2
+        },
+        "arrowSize": 12,
+        "infinite": true
+      }
+
+    },
+    "flex-layout.col#frete": {
+      "children":["flex-layout.row#controlemob"],
+      "props": {
+        "blockClass": "box-deal"
+      }
+    },
+    "flex-layout.row#controlemob": {
+      "children": ["flex-layout.col#col-imgdeal1mob", "flex-layout.col#col-textdealmob1"],
+      "props": {
+        "blockClass": "controle-flex"
+      }
+    },
+    "flex-layout.col#col-imgdeal1mob": {
+      "children": ["image#frete"],
+      "props": {
+        "width": "5%"
+      }
+    },
+    "flex-layout.col#col-textdealmob1": {
+      "children": ["rich-text#dealmob1"]
+    },
+    "image#frete": {
+      "props": {
+        "src": "assets/imgs/beneficios/icon-frete.svg"
+      }
+    },
+    "rich-text#dealmob1": {
+      "props": {
+        "text": "**Frete grátis** acima de R$499",
+        "blockClass": "deals"
+      }
+    },
+
+    "flex-layout.col#parcelamentos": {
+      "children":["flex-layout.row#controlemob2"],
+      "props": {
+        "blockClass": "box-deal"
+      }
+    },
+    "flex-layout.row#controlemob2": {
+      "children": ["flex-layout.col#col-imgdeal2mob", "flex-layout.col#col-textdealmob2"],
+      "props": {
+        "blockClass": "controle-flex"
+      }
+    },
+    "flex-layout.col#col-imgdeal2mob": {
+      "children": ["image#parcela"],
+      "props": {
+        "width": "5%"
+      }
+    },
+    "flex-layout.col#col-textdealmob2": {
+      "children": ["rich-text#dealmob2"]
+    },
+    "image#parcela": {
+      "props": {
+        "src": "assets/imgs/beneficios/icon-fidelidade.svg"
+      }
+    },
+    "rich-text#dealmob2": {
+      "props": {
+        "text": "Parcelamento em **até 10x sem juros**",
+        "blockClass": "deals"
+      }
+    },
+    "flex-layout.col#pix": {
+      "children":["flex-layout.row#controlemob3"],
+      "props": {
+        "blockClass": "box-deal"
+      }
+    },
+    "flex-layout.row#controlemob3": {
+      "children": ["flex-layout.col#col-imgdeal3mob", "flex-layout.col#col-textdealmob3"],
+      "props": {
+        "blockClass": "controle-flex"
+      }
+    },
+    "flex-layout.col#col-imgdeal3mob": {
+      "children": ["image#pix"],
+      "props": {
+        "width": "5%"
+      }
+    },
+    "flex-layout.col#col-textdealmob3": {
+      "children": ["rich-text#dealmob3"]
+    },
+    "image#pix": {
+      "props": {
+        "src": "assets/imgs/beneficios/icon-desconto.svg"
+      }
+    },
+    "rich-text#dealmob3": {
+      "props": {
+        "text": "**10% de desconto** no PIX e boleto",
+        "blockClass": "deals"
+      }
+    },
+    "flex-layout.col#fidelidade": {
+      "children":["flex-layout.row#controlemob4"],
+      "props": {
+        "blockClass": "box-deal"
+      }
+    },
+    "flex-layout.row#controlemob4": {
+      "children": ["flex-layout.col#col-imgdeal4mob", "flex-layout.col#col-textdealmob4"],
+      "props": {
+        "blockClass": "controle-flex"
+      }
+    },
+    "flex-layout.col#col-imgdeal4mob": {
+      "children": ["image#fidel"],
+      "props": {
+        "width": "5%"
+      }
+    },
+    "flex-layout.col#col-textdealmob4": {
+      "children": ["rich-text#dealmob4"]
+    },
+    "image#fidel": {
+      "props": {
+        "src": "assets/imgs/beneficios/icon-fidelidade.svg"
+      }
+    },
+    "rich-text#dealmob4": {
+      "props": {
+        "text": "Programa de **fidelidade**",
+        "blockClass": "deals"
+      }
+    }
+
+}

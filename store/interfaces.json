@@ -1,0 +1,29 @@
+{
+    "product-additional-images": {
+        "component": "ProductAdditionalImages"
+    },
+
+    "product-cashback": {
+        "component": "ProductCashback"
+    },
+
+    "minicart-freeshipping-bar-v2": {
+        "component": "MinicartFreeShippingBarV2"
+    },
+
+    "minicart-subtotal": {
+        "component": "MinicartSubtotal"
+    },
+
+    "minicart-coupon": {
+        "component": "MinicartCoupon"
+    },
+    
+    "minicart-cashback": {
+        "component": "MinicartCashback"
+    },
+
+    "lele-contact": {
+        "component": "LeleContact"
+    }
+}

@@ -1,0 +1,12 @@
+.flexRow--mosaico-topo-m3 :global(.vtex-store-components-3-x-container),
+.flexRow--mosaico-topo-m2 :global(.vtex-store-components-3-x-container) {
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.flexRow--mosaico-topo-m3 :global(.vtex-store-components-3-x-imageElement),
+.flexRow--mosaico-topo-m2 :global(.vtex-store-components-3-x-imageElement) {
+  width: 100%;
+  height: 100%;
+}

@@ -1,0 +1,64 @@
+@media (max-width: 991px){
+  .buttonLink :global(.vtex-button__label){
+      padding: 0!important;
+  }
+
+  .buttonLink :global(.vtex-button__label) :global(.items-center){
+      margin: 0!important;
+  }
+  .buttonLink :global(.vtex-button__label) :global(.vtex-login-2-x-profileIcon){
+      fill: #fff;
+      color: #fff!important;
+      width: 40px;
+      height: 30px;
+      opacity: 0;
+  }
+
+  /* menu */
+  :global(.vtex-store-drawer-0-x-drawer) :global(.vtex-login-2-x-container) :global(.relative){
+      width: 100%;
+      max-width: 100%;
+  }
+  :global(.vtex-store-drawer-0-x-drawer) :global(.vtex-login-2-x-buttonLink){
+      width: 100%;
+      padding: 0 15px;
+      display: flex;
+      /* justify-content: space-between; */
+  }
+  :global(.vtex-store-drawer-0-x-drawer) :global(.vtex-button__label){
+      width: 80%;
+      background: #FFA124;
+      border-radius: 13px;
+      text-align: center;
+      padding: 8px 12px!important;
+      display: flex;
+      justify-content: center;
+  }
+  :global(.vtex-store-drawer-0-x-drawer) :global(.vtex-login-2-x-label){
+      display: block;
+  }
+  :global(.vtex-store-drawer-0-x-drawer) .buttonLink :global(.vtex-button){
+
+      width: 100%;
+      position: relative;
+      display: flex;
+      justify-content: space-between;
+  }
+
+  :global(.vtex-store-drawer-0-x-drawer) :global(.vtex-login-2-x-label)::before{
+      display: none;
+  }
+  :global(.vtex-store-drawer-0-x-drawer) .buttonLink :global(.vtex-button)::before {
+      content: "";
+      width: 27px;
+      height: 33px;
+      position: relative;
+      left: 0;
+      background-image: url(/assets/vtex/assets-builder/dcorp.store-theme/5.0.0/imgs/header/user___7a8e060….svg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center;
+  }
+}
+
+

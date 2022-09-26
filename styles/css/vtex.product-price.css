@@ -1,0 +1,98 @@
+.listPrice {
+  color: #727273;
+  margin-bottom: .25rem;
+  font-size: 1rem;
+}
+
+.sellingPrice {
+  color: #202020;
+  font-size: 1.25rem;
+}
+
+.sellingPriceValue {
+  color: #202020;
+  font-size: 2.25rem;
+  font-weight: 700;
+}
+
+.installments {
+  color: #202020;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.savings {
+  font-weight: 500;
+  color: #79B03A;
+}
+
+.sellingPriceValue--summary {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #202020;
+}
+
+.savings--summary {
+  background: #8BC34A;
+  border-radius: 1000px;
+  align-items: center;
+  display: flex;
+
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  font-size: 0.875rem;
+  font-weight: 600;
+  vertical-align: baseline;
+  color: #FFFFFF;
+}
+
+.savings-discount--summary {
+  font-size: 0.875rem;
+  font-weight: 600;
+  vertical-align: baseline;
+  color: #FFFFFF;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.listPrice--summary {
+  margin-bottom: 0.25rem;
+  font-size: .875rem;
+}
+
+.installments--summary {
+  margin-bottom: 2rem;
+  font-size: 0.875rem;
+}
+
+.savings--summaryPercentage {
+  background: #0f3e99;
+  border-radius: 1000px;
+  align-items: center;
+  display: flex;
+}
+
+.savingsPercentage--summaryPercentage {
+  font-size: 0.875rem;
+  font-weight: 600;
+  vertical-align: baseline;
+  color: #FFFFFF;
+  padding: 0.25rem 0.5rem 0.25rem 0.5rem;
+}
+
+.installments--summary {
+  padding-left: 1rem;
+  position: relative;
+}
+
+.installments--summary::before {
+  content: '';
+  position: absolute;
+  left: 3.2rem;
+  top: 3px;
+  width: 14px;
+  height: 10px;
+  background-image: url(/assets/vtex/assets-builder/dcorp.store-theme/5.0.0/imgs/icones/icon-card___7a8e060….svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}

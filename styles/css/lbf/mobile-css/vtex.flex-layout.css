@@ -1,0 +1,31 @@
+.flexRow--wrapper-dealsmobile, .flexRow--final__mob, .flexRow--blog__mob, .flexRow--mosaicomeio-mob {
+  display: none;
+}
+
+@media (max-width: 991px) {
+  .flexRow--deals, .flexRow--bannerfinal, .flexRow--bannerblog, .flexRow--mosaico-meio2-wrapper {
+    display: none;
+  }
+  .flexRow--final__mob {
+    display: block;
+  }
+  .flexRow--wrapper-dealsmobile, .flexRow--blog__mob {
+    display: block;
+    margin: 2rem 0;
+  }
+  .flexCol--descricao-loja {
+    padding-left: 0 !important;
+    margin-top: 1rem;
+  }
+  .flexRowContent--social-elevage {
+    display: flex;
+  }
+  .flexRow--logo__mobile,
+  .flexRow--main-header-mobile{
+    background: #2EA8BC;
+  }
+
+  .container-minicart-related {
+    display: none;
+  }
+}

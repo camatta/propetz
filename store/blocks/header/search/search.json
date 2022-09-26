@@ -1,0 +1,9 @@
+{
+  "search-bar": {
+    "props": {
+      "openAutocompleteOnFocus": true,
+      "placeholder": "Olá, o que você procura?",
+      "blockClass": "search-elevage"
+    }
+  }
+}

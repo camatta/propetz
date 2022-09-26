@@ -1,0 +1,41 @@
+{
+  "flex-layout.row#sobre-nos": {
+    "title": "Sobre a Empresa",
+    "children": ["flex-layout.col#imagemloja", "flex-layout.col#descricaoloja"],
+    "props": {
+      "blockClass": "area-sobre"
+    }
+  },
+  "flex-layout.col#imagemloja": {
+    "children": ["image#loja"],
+    "props": {
+      "width": "35%",
+      "blockClass": "img-sobre"
+    }
+  },
+  "image#loja": {
+    "props": {
+      "src": "assets/imgs/sobre-nos/loja-img.jpg"
+    }
+  },
+  "flex-layout.col#descricaoloja": {
+    "children": ["rich-text#sobre", "image#logorich"],
+    "props": {
+      "blockClass": "descricao-loja",
+      "preventVerticalStretch": true,
+      "width": "65%"
+    }
+  },
+  "rich-text#sobre": {
+    "props": {
+      "blockClass": "text-sobre",
+      "text": "Somos especializados em equipamentos, máquinas de tosa, acessórios e produtos para banho, tosa, higiene e beleza de animais de pequeno e grande porte e pet shops.\n\nHá mais de **vinte e cinco anos no mercado**, atualmente representamos trinta marcas, oferecendo sempre os melhores preços e uma experiência diferenciada aos clientes.\n\nA **Elevage** é uma empresa voltada a importação e distribuição em todo o território nacional de equipamentos, máquinas de tosa, acessórios e produtos de banho e tosa para pet shops.\n\nSomos distribuidores autorizados da marca **OSTER** no Brasil e possuímos toda sua linha de produtos."
+    }
+  },
+  "image#logorich": {
+    "props": {
+      "src": "assets/imgs/sobre-nos/logo-elevage.png",
+      "blockClass": "logo-elevage-sobre"
+    }
+  }
+}

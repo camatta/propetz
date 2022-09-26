@@ -1,0 +1,10 @@
+
+@media (max-width: 991px) {
+  .container--titulo-pagar {
+    justify-content: center;
+  }
+
+  .paragraph--text-topbar::after {
+    display: none;
+  }
+}

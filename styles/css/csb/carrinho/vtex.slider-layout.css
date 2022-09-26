@@ -1,0 +1,11 @@
+.sliderTrack--slider-related-minicart {
+  flex-direction: column;
+}
+
+.slide--slider-related-minicart {
+  width: 272px !important;
+  margin: 25px 38px;
+}
+.slide--slider-related-minicart:not(:first-child) {
+  margin: 0 38px 25px;
+}

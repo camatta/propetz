@@ -1,0 +1,3 @@
+.wishlistIconContainer--wish_btn_pdp :global(.vtex-button) {
+    min-height: initial;
+}

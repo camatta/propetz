@@ -1,0 +1,66 @@
+{
+  "flex-layout.row#top-barmobile": {
+    "children": ["flex-layout.col#tob__carrossel"],
+    "props": {
+      "blockClass": "wrapper-topbar"
+    }
+  },
+
+  "flex-layout.col#tob__carrossel": {
+    "children": ["slider-layout#top-mobile"]
+  },
+
+  "slider-layout#top-mobile": {
+    "children": [
+      "rich-text#text-frete-gratis-mobile",
+      "rich-text#text-parcelamento-mobile",
+      "rich-text#text-fidelidade-mobile",
+      "rich-text#text-rastreio-mobile"
+  ],
+    "props": {
+        "blockClass": "topbarmob",
+        "autoplay": {
+          "timeout": 5000,
+          "stopOnHover": false
+        },
+        "itemsPerPage": {
+          "desktop": 1,
+          "tablet": 1,
+          "phone": 1
+        },
+        "arrowSize": 12,
+        "infinite": true,
+        "showNavigationArrows": "never",
+        "showPaginationDots": "never"
+      }
+
+  },
+
+  "rich-text#text-frete-gratis-mobile": {
+    "props": {
+      "blockClass": "text-topbar__mobile",
+      "text": "**Frete grátis** acima de R$499*"
+    }
+  },
+
+  "rich-text#text-parcelamento-mobile": {
+    "props": {
+      "blockClass": "text-topbar__mobile",
+      "text": "Parcelamento em até **10x sem juros**"
+    }
+  },
+
+  "rich-text#text-fidelidade-mobile": {
+    "props": {
+      "blockClass": "text-topbar__mobile",
+      "text": "Programa de **fidelidade**"
+    }
+  },
+
+  "rich-text#text-rastreio-mobile": {
+    "props": {
+      "blockClass": ["text-topbar__mobile","last-item-topbar"],
+      "text": "**Rastreie** o seu pedido"
+    }
+  }
+}

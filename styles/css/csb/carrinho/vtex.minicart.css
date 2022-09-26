@@ -1,0 +1,35 @@
+:global(.vtex-minicart-2-x-minicartProductListContainer) :global(.vtex-product-list-0-x-productImageContainer) {
+  max-height: 146px;
+  overflow: hidden;
+}
+
+:global(.vtex-minicart-2-x-minicartProductListContainer) :global(.vtex-product-list-0-x-productImageContainer) :global(.vtex-product-list-0-x-productImage) {
+  max-height: 146px;
+  object-fit: contain;
+}
+
+:global(.vtex-checkout-summary-0-x-summarySmallContent) :global(.vtex-checkout-summary-0-x-summaryItemContainer):not(:last-child),
+:global(.vtex-minicart-2-x-minicartProductListContainer)::-webkit-scrollbar {
+  display: none;
+}
+
+:global(.vtex-checkout-summary-0-x-summaryItemContainer):last-child :global(.vtex-checkout-summary-0-x-summaryItemLabel) {
+  font-size: 0;
+}
+:global(.vtex-checkout-summary-0-x-summaryItemContainer):last-child :global(.vtex-checkout-summary-0-x-summaryItemLabel)::after {
+  content: "Valor à vista";
+  font-size: 16px;
+}
+
+:global(.vtex-flex-layout-0-x-flexCol--coupon-subtotal-wrapper) {
+  width: initial;
+  padding: 22px 30px;
+  margin: 0 1.5rem;
+  border: 1px solid #707070;
+  border-radius: 16px;
+  gap: 22px;
+}
+
+:global(.vtex-checkout-summary-0-x-summarySmallContent) :global(.vtex-checkout-summary-0-x-summaryItemContainer):last-child {
+  margin: 0;
+}

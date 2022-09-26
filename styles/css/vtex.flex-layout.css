@@ -1,0 +1,337 @@
+.flexRowContent--menu-link {
+  padding: 0 .5rem;
+}
+
+.flexRowContent--main-header {
+  padding: 0 !important;
+}
+
+@media screen and (min-width: 40em) {
+  .flexRowContent--menu-link,
+  .flexRowContent--main-header {
+    padding: 0 1rem;
+  }
+}
+@media screen and (min-width: 80rem) {
+  .flexRowContent--menu-link,
+  .flexRowContent--main-header {
+    padding: 0 0.25rem;
+  }
+}
+
+.flexRowContent--menu-link {
+  background-color: #FFA124;
+  color: #fff;
+}
+
+.flexRow--main-header {
+  background-color: #2EA8BC;
+  padding: 0.4rem 2rem;
+  padding-bottom: 0;
+}
+
+.flexRowContent--main-header {
+  border-bottom: 1px solid #ffffff85;
+  box-shadow: unset !important;
+}
+
+.flexRowContent--main-header-mobile {
+  align-items: center;
+  padding: 0 0.5rem;
+  background-color: #2EA8BC;
+}
+
+.flexRowContent--menu-link :global(.vtex-menu-2-x-styledLink) {
+  color: #ffffff;
+  font-size: 14px;
+}
+
+.flexRowContent--main-header :global(.vtex-menu-2-x-styledLink) {
+  color: #727273;
+  font-size: 14px;
+}
+
+/* Categorias */
+
+.flexRow--wrapper__categories {
+  background-color: #2EA8BC;
+}
+
+.flexRow--deals {
+  padding: 2.5rem 0px;
+}
+
+.flexRow--deals .stretchChildrenWidth {
+  align-items: center;
+}
+
+.flexRow--box-deal {
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #00000029;
+  border: 1px solid #D0D0D0;
+  border-radius: 20px;
+  padding: 1.5rem 1rem;
+  width: 230px;
+  height: 150px;
+  display: flex;
+  align-items: center;
+}
+
+.flexRowContent--deals {
+  justify-content: space-between;
+}
+
+.flexRowContent--box-deal {
+  align-items: center;
+}
+
+.flexRow--deals .flexCol {
+  align-items: center;
+}
+
+.flexCol--filterCol {
+  max-width: 500px;
+  min-width: 230px;
+}
+
+.flexCol--productCountCol {
+  align-items: flex-start;
+}
+
+.flexCol--orderByCol {
+  align-items: flex-end;
+}
+
+.flexCol--orderByMobileCol {
+  width: 42%;
+}
+
+.flexCol--filterMobileCol {
+  width: 38%;
+}
+
+.flexRow--quickviewMainRow {
+  display: flex;
+  max-height: 100%;
+}
+
+.flexColChild--quickviewDetails:first-child {
+  overflow-y: auto;
+  height: 66% !important;
+  overflow-x: hidden;
+}
+
+.flexColChild--quickviewDetails:last-child {
+  height: 34% !important;
+}
+
+.flexRow--addToCartRow {
+  padding-bottom: 1rem;
+}
+
+/* Titulos Grid */
+.flexRowContent--wrapper-title-grid {
+  background-color: #e7e7e7;
+  margin: 4rem 0 3rem 0;
+  justify-content: center;
+}
+
+.container--titulo-grid {
+  justify-content: center;
+}
+
+.flexRow--wrapper-title-grid :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+  width: auto !important;
+}
+
+.flexRow--buttons_buy .flexColChild--wrapper__button-buy :global(.vtex-button__label) {
+  padding: 9px 16px !important;
+}
+
+.flexRow--buttons_buy :global(.vtex-add-to-cart-button-0-x-buttonText) {
+  max-width: 90px;
+}
+
+/* .flexColChild--wrapper__button-buy :global(.botao-comprar) {
+  display: none;
+} */
+
+/* Mosaicos Meio */
+
+.flexCol--mosaico-right-wrapper {
+  text-align: right;
+}
+
+.flexRow--mosaico-meio-wrapper,
+.flexRow--mosaico-meio2-wrapper {
+  margin-top: 2rem;
+  margin-bottom: 0;
+}
+
+.flexRow--linha2-bottom {
+  position: relative;
+  top: 0.45rem;
+}
+
+.flexCol--imagem-mosaico2-left {
+  padding-right: 1rem;
+}
+
+.flexCol--imagem-mosaico2-right {
+  padding-left: 1rem;
+}
+
+.flexCol--imagem-mosaico-left,
+.flexCol--imagem-mosaico2-right {
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.flexColChild--imagem-mosaico-left :global(.vtex-store-components-3-x-imageElement),
+.flexColChild--mosaico-right-wrapper :global(.vtex-store-components-3-x-imageElement) {
+  transition: transform .4s;
+  height: 100%;
+  overflow: hidden;
+}
+
+.flexColChild--imagem-mosaico-left :global(.vtex-store-components-3-x-imageElement):hover,
+.flexColChild--mosaico-right-wrapper :global(.vtex-store-components-3-x-imageElement):hover{
+  transform: scale(1.1);
+}
+
+/* Ícones Redes Sociais */
+
+.flexColChild--box-icone-social {
+  display: flex;
+  align-items: center;
+}
+
+.flexRow--bannerblog {
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+
+/* Marcas */
+
+.flexCol--fretebox {
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #00000029;
+  border: 1px solid #D0D0D0;
+  border-radius: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.flexRowContent--wrapper-frete {
+  justify-content: space-between;
+}
+
+.flexCol--fretebox :global(.vtex-button__label) {
+  font-weight: 600;
+  font-size: 14px;
+  text-transform: initial;
+  width: 200px;
+}
+
+.flexCol--fretebox :global(.vtex-button) {
+  background: #FFA124 0% 0% no-repeat padding-box;
+  border-radius: 13px;
+  border: unset;
+}
+
+/* Sobre Nós */
+
+.flexRow--area-sobre {
+  background-color: #EEE;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  margin-top: 4rem;
+}
+
+.flexCol--descricao-loja {
+  padding-left: 2.5rem;
+}
+
+/* Carrossel de Marcas */
+
+.flexColChild--box-img-marcas {
+  height: 80px !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Newsletter */
+
+.flexRow--wrapper-newsletter {
+  background-color: #2EA8BC;
+  padding: 3rem 0;
+}
+
+.flexRowContent--wrapper-newsletter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.flexRow--menu-row {
+  max-width: 1200px;
+  margin: auto;
+  z-index: 2;
+  position: relative;
+}
+
+.flexColChild--col-selos-footer {
+  height: auto !important;
+}
+
+/* Copyrights */
+
+.flexRow--copyrights {
+  max-width: 1200px;
+  margin: auto;
+  border-top: 1px solid #979797;
+  margin-top: 2rem;
+}
+
+.flexCol--copyimg {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  align-items: center;
+}
+
+.flexColChild--copyimg {
+  height: auto !important;
+  display: flex;
+}
+
+.flexRow--minicart-footer {
+  box-shadow: unset;
+}
+
+.flexColChild--wrapper__button-buy :global(.vtex-button):disabled {
+  display: none;
+}
+
+.flexColChild--wrapper__button-buyToCart :global(.vtex-button):disabled {
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translate(-50%);
+  -moz-transform: translate(-50%);
+  transform: translate(-50%);
+  bottom: 0.5rem;
+  width: 50%;
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 500px) {
+  .flexRowContent--logo__mobile {
+    background-color: #2ea8bc;
+  }
+
+  .flexRowContent--main-header-mobile {
+    justify-content: center;
+  }
+}
+

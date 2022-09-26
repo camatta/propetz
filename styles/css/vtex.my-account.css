@@ -1,0 +1,8 @@
+.addressBox .boxContainerBody {
+  filter: contrast(0.5);
+}
+
+:global(.vtex-my-authentication-1-x-maskedPassword_content),
+:global(.vtex-my-authentication-1-x-loginSessionsBox_content) {
+  color: #3f3f40;
+}

@@ -1,0 +1,128 @@
+// This is the default blocks implementation for the minicart-layout
+{
+  "minicart.v2": {
+    "props": {
+      "MinicartIcon": "icon-cart#minicart-icon",
+      "blockClass": "minicart-wrapper"
+    },
+    "children": ["minicart-base-content"]
+  },
+
+  "icon-cart#minicart-icon": {
+    "props": {
+      "size": "38",
+      "viewBox": "0, 0, 38.713, 32.978",
+      "blockClass": "icon-cart"
+    }
+  },
+
+  "minicart-base-content": {
+    "blocks": ["minicart-empty-state"],
+    "children": ["list-context.product-list#minicartRelated", "minicart-product-list#general", "flex-layout.row#minicart-footer"]
+  },
+
+  "minicart-product-list#general": {
+    "blocks": ["product-list#minicart"]
+  },
+
+  "product-list#minicart": {
+    "blocks": ["product-list-content-mobile#cart-mobile"]
+  },
+
+  "flex-layout.row#minicart-footer": {
+    "props": {
+      "blockClass": "minicart-footer"
+    },
+    "children": ["flex-layout.col#minicart-footer"]
+  },
+
+  "flex-layout.col#minicart-footer": {
+    "children": [
+      "minicart-freeshipping-bar-v2",
+      "flex-layout.col#coupon-subtotal",
+      "minicart-summary",
+      "experimental__visibility-layout#cashback-wrapper",
+      "minicart-checkout-button"
+    ]
+  },
+
+  "flex-layout.col#coupon-subtotal": {
+    "children": [
+      "minicart-subtotal",
+      "minicart-coupon"
+    ],
+    "props": {
+      "blockClass": "coupon-subtotal-wrapper"
+    }
+  },
+
+  "minicart-summary": {
+    "blocks": ["checkout-summary.compact#minicart"]
+  },
+
+  "experimental__visibility-layout#cashback-wrapper": {
+    "title": "Valor Cashback no carrinho",
+    "children": [
+      "flex-layout.col#cashback-value"
+    ]
+  },
+
+  "flex-layout.col#cashback-value": {
+    "children": [
+      "minicart-cashback"
+    ]
+  },
+
+  "minicart-checkout-button": {
+    "props": {
+      "finishShoppingButtonLink": "/checkout/#/orderform"
+    }
+  },
+
+  "checkout-summary.compact#minicart": {
+    "children": ["summary-totalizers#minicart"],
+    "props": {
+      "totalizersToShow": ["Items", "Discounts"]
+    }
+  },
+
+  "summary-totalizers#minicart": {
+    "props": {
+      "showTotal": true,
+      "showDeliveryTotal": false
+    }
+  },
+
+  "minicart-empty-state": {
+    "children": ["flex-layout.row#empty-state"]
+  },
+
+  "flex-layout.row#empty-state": {
+    "children": ["flex-layout.col#empty-state"]
+  },
+
+  "flex-layout.col#empty-state": {
+    "children": [
+      "icon-cart#minicart-empty-state",
+      "rich-text#minicart-default-empty-state"
+    ],
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "middle",
+      "rowGap": 5
+    }
+  },
+
+  "icon-cart#minicart-empty-state": {
+    "props": {
+      "size": 64,
+      "blockClass": "minicart-empty-state"
+    }
+  },
+  
+  "rich-text#minicart-default-empty-state": {
+    "props": {
+      "text": "Seu carrinho está vazio."
+    }
+  }
+}

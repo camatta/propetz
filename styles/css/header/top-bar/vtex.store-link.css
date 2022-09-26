@@ -1,0 +1,21 @@
+.link--text-topbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.label--text-topbar {
+  font-size: 12px;
+  color: #fff;
+  font-weight: 400;
+  text-decoration: inherit;
+  position: relative;
+}
+
+.label--text-topbar::after {
+  content: 'Rastreie';
+  position: absolute;
+  left: -1px;
+  top: 0;
+  font-weight: 600;
+}

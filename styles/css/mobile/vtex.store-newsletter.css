@@ -1,0 +1,18 @@
+@media (max-width: 428px) {
+
+  .newsletterForm :global(.vtex-input-prefix__group) {
+    width: 298px!important;
+    margin: auto;
+  }
+
+  .newsletterForm :global(.vtex-styleguide-9-x-input) {
+    text-align: center;
+  }
+
+  .formSubmitContainer {
+    width: 298px;
+    margin: auto;
+    margin-top: 5px;
+  }
+
+}

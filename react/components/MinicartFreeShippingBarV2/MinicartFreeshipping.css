@@ -1,0 +1,61 @@
+.freigthScaleContainer {
+  width: 100%;
+  padding: 10px 1.5rem;
+}
+
+.sliderContainer {
+  background-color: #EEEEEE;
+  border-radius: 20px;
+  height: 10px;
+}
+.barContainer {
+  border-radius: 5px;
+  background:#2EA8BC;
+  height: 10px;
+  transition: width 1s;
+}
+
+.sliderText {
+  font-size: 16px;
+  margin: 0 0 14px;
+}
+.text0{
+  color:#292929;
+}
+.text1{
+  text-indent: 30px;
+}
+.text2{
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-left: 8px;
+}
+.text3{
+  color: #292929;
+}
+.text4{
+  font-weight:bold;
+  text-align:center;
+}
+.currencyText{
+  font-size: 14px;
+  font-weight: bold;
+}
+
+@media (max-width: 428px) {
+
+  .sliderText {
+    font-size: 12px;
+  }
+
+}
+
+
+@media (max-width: 404px) {
+
+  .sliderText {
+    font-size: 11px;
+  }
+
+}

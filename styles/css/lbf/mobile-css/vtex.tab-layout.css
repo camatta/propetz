@@ -1,0 +1,23 @@
+@media (max-width: 991px) {
+  .listItem :global(.vtex-button__label){
+    font-size: 12px;
+    padding: 0px 8px!important;
+  }
+  .listItemActive :global(.vtex-button__label)::after {
+    width: 5rem !important;
+  }
+}
+
+@media (max-width: 385px) {
+  .listItem :global(.vtex-button__label){
+    font-size: 11px;
+  }
+
+}
+
+@media (max-width: 320px) {
+  .listItem :global(.vtex-button__label){
+    font-size: 9px;
+  }
+
+}

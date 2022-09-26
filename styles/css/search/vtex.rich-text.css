@@ -1,0 +1,26 @@
+.container--layout-option {
+  margin-left: 0.3em;
+}
+
+.paragraph--layout-option {
+  margin: 0;
+}
+
+.paragraph--summarySpecificationBullet {
+  margin: 0;
+  line-height: initial;
+  font-size: 1.25rem;
+  line-height: 1.15rem;
+}
+
+/* CATEGORIA */
+.heading--category-name{
+  color: #fff;
+  margin: 0;
+}
+
+.paragraph--category-description{
+  font: normal normal 400 10px/17px Montserrat;
+  letter-spacing: 0px;
+  color: #292929;
+}

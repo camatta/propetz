@@ -1,0 +1,28 @@
+@media (max-width: 991px){
+  .logoLink{
+    display: flex!important;
+    justify-content: center;
+}
+:global(.vtex-store-drawer-0-x-drawer) .logoLink{
+    justify-content: flex-start;
+    position: relative;
+    bottom: 50px;
+    /* right: -15px; */
+    padding: 0 15px;
+}
+
+.logoContainer{
+    max-width: 100%!important;
+}
+
+/* menu */
+:global(.vtex-store-drawer-0-x-drawer){
+    background: #2EA8BC;
+}
+:global(.vtex-menu-2-x-menuContainerNav){
+    width: 100%;
+}
+  :global(.vtex-input-prefix__group) {
+    width: 198px !important;
+  }
+}

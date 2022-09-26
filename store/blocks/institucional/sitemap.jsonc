@@ -1,0 +1,40 @@
+{
+  "store.custom#sitemap": {
+    "children": [
+      "flex-layout.row#wrapper-institucional",
+      "flex-layout.row#wrapper-institucional2"
+    ]
+  },
+
+  "experimental__visibility-layout#wrapper-institucional": {
+    "title": "Linha 1",
+    "children": ["flex-layout.row#wrapper-institucional"]
+  },
+
+  "flex-layout.row#wrapper-institucional": {
+    "children": [
+      "rich-text#title-institucional"
+    ]
+  },
+
+  "rich-text#title-institucional": {
+    "props": {
+      "text": "# Política de Privacidade e Termo de Consentimento",
+      "blockClass": "title-institucional"
+    }
+  },
+
+  "flex-layout.row#wrapper-institucional2": {
+    "children": [
+      "rich-text#text-institucional"
+    ]
+  },
+
+  "rich-text#text-institucional": {
+    "props": {
+      "text": "A ELEVAGE respeita a sua privacidade e está empenhada em tratar as suas informações pessoais de acordo com a lei geral de proteção de dados.\n\n**A Política de Privacidade de Dados e de Cookies** cumpre a finalidade clara de expor a todos os clientes como esta empresa usa cookies e tecnologias similares para tratar suas informações pessoais quando fornecidas enquanto visitam ou se cadastram em nosso site (www.elevage.com.br).\n\nPara usuários que estejam em território brasileiro a política de tratamento será observada de acordo com a Lei Geral de Proteção de Dados Pessoais, número 13.709 de 2018 (LGPD).\n\nA Elevage quando atuar como controladora ou operadora de dados pessoais, sabe de sua responsabilidade pelas informações pessoais expostas, e assim assegura que todos os preceitos legais são devidamente observados.\n\n**Os dados indicados são exclusivamente para finalidade contratual.**\n Quando houver o acesso ao site, deve ser aceita a mensagem de ciência sobre o uso de dados por meio digital e fornecidos, nos termos do Art. 3º da LGPD, consentindo assim o titular dos dados no seu uso para a finalidade que se destina.\n\nAo aceitar a politica de privacidade, o titular dos dados consente em receber informações e publicidade da controladora, devendo em caso de desinteresse apresentar notificação de desinteresse.\n\nNossa missão é ser o mais transparente na proteção dos dados pessoais e sensíveis de todos, e em caso de dúvida, entre em contato.",
+      "blockClass": "text-institucional"
+    }
+  }
+
+}

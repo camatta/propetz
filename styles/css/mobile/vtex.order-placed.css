@@ -1,0 +1,13 @@
+@media (max-width: 428px) {
+  .orderSoldBy {
+    color: #000;
+  }
+
+  .customerInfoListEmail,
+  .customerInfoListDocument,
+  .customerInfoListPhone,
+  .packageShippingEstimate,
+  .packageSLA {
+    color: #000;
+  }
+}

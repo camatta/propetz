@@ -1,0 +1,30 @@
+/* Footer */
+
+.styledLinkContent--title-footer {
+  font-size: 14px;
+  color: #181616;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.styledLinkContainer--item-menu-footer,
+.styledLinkContainer--title-footer,
+.styledLinkContainer--title-contato-footer {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.styledLinkContent--item-menu-footer {
+  font-size: 13px;
+  color: #979797;
+}
+
+.styledLinkContent--title-contato-footer {
+  font-size: 14px;
+  color: #2EA8BC;
+  font-weight: 600;
+}
+
+.menuContainer--coluna-contato .styledLinkContent--item-menu-footer {
+  margin-bottom: 2rem;
+}

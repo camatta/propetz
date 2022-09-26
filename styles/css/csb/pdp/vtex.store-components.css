@@ -1,0 +1,108 @@
+.skuSelectorItem .frameAround {
+    display: none;
+}
+
+.productDescriptionTitle {
+    font-weight: bold;
+    color: #292929;
+    line-height: 21px;
+    padding: 26px;
+    border-radius: 13px;
+    background: #d0d0d080;
+}
+
+.productDescriptionText {
+    font-size: 14px;
+    line-height: 24px;
+    color: #292929;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.productBrand {
+    display: inline-block;
+    font-size: 26px;
+    color: #202020;
+    line-height: 33px;
+    font-weight: 500;
+    max-width: 339px;
+}
+
+.skuSelectorNameContainer {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 16px;
+    border-radius: 13px;
+    background: #e7e7e7;
+    min-width: 304px;
+    width: max-content;
+}
+.skuSelectorTextContainer {
+    margin: 0;
+}
+.skuSelectorName {
+    font-weight: bold;
+    color: #292929;
+}
+.skuSelectorOptionsList {
+    gap: 12px;
+    margin: 0;
+}
+.skuSelectorItem--selected {
+    border: 1px solid #707070;
+    border-radius: 3px;
+}
+.skuSelectorItemImage {
+    margin: 0;
+}
+
+.productImagesContainer--pdp {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    max-width: 870px;
+}
+.productImage--pdp {
+    border: 1px solid #D0D0D0;
+    border-radius: 7px;
+    overflow: hidden;
+}
+.productImage--pdp:nth-child(n + 7) {
+    display: none;
+}
+
+@media screen and (max-width: 1025px) {
+    :global(.vtex-store-components-3-x-productBrand--product-name-pdp) {
+        max-width: 100%;
+    }
+
+    :global(.vtex-store-components-3-x-productImagesGallerySwiperContainer--product-images-pdp-mobile) {
+        padding-bottom: 1.5rem;
+        text-align: center;
+    }
+
+    :global(.vtex-store-components-3-x-productImageTag--product-images-pdp-mobile--main) {
+        max-width: 394px;
+        margin: 0 auto;
+        border: 1px solid #D0D0D0;
+        border-radius: 7px;
+        object-fit: contain;
+    }
+
+    :global(.vtex-store-components-13-x-subscriberContainer) :global(.vtex-store-components-3-x-content) {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    :global(.vtex-store-components-13-x-subscriberContainer) :global(.vtex-input-prefix__group) {
+        width: 100% !important;
+    }
+}
+
+@media screen and (max-width: 428px) {
+    :global(.vtex-store-components-3-x-productImageTag--product-images-pdp-mobile--main) {
+        max-width: 98%;
+    }
+}

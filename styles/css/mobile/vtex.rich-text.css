@@ -1,0 +1,88 @@
+@media (max-width: 991px) {
+
+  .paragraph--text-topbar__mobile {
+    font-size: 12px;
+    color: #fff;
+  }
+
+  .headingLevel2--titulo-grid {
+    font-size: 14px;
+  }
+
+}
+
+@media (max-width: 428px) {
+  .paragraph--frete {
+    width: 100%
+  }
+
+  .container--text-copy {
+    justify-content: center;
+  }
+
+  .container--deals .paragraph--deals {
+    font-size: 12px;
+    padding-left: 0;
+  }
+
+  .container--deals .paragraph--deals::before {
+    content: '';
+    width: 1px;
+    height: 50px;
+    background: #00000029;
+    position: absolute;
+    left: -1.3rem;
+    top: 2%;
+  }
+
+  .wrapper--text-copy .paragraph--text-copy {
+    font-size: 12px;
+    color: #292929;
+  }
+
+  .paragraph--titulo-pagar {
+    text-transform: capitalize;
+    font-size: 20px;
+  }
+
+}
+
+@media (max-width: 404px) {
+  .container--deals .paragraph--deals {
+    font-size: 11px;
+  }
+
+}
+
+@media (max-width: 385px) {
+  .container--deals .paragraph--deals {
+    font-size: 10px;
+  }
+
+  .container--deals .paragraph--deals::before {
+    content: '';
+    width: 1px;
+    height: 40px;
+    background: #00000029;
+    position: absolute;
+    left: -1rem;
+    top: 2%;
+  }
+  
+}
+
+@media (max-width: 320px) {
+  .container--deals .paragraph--deals {
+    font-size: 8px;
+  }
+
+  .container--deals .paragraph--deals::before {
+    content: '';
+    width: 1px;
+    height: 38px;
+    background: #00000029;
+    position: absolute;
+    left: -0.8rem;
+    top: 1.7%;
+  }
+}

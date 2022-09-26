@@ -1,0 +1,48 @@
+.trigger--trigger-filtro-lateral {
+  z-index: 0 !important;
+}
+
+.trigger--trigger-filtro-lateral  :global(.vtex-rich-text-0-x-paragraph) {
+  width: auto;
+  font-size: 14px;
+  font-weight: 500;
+  padding: .6rem;
+  padding-right: 6rem;
+  border: 1px solid #D0D0D0;
+  border-radius: 11px;
+  margin: 0;
+  position: relative;
+}
+
+.trigger--trigger-filtro-lateral  :global(.vtex-rich-text-0-x-paragraph)::after {
+  content: '+';
+  position: absolute;
+  right: 0.7rem;
+  top: 50%;
+  font-size: 15px;
+  -webkit-transform: translate(0, -50%);
+  -moz-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+}
+
+.trigger {
+  position: relative;
+}
+
+.trigger :global(.vtex-rich-text-0-x-container) {
+  position: absolute;
+  top: 0;
+  z-index: 2;
+  padding-left: 1rem;
+}
+
+.popper--filtro-lateral {
+  z-index: 0 !important;
+  position: relative !important;
+  transform: unset !important;
+  width: 380px;
+}
+
+.container--filtro-lateral {
+  border: unset;
+}

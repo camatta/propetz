@@ -1,0 +1,24 @@
+.quantitySelectorWrapper {
+  padding: 8px 12px;
+  max-width: max-content;
+  border: 1px solid #707070;
+  border-radius: 9px;
+}
+
+.inputContainer {
+  max-width: 2.7rem;
+  padding: 0;
+  border: 0;
+}
+
+.quantitySelectorButton {
+  width: 10px;
+  height: 20px;
+  padding: 0;
+  background: 0;
+  border: 0;
+  color: #292929;
+}
+.quantitySelectorButton:hover {
+  background: 0;
+}

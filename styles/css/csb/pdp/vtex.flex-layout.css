@@ -1,0 +1,30 @@
+.flexRow--pdp :global(.vtex-button) {
+    border-radius: 13px;
+}
+
+.flexCol--sliding-down {
+    height: auto;
+    max-height: 1107px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    margin-top: 1rem;
+}
+.flexCol--sliding-down::-webkit-scrollbar {
+    display: none
+}
+
+.flexRow--cashbackContainer {
+    margin-top: 25px;
+}
+
+@media screen and (max-width: 1025px) {
+    :global(.vtex-flex-layout-0-x-flexRowContent--product-main-row-mobi) {
+        flex-direction: column;
+        gap: 25px;
+    }
+
+    :global(.vtex-flex-layout-0-x-flexCol--right-col-mobi) {
+        max-width: 394px;
+        max-width: 0 auto;
+    }
+}

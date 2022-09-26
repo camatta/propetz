@@ -1,0 +1,9 @@
+.flexRow--wrapper-topbar {
+  background-color: #FFA124;
+}
+
+.flexRowContent--wrapper-topbar {
+  max-width: 1050px;
+  margin: auto;
+}
+

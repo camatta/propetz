@@ -1,0 +1,29 @@
+:global(.vtex-product-price-1-x-currencyContainer--summary) {
+  font-size: 12px;
+}
+
+:global(.vtex-product-price-1-x-sellingPriceValue--summary) :global(.vtex-product-price-1-x-currencyContainer--summary) {
+  font-size: 21px;
+}
+
+:global(.vtex-product-price-1-x-sellingPrice) {
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+:global(.vtex-product-price-1-x-installments--summary) {
+  display: inline-block;
+  width: fit-content;
+  margin: 0 auto 21px;
+}
+
+:global(.vtex-product-price-1-x-installments--summary)::before {
+  left: -10px;
+  top: 50%;
+  transform: translate(50%, -50%);
+  width: 12px;
+  height: 8px;
+}

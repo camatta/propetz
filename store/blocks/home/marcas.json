@@ -1,0 +1,178 @@
+{
+  "flex-layout.row#marcas": {
+    "title": "Marcas e Frete Grátis",
+    "children": ["flex-layout.col#carrossel", "flex-layout.col#areafrete"],
+    "props": {
+      "blockClass": "wrapper-frete"
+    }
+  },
+  "flex-layout.col#areafrete": {
+    "children": ["rich-text#boxfrete", "info-card#linkfrete"],
+    "props": {
+      "blockClass": "fretebox",
+      "preventVerticalStretch": true,
+      "width": "22%"
+    }
+  },
+  "info-card#linkfrete": {
+    "props": {
+      "callToActionText": "Confira as regras",
+      "callToActionUrl": "/frete/",
+      "blockClass": "box-frete-home"
+    }
+  },
+  "rich-text#boxfrete": {
+    "props": {
+      "text": "Frete grátis para todo Brasil!",
+      "blockClass": "frete"
+    }
+  },
+  "flex-layout.col#carrossel": {
+    "children": ["slider-layout#marcas"],
+    "props": {
+      "width": "70%"
+    }
+  },
+  "slider-layout#marcas": {
+    "children": ["flex-layout.col#imagemmarcas", "flex-layout.col#imagemmarcas2", "flex-layout.col#imagemmarcas3", "flex-layout.col#imagemmarcas4", "flex-layout.col#imagemmarcas5"],
+    "props": {
+        "blockClass": "slidermarcas",
+        "autoplay": {
+          "timeout": 5000,
+          "stopOnHover": false
+        },
+        "itemsPerPage": {
+          "desktop": 4,
+          "tablet": 1,
+          "phone": 2
+        },
+        "arrowSize": 12,
+        "infinite": true
+      }
+
+    },
+    "flex-layout.col#imagemmarcas": {
+      "children":["image#propetz", "info-card#1"],
+      "props": {
+        "textPosition": "center",
+        "horizontalAlign": "center",
+        "verticalAlign": "center",
+        "preventHorizontalStretch": true,
+        "preventVerticalStretch": true,
+        "blockClass": "box-img-marcas"
+      }
+    },
+    "image#propetz": {
+      "props": {
+        "src": "assets/imgs/marcas/Propetz.png"
+      }
+    },
+    "flex-layout.col#imagemmarcas2": {
+      "children":["image#choyer", "info-card#2"],
+      "props": {
+        "textPosition": "center",
+        "horizontalAlign": "center",
+        "verticalAlign": "center",
+        "preventHorizontalStretch": true,
+        "preventVerticalStretch": true,
+        "blockClass": "box-img-marcas"
+      }
+    },
+    "image#choyer": {
+      "props": {
+        "src": "assets/imgs/marcas/Choyer.png"
+      }
+    },
+    "flex-layout.col#imagemmarcas3": {
+      "children":["image#oster", "info-card#3"],
+      "props": {
+        "textPosition": "center",
+        "horizontalAlign": "center",
+        "verticalAlign": "center",
+        "preventHorizontalStretch": true,
+        "preventVerticalStretch": true,
+        "blockClass": "box-img-marcas"
+      }
+    },
+    "image#oster": {
+      "props": {
+        "src": "assets/imgs/marcas/Oster.png"
+      }
+    },
+    "flex-layout.col#imagemmarcas4": {
+      "children":["image#andis", "info-card#4"],
+      "props": {
+        "textPosition": "center",
+        "horizontalAlign": "center",
+        "verticalAlign": "center",
+        "preventHorizontalStretch": true,
+        "preventVerticalStretch": true,
+        "blockClass": "box-img-marcas"
+      }
+    },
+    "image#andis": {
+      "props": {
+        "src": "assets/imgs/marcas/logo_andis.png"
+      }
+    },
+    "flex-layout.col#imagemmarcas5": {
+      "children":["image#propetz2", "info-card#5"],
+      "props": {
+        "textPosition": "center",
+        "horizontalAlign": "center",
+        "verticalAlign": "center",
+        "preventHorizontalStretch": true,
+        "preventVerticalStretch": true,
+        "blockClass": "box-img-marcas"
+      }
+    },
+    "image#propetz2": {
+      "props": {
+        "src": "assets/imgs/marcas/Propetz.png"
+      }
+    },
+    "info-card#1": {
+      "props": {
+        "isFullModeStyle": true,
+        "callToActionText": "Acessar os produtos Propetz",
+        "callToActionUrl": "/propetz",
+        "textPosition": "center",
+        "image": "assets/imgs/marcas/Propetz.png"
+      }
+    },
+
+    "info-card#2": {
+      "props": {
+        "isFullModeStyle": true,
+        "callToActionText": "Acessar os produtos Choyer",
+        "callToActionUrl": "/choyer",
+        "textPosition": "center"
+      }
+    },
+    "info-card#3": {
+      "props": {
+        "isFullModeStyle": true,
+        "callToActionUrl":"/oster",
+        "callToActionText": "Acessar os produtos Oster",
+        "textPosition": "center"
+      }
+    },
+    "info-card#4": {
+      "props": {
+        "isFullModeStyle": true,
+        "callToActionText": "Acessar os produtos Andis",
+        "callToActionUrl":"/andis",
+        "textPosition": "center"
+      }
+    },
+    "info-card#5": {
+      "props": {
+        "isFullModeStyle": true,
+        "callToActionText": "Acessar os produtos Propetz",
+        "callToActionUrl": "/propetz",
+        "textPosition": "center",
+        "image": "assets/imgs/marcas/Propetz.png"
+      }
+    }
+
+}

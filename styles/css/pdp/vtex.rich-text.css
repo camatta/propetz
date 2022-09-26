@@ -1,0 +1,30 @@
+.container--related-title {
+    display: block;
+    max-width: 96rem;
+    margin: 0 auto 30px;
+    padding: 0 24px;
+}
+.wrapper--related-title {
+    background: #e7e7e7;
+}
+.paragraph--related-title {
+    margin: 0;
+    font-size: 16px;
+    font-weight: bold;
+    color: #292929;
+    text-transform: uppercase;
+    display: inline-block;
+    line-height: 57px;
+    position: relative;
+    z-index: 0;
+}
+.paragraph--related-title::after {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 1px;
+    background-color: #292929;
+}

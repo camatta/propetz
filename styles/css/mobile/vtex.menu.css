@@ -1,0 +1,20 @@
+@media (max-width: 428px) {
+
+  .menuContainerNav {
+    margin-bottom: 2rem;
+  }
+  
+  .styledLinkContent--title-footer {
+    font-size: 20px;
+    margin-bottom: 0;
+  }
+
+  .menuItem--title-contato-footer {
+    margin-bottom: 0 !important;
+  }
+
+  .styledLinkContent--item-menu-footer {
+    margin-bottom: 0 !important;
+  }
+
+}

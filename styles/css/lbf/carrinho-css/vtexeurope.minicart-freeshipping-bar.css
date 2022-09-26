@@ -1,0 +1,25 @@
+/* Carrinho Lateral */
+
+.sliderContainer {
+  background-color: #EEEEEE;
+  border: unset;
+  margin-top: 0;
+  height: 12px;
+}
+
+.barContainer {
+  background-color: #2EA8BC;
+  height: 12px;
+}
+
+.freigthScaleContainer {
+  box-shadow: unset;
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.text1,
+.text2 {
+  display: none;
+  font-size: 28px;
+}

@@ -1,0 +1,25 @@
+:global(.vtex-minicart-2-x-opened--minicart-wrapper) :global(.vtex-flex-layout-0-x-flexCol--container-minicart-related) {
+  position: absolute;
+  right: 100%;
+  top: 0;
+  bottom: 0;
+  background: #EEEEEE;
+  width: 348px;
+  box-shadow: -8px 8px 20px #00000029;
+}
+
+.flexCol--container-minicart-related .container--related-title {
+  margin: 35px 0 0;
+}
+
+.flexColChild--container-minicart-related {
+  height: auto !important;
+}
+
+.flexColChild--minicart-related-name-price {
+  height: initial !important;
+}
+
+.flexColChild--main-container-mobile:last-child {
+  height: initial !important;
+}

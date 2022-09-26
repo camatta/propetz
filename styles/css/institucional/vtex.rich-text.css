@@ -1,0 +1,21 @@
+.container--title-institucional {
+  justify-content: center;
+  background: #2EA8BC 0% 0% no-repeat padding-box;
+  border-radius: 31px;
+  margin-top: 4rem;
+  justify-content: center;
+  width: auto;
+  padding: 1rem 4rem;
+  margin-bottom: 3rem;
+}
+
+.wrapper--title-institucional .headingLevel1 {
+  color: #fff;
+  font-size: 27px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.wrapper--text-institucional {
+  margin-bottom: 4rem;
+}

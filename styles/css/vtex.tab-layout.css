@@ -1,0 +1,44 @@
+.listItem :global(.vtex-button) {
+  background-color: unset;
+  border: unset;
+}
+
+.listItem :global(.vtex-button__label) {
+  font-weight: 400;
+  position: relative;
+  color: #202020;
+}
+
+.listItem :global(.vtex-button__label)::before {
+  content: '';
+  position: absolute;
+  right: -7.5px;
+  top: 50%;
+  width: 1px;
+  background-color: #202020;
+  height: 30px;
+  -webkit-transform: translate(0, -50%);
+  -moz-transform: translate(0, -50%);
+  transform: translate(0,-50%);
+}
+
+.listItem:last-child :global(.vtex-button__label)::before {
+  display: none;
+}
+
+.listItemActive :global(.vtex-button__label) {
+  font-weight: 700;
+}
+
+.listItemActive :global(.vtex-button__label)::after {
+  content: '';
+  width: 9rem;
+  background-color: #292929;
+  height: 2px;
+  position: absolute;
+  left: 50%;
+  bottom: -11px;  
+  -webkit-transform: translate(-50%);
+  -moz-transform: translate(-50%);
+  transform: translate(-50%);
+}

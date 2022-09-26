@@ -1,0 +1,5 @@
+@media (max-width: 991px) {
+  .sellingPrice, .sellingPriceValue--summary {
+    font-size: 17px !important;
+  }
+}

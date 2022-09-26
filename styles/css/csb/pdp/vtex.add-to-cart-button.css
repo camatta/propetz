@@ -1,0 +1,8 @@
+.buttonDataContainer--pdp {
+    padding: 10px;
+}
+
+.buttonDataContainer--pdp .buttonText--pdp {
+    font-size: 20px;
+    text-transform: uppercase !important;
+}

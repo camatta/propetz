@@ -1,0 +1,8 @@
+@media(max-width: 769px){
+    .discountInsideContainer{
+        top: -3px;
+        font-size: 9px;
+        width: 30px;
+        height: 30px;
+    }
+}
