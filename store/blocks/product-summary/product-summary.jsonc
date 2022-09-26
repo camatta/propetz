@@ -6,7 +6,7 @@
     "children": [
       "stack-layout#prodsum",
       "product-summary-name#list-name",
-      "product-list-price#summary",
+      "flex-layout.row#list-price",
       "flex-layout.row#selling-price-savings",
       "product-installments#summary",
       "flex-layout.row#actions"
@@ -61,6 +61,13 @@
     "props": {
       "message": "{highlightName}"
     }
+  },
+
+  "flex-layout.row#list-price": {
+    "props": {
+      "blockClass": "row-list-price"
+    },
+    "children": ["product-list-price#summary"]
   },
 
   "product-list-price#summary": {

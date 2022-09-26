@@ -325,6 +325,10 @@
   width: 50%;
 }
 
+.flexRowContent--row-list-price {
+  height: 20px;
+}
+
 @media only screen and (max-width: 1024px) and (min-width: 500px) {
   .flexRowContent--logo__mobile {
     background-color: #2ea8bc;

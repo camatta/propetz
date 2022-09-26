@@ -352,7 +352,7 @@
   "rich-text#categ-name":{
     "title": "Nome da Categoria",
     "props": {
-      "text": "### Máquinas de tosa",
+      "text": "### Sobre a Elevage",
       "textAlignment": "CENTER",
       "blockClass":  "category-name",
       "textColor": "white"
@@ -366,7 +366,7 @@
   "rich-text#categ-desc":{
     "title": "Descrição de Categoria",
     "props": {
-      "text": "As melhores Máquinas de Tosa para Cães e Gatos, Máquinas de Tosa Profissional, Máquinas de Tosa para Acabamento, Máquinas de Tosa para Tricotomia, Máquinas de Tosa Doméstica, Máquinas de Tosa para Pet Shops. Aqui você encontra as melhores máquinas de tosa do mercado pelo menor preço à vista ou até 10x sem juros nos cartões, com frete grátis para todo  o Brasil, confira. Além disso é compatível com as Lâminas de Tosa, Propetz, Oster, Wahl, Andis.",
+      "text": "Somos especializados em equipamentos, máquinas de tosa, acessórios e produtos para banho, tosa, higiene e beleza de animais de pequeno e grande porte e pet shops. Há mais de vinte e cinco anos no mercado, atualmente representamos trinta marcas, oferecendo sempre os melhores preços e uma experiência diferenciada aos clientes.",
       "textAlignment": "CENTER",
       "blockClass": "category-description"
     }
