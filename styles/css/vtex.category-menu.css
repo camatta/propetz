@@ -198,6 +198,12 @@
   }
 }
 
+@media (max-width: 1389px) {
+  .departmentList .itemContainer:first-child .itemContainer--category {
+    max-width: 930px;
+  }
+}
+
 @media (max-width: 1280px) {
   .departmentLink {
     margin-right: 0.3rem;

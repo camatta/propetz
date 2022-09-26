@@ -14,6 +14,30 @@
 
 }
 
+@media (max-width: 1380px) {
+  :global(.vtex-product-summary-2-x-containerNormal) {
+    max-width: 325px!important;
+  }
+}
+
+@media (max-width: 1320px) {
+  :global(.vtex-product-summary-2-x-containerNormal) {
+    max-width: 310px!important;
+  }
+}
+
+@media (max-width: 1250px) {
+  :global(.vtex-product-summary-2-x-containerNormal) {
+    max-width: 295px!important;
+  }
+}
+
+@media (max-width: 1170px) {
+  :global(.vtex-product-summary-2-x-containerNormal) {
+    max-width: 270px!important;
+  }
+}
+
 .sliderLayoutContainer {
   justify-content: center;
 }
@@ -120,6 +144,13 @@
   background-color: #707070;
   padding: 0;
 }
+
+@media (max-width: 1380px) {
+  .slideChildrenContainer--mosaico-sup {
+    margin: 10px;
+  }
+}
+
 
 /* Carrossel de Marcas */
 

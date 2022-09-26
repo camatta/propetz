@@ -77,6 +77,21 @@
   align-items: center;
 }
 
+@media (max-width: 1230px) {
+  .flexRow--box-deal {
+    width: 200px;
+    height: 110px;
+  }
+}
+
+@media (max-width: 1180px) {
+  .flexRow--box-deal {
+    width: 180px;
+    height: 110px;
+  }
+}
+
+
 .flexRowContent--deals {
   justify-content: space-between;
 }
@@ -160,6 +175,20 @@
 
 .flexCol--mosaico-right-wrapper {
   text-align: right;
+}
+
+@media only screen and (max-width: 1440px) and (min-width: 1316px)  {
+  .flexCol--mosaico-right-wrapper {
+    line-height: 0;
+    padding-left: 1.3rem;
+  }
+}
+
+@media only screen and (max-width: 1315px) and (min-width: 1024px)  {
+  .flexCol--mosaico-right-wrapper {
+    line-height: 0;
+    padding-left: 1.2rem;
+  }
 }
 
 .flexRow--mosaico-meio-wrapper,

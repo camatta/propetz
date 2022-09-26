@@ -13,9 +13,7 @@
   "slider-layout#top-mobile": {
     "children": [
       "rich-text#text-frete-gratis-mobile",
-      "rich-text#text-parcelamento-mobile",
-      "rich-text#text-fidelidade-mobile",
-      "rich-text#text-rastreio-mobile"
+      "rich-text#text-parcelamento-mobile"
   ],
     "props": {
         "blockClass": "topbarmob",
@@ -47,20 +45,6 @@
     "props": {
       "blockClass": "text-topbar__mobile",
       "text": "Parcelamento em até **10x sem juros**"
-    }
-  },
-
-  "rich-text#text-fidelidade-mobile": {
-    "props": {
-      "blockClass": "text-topbar__mobile",
-      "text": "Programa de **fidelidade**"
-    }
-  },
-
-  "rich-text#text-rastreio-mobile": {
-    "props": {
-      "blockClass": ["text-topbar__mobile","last-item-topbar"],
-      "text": "**Rastreie** o seu pedido"
     }
   }
 }
