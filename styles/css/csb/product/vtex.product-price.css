@@ -20,6 +20,13 @@
   margin: 0 auto 21px;
 }
 
+@media (max-width: 428px) {
+  :global(.vtex-product-price-1-x-installments--summary) {
+    height: 10px;
+    overflow: hidden;
+  }
+}
+
 :global(.vtex-product-price-1-x-installments--summary)::before {
   left: -10px;
   top: 50%;

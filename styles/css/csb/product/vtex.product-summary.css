@@ -5,7 +5,7 @@
 
 @media (max-width: 428px) {
   :global(.vtex-product-summary-2-x-productNameContainer) {
-    height: auto;
+    height: 58px;
     overflow: hidden;
   }
 }
