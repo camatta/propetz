@@ -25,8 +25,8 @@
       "flex-layout.row#shelf5",
       "flex-layout.row#banner-final",
       "flex-layout.row#banner-finalmobile",
-      "flex-layout.row#banner-blog",
-      "flex-layout.row#banner-blogmobile",
+      "experimental__visibility-layout#blog-desk",
+      "experimental__visibility-layout#blog-mobile",
       "flex-layout.row#marcas",
       "flex-layout.row#sobre-nos"
     ]

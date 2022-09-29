@@ -128,8 +128,10 @@
 
   "vtex.store-components:product-name#pdp": {
     "props": {
-      "blockClass": "product-name-pdp"
+      "blockClass": "product-name-pdp",
+      "showSku": true
     }
+    
   },
 
   "flex-layout.col#sliding-down-mobi": {

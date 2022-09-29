@@ -38,6 +38,11 @@
   }
 }
 
+.caretIcon--banner-principal {
+  width: 16px;
+  height: 16px;
+}
+
 .sliderLayoutContainer {
   justify-content: center;
 }

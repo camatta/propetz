@@ -172,6 +172,11 @@
   font-size: 30px;
 }
 
+.productNameContainer--product-name-pdp {
+  display: flex;
+  flex-direction: column;
+}
+
 .infoCardImageContainer--box-frete-home {
   display: none;
 }

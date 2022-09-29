@@ -28,6 +28,10 @@
     max-width: 339px;
 }
 
+.productNameContainer--product-name-pdp .productBrand--product-name-pdp {
+    max-width: 100%;
+}
+
 .skuSelectorNameContainer {
     display: flex;
     align-items: center;

@@ -243,6 +243,11 @@
     }
   },
 
+  "experimental__visibility-layout#blog-desk": {
+    "title": "Banner Blog - Desktop",
+    "children": ["flex-layout.row#banner-blog"    ]
+  },
+
   "flex-layout.row#banner-blog": {
     "title": "Banner Blog",
     "children": [
@@ -261,6 +266,11 @@
     "props": {
       "src": "assets/imgs/mosaicos/banner-blog.svg"
     }
+  },
+
+  "experimental__visibility-layout#blog-mobile": {
+    "title": "Banner Blog - Mobile",
+    "children": ["flex-layout.row#banner-blogmobile"    ]
   },
 
   "flex-layout.row#banner-blogmobile": {
