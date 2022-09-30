@@ -129,7 +129,7 @@
   "vtex.store-components:product-name#pdp": {
     "props": {
       "blockClass": "product-name-pdp",
-      "showSku": true
+      "showSku": false
     }
     
   },
