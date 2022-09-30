@@ -43,6 +43,10 @@
   height: 16px;
 }
 
+.imageElementLink--banner-principal {
+  width: 100%;
+}
+
 .imageElement--banner-principal {
   width: 100%;
   max-height: 100% !important;
