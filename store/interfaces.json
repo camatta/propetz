@@ -25,5 +25,9 @@
 
     "lele-contact": {
         "component": "Lele"
+    },
+
+    "product-name-sku": {
+        "component": "ProductNameSku"
     }
 }

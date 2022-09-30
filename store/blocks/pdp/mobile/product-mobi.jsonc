@@ -122,7 +122,7 @@
       "width": "100%"
     },
     "children": [
-      "vtex.store-components:product-name#pdp"
+      "product-name-sku"
     ]
   },
 

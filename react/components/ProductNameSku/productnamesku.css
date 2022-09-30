@@ -1,0 +1,10 @@
+/* Style */
+
+:global(.nome-produto-completo h1) {
+  display: inline-block;
+  font-size: 26px;
+  color: #202020;
+  line-height: 33px;
+  font-weight: 500;
+  margin: 0;
+}
