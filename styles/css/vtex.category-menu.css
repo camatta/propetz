@@ -222,7 +222,7 @@
   }
 }
 
-@media (max-width: 1500px) {
+@media (max-width: 1580px) {
   .departmentList .itemContainer:first-child .itemContainer--category {
     max-width: 930px;
   }
