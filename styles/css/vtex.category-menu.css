@@ -86,7 +86,7 @@
 }
 
 .departmentList .itemContainer--department:nth-child(4n) .itemContainer--category::before {
-  background-image: url(assets/imgs/categoria/categoria-propetz/adaptadores-banner-categoria.jpg);
+  background-image: url(assets/imgs/categoria/categoria-propetz/tesoura-de-tosa-banner-categoria.jpg);
 }
 
 .departmentList .itemContainer--department:nth-child(5n) .itemContainer--category::before {
