@@ -1,34 +1,35 @@
 {
   "store.home": {
     "blocks": [
-      "list-context.image-list#demo",
+      // "list-context.image-list#demo",
       "experimental__visibility-layout#modelo2",
       "experimental__visibility-layout#modelo3",
+      "experimental__visibility-layout#deals",
+      "flex-layout.row#dealsmob",
+      "experimental__visibility-layout#mosaico-meio",
+      "experimental__visibility-layout#mosaico-meio-modelo2",
       /* You can make references to blocks defined in other files.
        * For example, `flex-layout.row#deals` is defined in the `deals.json` file. */
       "__fold__.experimentalLazyAssets",
-      "experimental__visibility-layout#deals",
-      "flex-layout.row#dealsmob",
-      "slider-layout#mosaico-sup",
       "tab-layout#home",
-      "flex-layout.row#mosaico-meio",
+      "experimental__visibility-layout#mosaico-azul",
+      "experimental__visibility-layout#mosaico-meio-modelo3-mobile",
       "flex-layout.row#mosaicomeiomob",
       "flex-layout.row#mosaicomeiolinhamob",
       "flex-layout.row#mosaicomeiolinhamob3",
       "flex-layout.row#wrapper-shelf-title2",
       "flex-layout.row#shelf2",
       "flex-layout.row#shelf3",
-      "flex-layout.row#mosaico-meio2",
-      "slider-layout#carrossel-meio2mobile",
+      // "flex-layout.row#mosaico-meio2",
+      "experimental__visibility-layout#mosaico-meio-modelo3",
+      // "slider-layout#carrossel-meio2mobile",
       "flex-layout.row#wrapper-shelf-title3",
       "flex-layout.row#shelf4",
       "flex-layout.row#shelf5",
-      "flex-layout.row#banner-final",
-      "flex-layout.row#banner-finalmobile",
       "experimental__visibility-layout#blog-desk",
       "experimental__visibility-layout#blog-mobile",
-      "flex-layout.row#marcas",
-      "flex-layout.row#sobre-nos"
+      "flex-layout.row#banner-final",
+      "flex-layout.row#banner-finalmobile"
     ]
   },
 
@@ -39,11 +40,11 @@
       "height": 720,
       "images": [
         {
-          "image": "assets/imgs/slider/banner-principal.png",
+          "image": "assets/imgs/slider/banner-principal-propetz.png",
           "mobileImage": "assets/imgs/slider/banner-principal-mobile.png"
         },
         {
-          "image": "assets/imgs/slider/banner-principal.png",
+          "image": "assets/imgs/slider/banner-principal-propetz.png",
           "mobileImage": "assets/imgs/slider/banner-principal-mobile.png"
         }
       ]
@@ -136,31 +137,56 @@
   "flex-layout.col#slider-m3-col-left": {
     "children": [
       "image#m3-1"
-    ]
+    ],
+    "props": {
+      "blockClass": "mosaico-principal-left"
+    }
   },
 
   "flex-layout.col#slider-m3-col-right": {
     "children": [
       "image#m3-2",
       "image#m3-3"
-    ]
+    ],
+    "props": {
+      "blockClass": "mosaico-principal-right"
+    }
   },
 
   "image#m3-1": {
     "props": {
-      "src": "assets/imgs/slider/banner-m3.png"
+      "src": "assets/imgs/mosaico-propetz/maquina-de-tosa-pet-pro6-propetz-banner-efeito.png",
+      "blockClass": ["ativa-efeito", "efeito-1"]
+    }
+  },
+
+  "image#m3-1-efeito": {
+    "props": {
+      "src": "assets/imgs/mosaico-propetz/maquina-de-tosa-pet-pro6-propetz-banner-efeito.png"
     }
   },
 
   "image#m3-2": {
     "props": {
-      "src": "assets/imgs/slider/banner-m4.png"
+      "src": "assets/imgs/mosaico-propetz/kit-de-adaptadores-pro6-propetz-banner-efeito.png"
+    }
+  },
+
+  "image#m3-2-efeito": {
+    "props": {
+      "src": "assets/imgs/mosaico-propetz/kit-de-adaptadores-pro6-propetz-banner-efeito.png"
     }
   },
 
   "image#m3-3": {
     "props": {
-      "src": "assets/imgs/slider/banner-m4.png"
+      "src": "assets/imgs/mosaico-propetz/laminas-de-tosa-pet-30-propetz-banner-efeito.png"
+    }
+  },
+
+  "image#m3-3-efeito": {
+    "props": {
+      "src": "assets/imgs/mosaico-propetz/laminas-de-tosa-pet-30-propetz-banner-efeito.png"
     }
   },
 
@@ -321,7 +347,7 @@
     "children": ["slider-layout#demo-products2"],
     "props": {
       "orderBy": "OrderByTopSaleDESC",
-      "category": "11"
+      "category": "9"
     }
   },
   "slider-layout#demo-products2": {
@@ -347,7 +373,7 @@
     "children": ["slider-layout#demo-products3"],
     "props": {
       "orderBy": "OrderByTopSaleDESC",
-      "category": "8"
+      "category": "9"
     }
   },
   "slider-layout#demo-products3": {
@@ -389,7 +415,7 @@
     "children": ["slider-layout#demo-products4"],
     "props": {
       "orderBy": "OrderByTopSaleDESC",
-      "category": "78"
+      "category": "9"
     }
   },
   "slider-layout#demo-products4": {
@@ -415,10 +441,10 @@
     "children": ["slider-layout#demo-products5"],
     "props": {
       "orderBy": "OrderByTopSaleDESC",
-      "category": "36"
+      "category": "9"
     }
   },
-  
+
   "slider-layout#demo-products5": {
     "props": {
       "itemsPerPage": {

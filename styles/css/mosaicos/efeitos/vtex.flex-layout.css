@@ -1,0 +1,178 @@
+/* Mosaico Principal */
+
+.flexCol--mosaico-principal-left .flexColChild--mosaico-principal-left {
+  position: relative;
+  cursor: pointer;
+}
+
+.flexCol--mosaico-principal-left .flexColChild--mosaico-principal-left::after {
+  content: '';
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-image: url(/assets/vtex/assets-builder/dcorp.store-theme-propetz/1.0.0/imgs/mosaico-propetz/maquina-de-tosa-pet-pro6-propetz-banner___7a8e060….png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: visibility 100ms;
+}
+
+.flexCol--mosaico-principal-left .flexColChild--mosaico-principal-left:hover::after {
+  visibility: hidden;
+}
+
+.flexCol--mosaico-principal-right .flexColChild--mosaico-principal-right:first-child {
+  position: relative;
+  cursor: pointer;
+}
+
+.flexCol--mosaico-principal-right .flexColChild--mosaico-principal-right:first-child::after {
+  content: '';
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-image: url(/assets/vtex/assets-builder/dcorp.store-theme-propetz/1.0.0/imgs/mosaico-propetz/kit-de-adaptadores-pro6-propetz-banner___7a8e060….png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: visibility 100ms;
+}
+
+.flexCol--mosaico-principal-right .flexColChild--mosaico-principal-right:first-child:hover::after {
+  visibility: hidden;
+}
+
+.flexCol--mosaico-principal-right .flexColChild--mosaico-principal-right:last-child {
+  position: relative;
+  cursor: pointer;
+}
+
+.flexCol--mosaico-principal-right .flexColChild--mosaico-principal-right:last-child::after {
+  content: '';
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-image: url(/assets/vtex/assets-builder/dcorp.store-theme-propetz/1.0.0/imgs/mosaico-propetz/laminas-de-tosa-pet-30-propetz-banner___7a8e060….png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: visibility 100ms;
+}
+
+.flexCol--mosaico-principal-right .flexColChild--mosaico-principal-right:last-child:hover::after {
+  visibility: hidden;
+}
+
+
+/* Mosaico Topo */
+
+.flexCol--imagem-mosaico-left .flexColChild--imagem-mosaico-left:first-child {
+  position: relative;
+  cursor: pointer;
+}
+
+.flexCol--imagem-mosaico-left .flexColChild--imagem-mosaico-left:first-child::after {
+  content: '';
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-image: url(/assets/vtex/assets-builder/dcorp.store-theme-propetz/1.0.0/imgs/mosaico-propetz/mosaico-pop___7a8e060….jpeg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: visibility 100ms;
+}
+
+.flexCol--imagem-mosaico-left .flexColChild--imagem-mosaico-left:first-child:hover::after {
+  visibility: hidden;
+}
+
+.flexCol--imagem-mosaico-left .flexColChild--imagem-mosaico-left:last-child {
+  position: relative;
+  cursor: pointer;
+}
+
+.flexCol--imagem-mosaico-left .flexColChild--imagem-mosaico-left:last-child::after {
+  content: '';
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-image: url(/assets/vtex/assets-builder/dcorp.store-theme-propetz/1.0.0/imgs/mosaico-propetz/mosaico-premium___7a8e060….jpeg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: visibility 100ms;
+}
+
+.flexCol--imagem-mosaico-left .flexColChild--imagem-mosaico-left:last-child:hover::after {
+  visibility: hidden;
+}
+
+.flexCol--mosaico-right-wrapper .flexColChild--mosaico-right-wrapper:first-child {
+  position: relative;
+  cursor: pointer;
+}
+
+.flexCol--mosaico-right-wrapper .flexColChild--mosaico-right-wrapper:first-child::after {
+  content: '';
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-image: url(/assets/vtex/assets-builder/dcorp.store-theme-propetz/1.0.0/imgs/mosaico-propetz/mosaico-x___7a8e060….jpeg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: visibility 100ms;
+}
+
+.flexCol--mosaico-right-wrapper .flexColChild--mosaico-right-wrapper:first-child:hover::after {
+  visibility: hidden;
+}
+
+.flexCol--mosaico-right-wrapper .flexColChild--mosaico-right-wrapper:last-child {
+  position: relative;
+  cursor: pointer;
+}
+
+.flexCol--mosaico-right-wrapper .flexColChild--mosaico-right-wrapper:last-child::after {
+  content: '';
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-image: url(/assets/vtex/assets-builder/dcorp.store-theme-propetz/1.0.0/imgs/mosaico-propetz/mosaico-akemi___7a8e060….jpeg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: visibility 100ms;
+}
+
+.flexCol--mosaico-right-wrapper .flexColChild--mosaico-right-wrapper:last-child:hover::after {
+  visibility: hidden;
+}
+
+@media (max-width: 428px) {
+  .flexCol--mosaico-right-wrapper .flexColChild--mosaico-right-wrapper:last-child::after,
+  .flexCol--mosaico-right-wrapper .flexColChild--mosaico-right-wrapper:first-child::after,
+  .flexCol--imagem-mosaico-left .flexColChild--imagem-mosaico-left:last-child::after,
+  .flexCol--imagem-mosaico-left .flexColChild--imagem-mosaico-left:first-child::after,
+  .flexCol--mosaico-principal-right .flexColChild--mosaico-principal-right:last-child::after,
+  .flexCol--mosaico-principal-right .flexColChild--mosaico-principal-right:first-child::after,
+  .flexCol--mosaico-principal-left .flexColChild--mosaico-principal-left::after {
+    display: none;
+  }
+
+}

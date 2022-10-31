@@ -7,12 +7,12 @@
     transition: all .3s;
 }
 :global(.vtex-flex-layout-0-x-flexColChild--wrapper__button-buy) :global(.vtex-button):hover{
-    background: #2EA8BC;
-    border: 1px solid #2EA8BC;
+    background: #00AAA6;
+    border: 1px solid #00AAA6;
 }
 .buttonText{
     text-transform: initial!important;
-    font: normal normal bold 14px/18px Montserrat;
+    font: normal normal bold 14px/18px Gotham;
     transition: all .3s;
 }
 

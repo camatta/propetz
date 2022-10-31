@@ -1,81 +1,72 @@
 {
-  "slider-layout#mosaico-sup": {
-    "title": "Carrossel Superior - Promoções 1",
+
+  "experimental__visibility-layout#mosaico-azul": {
+    "title": "Mosaico Meio - Modelo Azul",
+    "children": [
+      "flex-layout.row#mosaico-azul"
+    ]
+  },
+  "flex-layout.row#mosaico-azul": {
+    "title": "Mosaico Azul",
+    "children": [
+      "flex-layout.col#primeiro-mosaicoazul",
+      "flex-layout.col#segundo-mosaicoazul",
+      "flex-layout.col#terceiro-mosaicoazul"
+    ],
     "props": {
-      "itemsPerPage": {
-        "desktop": 4,
-        "tablet": 2,
-        "phone": 2
-      },
-      "arrowSize": 12,
-      "infinite": true,
-      "showNavigationArrows": "desktopOnly",
-      "blockClass": ["carousel", "mosaico-sup"]
-    },
-    "children": ["image#1", "image#2", "image#3", "image#4"]
+      "blockClass": "azul-wrapper"
+    }
   },
 
+  "flex-layout.col#primeiro-mosaicoazul": {
+    "children":[
+      "image#img1-mosaico-azul"
+    ],
+    "props": {
+      "blockClass": "mosaicoazul",
+      "width": "50%"
+    }
+  },
+  "image#img1-mosaico-azul": {
+    "props": {
+      "src": "assets/imgs/mosaico-propetz/mosaico-azul/maquinas-de-tosa-propetz-banner-mosaico.jpg"
+    }
+  },
 
- "image#1": {
+  "flex-layout.col#segundo-mosaicoazul": {
+    "children":[
+      "image#img2-mosaico-azul"
+    ],
     "props": {
-      "src": "assets/imgs/mosaicos/promocao-mosaico.png"
+      "blockClass": "mosaicoazul"
     }
   },
-  "image#2": {
+  "image#img2-mosaico-azul": {
     "props": {
-      "src": "assets/imgs/mosaicos/promocao-mosaico.png"
+      "src": "assets/imgs/mosaico-propetz/mosaico-azul/laminas-de-tosa-propetz-banner-mosaico.jpg"
     }
   },
-  "image#3": {
+
+  "flex-layout.col#terceiro-mosaicoazul": {
+    "children":[
+      "image#img3-mosaico-azul"
+    ],
     "props": {
-      "src": "assets/imgs/mosaicos/promocao-mosaico.png"
+      "blockClass": "mosaicoazul"
     }
   },
-  "image#4": {
+  "image#img3-mosaico-azul": {
     "props": {
-      "src": "assets/imgs/mosaicos/promocao-mosaico.png"
+      "src": "assets/imgs/mosaico-propetz/mosaico-azul/tesouras-de-tosa-propetz-banner-mosaico.jpg"
     }
   },
-  "image#5": {
-    "props": {
-      "src": "assets/imgs/mosaicos/promocao2-mosaico.png"
-    }
-  },
-  "image#6": {
-    "props": {
-      "src": "assets/imgs/mosaicos/promocao2-mosaico.png"
-    }
-  },
-  "image#7": {
-    "props": {
-      "src": "assets/imgs/mosaicos/promocao2-mosaico.png"
-    }
-  },
-  "image#8": {
-    "props": {
-      "src": "assets/imgs/mosaicos/promocao2-mosaico.png"
-    }
-  },
-  "image#9": {
-    "props": {
-      "src": "assets/imgs/mosaicos/promocao3-mosaico.png"
-    }
-  },
-  "image#10": {
-    "props": {
-      "src": "assets/imgs/mosaicos/promocao3-mosaico.png"
-    }
-  },
-  "image#11": {
-    "props": {
-      "src": "assets/imgs/mosaicos/promocao3-mosaico.png"
-    }
-  },
-  "image#12": {
-    "props": {
-      "src": "assets/imgs/mosaicos/promocao3-mosaico.png"
-    }
-  },
+
+"experimental__visibility-layout#mosaico-meio": {
+  "title": "Mosaico Meio - Modelo 1",
+  "children": [
+    "flex-layout.row#mosaico-meio"
+  ]
+},
 
 "flex-layout.row#mosaico-meio": {
     "title": "Mosaico Meio",
@@ -93,13 +84,14 @@
       "image#img-mosaico-left"
     ],
     "props": {
-      "blockClass": "imagem-mosaico-left"
+      "blockClass": "imagem-mosaico-maquina"
     }
   },
 
   "image#img-mosaico-left": {
     "props": {
-      "src": "assets/imgs/mosaicos/mosaico-meio-left.png"
+      "src": "assets/imgs/mosaico-propetz/maquina-de-tosa-pet-pro6-propetz-banner.png",
+      "blockClass": "semefeito"
     }
   },
 
@@ -115,8 +107,7 @@
 
   "flex-layout.row#linha1-topo": {
     "children":[
-      "flex-layout.col#linha1-col1-topo",
-      "flex-layout.col#linha1-col2-topo"
+      "flex-layout.col#linha1-col1-topo"
     ],
     "props": {
       "blockClass": "linha1-topo"
@@ -125,8 +116,7 @@
 
   "flex-layout.row#linha2-bottom": {
     "children":[
-      "flex-layout.col#linha2-col1-bottom",
-      "flex-layout.col#linha2-col2-bottom"
+      "flex-layout.col#linha2-col1-bottom"
     ],
     "props": {
       "blockClass": "linha2-bottom"
@@ -139,48 +129,215 @@
     ]
   },
 
-  "flex-layout.col#linha1-col2-topo": {
+
+  "flex-layout.col#linha2-col1-bottom": {
     "children":[
       "image#img-mosaico-right2"
     ]
   },
 
-  "flex-layout.col#linha2-col1-bottom": {
-    "children":[
-      "image#img-mosaico-right3"
-    ]
-  },
-
-  "flex-layout.col#linha2-col2-bottom": {
-    "children":[
-      "image#img-mosaico-right4"
-    ]
-  },
 
   "image#img-mosaico-right1": {
     "props": {
-      "src": "assets/imgs/mosaicos/mosaico-meio-right.png"
+      "src": "assets/imgs/mosaico-propetz/kit-de-adaptadores-pro6-propetz-banner.png"
     }
   },
+
+
 
   "image#img-mosaico-right2": {
     "props": {
-      "src": "assets/imgs/mosaicos/mosaico-meio-right2.png"
+      "src": "assets/imgs/mosaico-propetz/laminas-de-tosa-pet-30-propetz-banner.png"
     }
   },
 
-  "image#img-mosaico-right3": {
+
+
+  "experimental__visibility-layout#mosaico-meio-modelo2": {
+    "title": "Mosaico Meio - Modelo 2",
+    "children": [
+      "flex-layout.row#mosaico-meio-modelo2"
+    ]
+  },
+
+  "flex-layout.row#mosaico-meio-modelo2": {
+      "title": "Mosaico Meio",
+      "children": [
+        "flex-layout.col#left-mosaico-modelo2",
+        "flex-layout.col#right-mosaico-modelo2"
+      ],
+      "props": {
+        "blockClass": ["mosaico-meio-wrapper", "mosaico-meio-modelo2"]
+      }
+    },
+
+    "flex-layout.col#left-mosaico-modelo2": {
+      "children": [
+        "image#img-mosaico-left-modelo2",
+        "image#img-mosaico-left2-modelo2"
+      ],
+      "props": {
+        "blockClass": "imagem-mosaico-left"
+      }
+    },
+
+    "image#img-mosaico-left-modelo2": {
+      "props": {
+        "src": "assets/imgs/mosaico-propetz/mosaico-pop-efeito.jpeg",
+        "blockClass": "pop-efeito"
+      }
+    },
+    "image#img-mosaico-left2-modelo2": {
+      "props": {
+        "src": "assets/imgs/mosaico-propetz/mosaico-premium-efeito.jpeg"
+      }
+    },
+
+    "flex-layout.col#right-mosaico-modelo2": {
+      "children": [
+        "image#img-mosaico-right-modelo2",
+        "image#img-mosaico-right2-modelo2"
+      ],
+      "props": {
+        "blockClass": "mosaico-right-wrapper"
+      }
+    },
+
+    "image#img-mosaico-right-modelo2": {
+      "props": {
+        "src": "assets/imgs/mosaico-propetz/mosaico-x-efeito.jpeg"
+      }
+    },
+    "image#img-mosaico-right2-modelo2": {
+      "props": {
+        "src": "assets/imgs/mosaico-propetz/mosaico-akemi-efeito.jpeg"
+      }
+    },
+
+
+    "experimental__visibility-layout#mosaico-meio-modelo3": {
+      "title": "Mosaico Meio - Modelo 3",
+      "children": [
+        "flex-layout.row#mosaico-meio-modelo3"
+      ]
+    },
+
+
+  "flex-layout.row#mosaico-meio-modelo3": {
+    "children": [
+      "flex-layout.col#col1-mosaico-meio-modelo3",
+      "flex-layout.col#col2-mosaico-meio-modelo3",
+      "flex-layout.col#col3-mosaico-meio-modelo3"
+    ],
     "props": {
-      "src": "assets/imgs/mosaicos/mosaico-meio-right.png"
+      "blockClass": "mosaico-meio-wrapper-modelo3"
     }
   },
 
-  "image#img-mosaico-right4": {
+  "flex-layout.col#col1-mosaico-meio-modelo3": {
+    "children":[
+      "image#img1-mosaico-meio-modelo3"
+    ],
     "props": {
-      "src": "assets/imgs/mosaicos/mosaico-meio-right2.png"
+      "blockClass": "mosaico3-img"
     }
   },
 
+  "flex-layout.col#col2-mosaico-meio-modelo3": {
+    "children":[
+      "image#img2-mosaico-meio-modelo3"
+    ],
+    "props": {
+      "blockClass": "mosaico3-img"
+    }
+  },
+
+  "flex-layout.col#col3-mosaico-meio-modelo3": {
+    "children":[
+      "image#img3-mosaico-meio-modelo3"
+    ],
+    "props": {
+      "blockClass": "mosaico3-img"
+    }
+  },
+
+  "image#img1-mosaico-meio-modelo3": {
+    "props": {
+      "src": "assets/imgs/mosaico-propetz/mosaico-interligado/acessorios-propetz-banner-interligado-desktop-1.jpg"
+    }
+  },
+
+  "image#img2-mosaico-meio-modelo3": {
+    "props": {
+      "src": "assets/imgs/mosaico-propetz/mosaico-interligado/acessorios-propetz-banner-interligado-desktop-2.jpg"
+    }
+  },
+
+  "image#img3-mosaico-meio-modelo3": {
+    "props": {
+      "src": "assets/imgs/mosaico-propetz/mosaico-interligado/acessorios-propetz-banner-interligado-desktop-3.jpg"
+    }
+  },
+
+  "experimental__visibility-layout#mosaico-meio-modelo3-mobile": {
+    "title": "Mosaico Meio - Modelo 3 Mobile",
+      "children": [
+        "flex-layout.row#mosaico-meio-modelo3-mobile"
+      ]
+  },
+
+  "flex-layout.row#mosaico-meio-modelo3-mobile": {
+    "children": [
+      "flex-layout.col#col1-mosaico-meio-modelo3-mobile",
+      "flex-layout.col#col2-mosaico-meio-modelo3-mobile",
+      "flex-layout.col#col3-mosaico-meio-modelo3-mobile"
+    ],
+    "props": {
+      "blockClass": "mosaico-meio-wrapper-modelo3-mobile"
+    }
+  },
+
+  "flex-layout.col#col1-mosaico-meio-modelo3-mobile": {
+    "children":[
+      "image#img1-mosaico-meio-modelo3-mobile"
+    ],
+    "props": {
+      "blockClass": "mosaico3-img"
+    }
+  },
+
+  "flex-layout.col#col2-mosaico-meio-modelo3-mobile": {
+    "children":[
+      "image#img2-mosaico-meio-modelo3-mobile"
+    ],
+    "props": {
+      "blockClass": "mosaico3-img"
+    }
+  },
+
+  "flex-layout.col#col3-mosaico-meio-modelo3-mobile": {
+    "children":[
+      "image#img3-mosaico-meio-modelo3-mobile"
+    ]
+  },
+
+  "image#img1-mosaico-meio-modelo3-mobile": {
+    "props": {
+      "src": "assets/imgs/mosaico-propetz/mosaico-interligado-mobile/acessorios-propetz-banner-interligado-mobile-1.jpg"
+    }
+  },
+
+  "image#img2-mosaico-meio-modelo3-mobile": {
+    "props": {
+      "src": "assets/imgs/mosaico-propetz/mosaico-interligado-mobile/acessorios-propetz-banner-interligado-mobile-2.jpg"
+    }
+  },
+
+  "image#img3-mosaico-meio-modelo3-mobile": {
+    "props": {
+      "src": "assets/imgs/mosaico-propetz/mosaico-interligado-mobile/acessorios-propetz-banner-interligado-mobile-3.jpg"
+    }
+  },
 
   "flex-layout.row#mosaico-meio2": {
     "title": "Mosaico Meio 2",
@@ -239,7 +396,7 @@
   },
   "image#bannerfinal": {
     "props": {
-      "src": "assets/imgs/mosaicos/Banner_Display.jpg"
+      "src": "assets/imgs/mosaicos/banner-final-propetz/frete-gratis-propetz-banner-desktop.jpg"
     }
   },
 
@@ -264,7 +421,7 @@
   },
   "image#bannerblog": {
     "props": {
-      "src": "assets/imgs/mosaicos/banner-blog.svg"
+      "src": "assets/imgs/mosaicos/banner-blog.png"
     }
   },
 
@@ -297,7 +454,7 @@
 
   "image#bannermob": {
     "props": {
-      "src": "assets/imgs/mosaicos/banner-fim-mobile.png"
+      "src": "assets/imgs/mosaicos/banner-final-propetz/frete-gratis-propetz-banner-mobile.jpg"
     }
   },
 

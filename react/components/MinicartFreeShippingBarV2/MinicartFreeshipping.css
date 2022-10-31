@@ -10,7 +10,7 @@
 }
 .barContainer {
   border-radius: 5px;
-  background:#2EA8BC;
+  background:#00AAA6;
   height: 10px;
   transition: width 1s;
 }

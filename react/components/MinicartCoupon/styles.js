@@ -36,7 +36,7 @@ export const Input = styled.input`
     padding: 8px 8px 8px 0;
     font-size: 16px;
     width: 65%;
-    font-family: Montserrat,arial,sans-serif;
+    font-family: Gotham,arial,sans-serif;
     @media (max-width: 428px) {
         font-size: 14px;
     }
@@ -67,7 +67,7 @@ export const Button = styled.button`
     width: 25%;
     border-radius: 8px;
     transition: all .3s ease-in-out;
-    font-family: Montserrat,arial,sans-serif;
+    font-family: Gotham,arial,sans-serif;
     @media (max-width: 428px) {
         font-size: 14px;
     }

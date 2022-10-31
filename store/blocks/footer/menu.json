@@ -7,12 +7,10 @@
       "menu-item#todascategorias",
       "menu-item#maquinatosa",
       "menu-item#laminatosa",
-      "menu-item#secadores",
+      "menu-item#desembolador",
       "menu-item#tesouras",
-      "menu-item#escovacao",
-      "menu-item#banhobeleza",
-      "menu-item#kits",
-      "menu-item#outlet"
+      "menu-item#pecas-acessorios",
+      "menu-item#guia-contencao"
     ]
   },
   "menu-item#todascategorias": {
@@ -61,19 +59,19 @@
       }
     }
   },
-  "menu-item#secadores": {
+  "menu-item#desembolador": {
     "props": {
-      "id": "menu-secadores",
+      "id": "menu-desembolador",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "blockClass": "item-menu-footer",
       "itemProps": {
         "type": "internal",
-        "href": "secador-e-soprador",
+        "href": "desembolador",
         "noFollow": false,
-        "tagTitle": "Secadores",
-        "text": "Secadores"
+        "tagTitle": "Desembolador",
+        "text": "Desembolador"
       }
     }
   },
@@ -86,16 +84,16 @@
       "blockClass": "item-menu-footer",
       "itemProps": {
         "type": "internal",
-        "href": "/tesouras-de-tosa",
+        "href": "/tesoura-de-tosa",
         "noFollow": false,
-        "tagTitle": "Tesouras",
-        "text": "Tesouras"
+        "tagTitle": "Tesouras de Tosa",
+        "text": "Tesouras de Tosa"
       }
     }
   },
-  "menu-item#escovacao": {
+  "menu-item#pecas-acessorios": {
     "props": {
-      "id": "menu-escovacao",
+      "id": "menu-pecas-acessorios",
       "type": "custom",
       "iconId": null,
       "highlight": false,
@@ -104,56 +102,25 @@
         "type": "internal",
         "href": "/pecas-e-acessorios",
         "noFollow": false,
-        "tagTitle": "Acessórios",
-        "text": "Acessórios"
+        "tagTitle": "Peças e Acessórios",
+        "text": "Peças e Acessórios"
       }
     }
   },
-  "menu-item#banhobeleza": {
+
+  "menu-item#guia-contencao": {
     "props": {
-      "id": "menu-banho-beleza",
+      "id": "menu-guia",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "blockClass": "item-menu-footer",
       "itemProps": {
         "type": "internal",
-        "href": "/banho-e-beleza-pet",
+        "href": "/guia-de-contencao",
         "noFollow": false,
-        "tagTitle": "Banho e Beleza",
-        "text": "Banho e Beleza"
-      }
-    }
-  },
-  "menu-item#kits": {
-    "props": {
-      "id": "menu-kits",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "blockClass": "item-menu-footer",
-      "itemProps": {
-        "type": "internal",
-        "href": "/kits",
-        "noFollow": false,
-        "tagTitle": "Kits",
-        "text": "Kits"
-      }
-    }
-  },
-  "menu-item#outlet": {
-    "props": {
-      "id": "menu-outlet",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "blockClass": "item-menu-footer",
-      "itemProps": {
-        "type": "internal",
-        "href": "/vestuario",
-        "noFollow": false,
-        "tagTitle": "Vestuário",
-        "text": "Vestuário"
+        "tagTitle": "Guia de Contenção",
+        "text": "Guia de Contenção"
       }
     }
   },
@@ -166,12 +133,8 @@
       "menu-item#institucional",
       "menu-item#quemsomos",
       "menu-item#garantia",
-      "menu-item#faleconosco",
       "menu-item#trocasedevolucoes",
       "menu-item#regrasdepromocao",
-      "menu-item#segurancavoce",
-      "menu-item#central",
-      "menu-item#mapadosite",
       "menu-item#privacidade",
       "menu-item#icms"
     ]
@@ -223,22 +186,6 @@
       }
     }
   },
-  "menu-item#faleconosco": {
-    "props": {
-      "id": "menu-fale-conosco",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "blockClass": "item-menu-footer",
-      "itemProps": {
-        "type": "internal",
-        "href": "/fale-conosco",
-        "noFollow": false,
-        "tagTitle": "Fale conosco",
-        "text": "Fale conosco"
-      }
-    }
-  },
   "menu-item#trocasedevolucoes": {
     "props": {
       "id": "menu-trocasedevolucoes",
@@ -266,59 +213,12 @@
         "type": "internal",
         "href": "/regras-de-promocao",
         "noFollow": false,
-        "tagTitle": "Regras de Promocao",
-        "text": "Regras de Promocao"
+        "tagTitle": "Regras de Promoção",
+        "text": "Regras de Promoção"
       }
     }
   },
-  "menu-item#segurancavoce": {
-    "props": {
-      "id": "menu-segurancavoce",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "blockClass": "item-menu-footer",
-      "itemProps": {
-        "type": "internal",
-        "href": "/seguranca-para-voce",
-        "noFollow": false,
-        "tagTitle": "Segurança para Você",
-        "text": "Segurança para Você"
-      }
-    }
-  },
-  "menu-item#central": {
-    "props": {
-      "id": "menu-central",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "blockClass": "item-menu-footer",
-      "itemProps": {
-        "type": "internal",
-        "href": "/central-de-atendimento",
-        "noFollow": false,
-        "tagTitle": "Central de Atendimento",
-        "text": "Central de Atendimento"
-      }
-    }
-  },
-  "menu-item#mapadosite": {
-    "props": {
-      "id": "menu-mapadosite",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "blockClass": "item-menu-footer",
-      "itemProps": {
-        "type": "internal",
-        "href": "/sitemap",
-        "noFollow": false,
-        "tagTitle": "mapadosite",
-        "text": "Mapa do Site"
-      }
-    }
-  },
+
   "menu-item#privacidade": {
     "props": {
       "id": "menu-privacidade",
@@ -407,10 +307,10 @@
       "blockClass": "item-menu-footer",
       "itemProps": {
         "type": "internal",
-        "href": "tel:4535234153",
+        "href": "tel:4721250767",
         "noFollow": true,
-        "tagTitle": "(45) 3523.4153",
-        "text": "(45) 3523.4153"
+        "tagTitle": "(47) 2125-0767",
+        "text": "(47) 2125-0767"
       }
     }
   },
@@ -438,10 +338,10 @@
       "blockClass": "item-menu-footer",
       "itemProps": {
         "type": "external",
-        "href": "https://api.whatsapp.com/send?l=pt_br&phone=554591264954",
+        "href": "https://api.whatsapp.com/send?l=pt_br&phone=5545991470404",
         "noFollow": true,
-        "tagTitle": "(45) 99126-4954",
-        "text": "(45) 99126-4954"
+        "tagTitle": "(45) 99147-0404",
+        "text": "(45) 99147-0404"
       }
     }
   },
@@ -469,10 +369,10 @@
       "blockClass": "item-menu-footer",
       "itemProps": {
         "type": "internal",
-        "href": "mailto:elevage@elevage.com.br",
+        "href": "mailto:propetz@propetz.com.br",
         "noFollow": true,
-        "tagTitle": "elevage@elevage.com.br",
-        "text": "elevage@elevage.com.br"
+        "tagTitle": "propetz@propetz.com.br",
+        "text": "propetz@propetz.com.br"
       }
     }
   }

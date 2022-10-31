@@ -4,7 +4,8 @@
     "props": {
       "context": {
         "skusFilter": "ALL",
-        "simulationBehavior": "skip"
+        "simulationBehavior": "skip",
+        "maxItemsPerPage": 12
       }
     }
   },
@@ -15,7 +16,7 @@
       "context": {
         "orderByField": "OrderByReleaseDateDESC",
         "hideUnavailableItems": true,
-        "maxItemsPerPage": 10,
+        "maxItemsPerPage": 12,
         "skusFilter": "ALL",
         "simulationBehavior": "skip"
       }
@@ -27,7 +28,8 @@
     "props": {
       "context": {
         "skusFilter": "ALL",
-        "simulationBehavior": "skip"
+        "simulationBehavior": "skip",
+        "maxItemsPerPage": 12
       }
     }
   },
@@ -37,7 +39,8 @@
     "props": {
       "context": {
         "skusFilter": "ALL",
-        "simulationBehavior": "skip"
+        "simulationBehavior": "skip",
+        "maxItemsPerPage": 12
       }
     }
   },
@@ -47,7 +50,8 @@
     "props": {
       "context": {
         "skusFilter": "ALL",
-        "simulationBehavior": "skip"
+        "simulationBehavior": "skip",
+        "maxItemsPerPage": 12
       }
     }
   },
@@ -66,7 +70,7 @@
     ],
     "props": {
       "pagination": "show-more",
-      "preventRouteChange": false,
+      "preventRouteChange": true,
       "defaultGalleryLayout": "grid"
     }
   },
@@ -114,7 +118,7 @@
       "filter-navigator.v3"
     ]
   },
-  
+
   "flex-layout.col#content": {
     "children": [
       "flex-layout.row#searchinfo",
@@ -167,7 +171,7 @@
     "props": {
       "htmlElementForButton": "a",
       "blockClass": "mostrar-mais"
-    }    
+    }
   },
   "flex-layout.row#products": {
     "children": ["search-content"]
@@ -181,7 +185,8 @@
       "flex-layout.row#searchinfomobile",
       "flex-layout.row#searchbread",
       "flex-layout.row#contentmobile",
-      "flex-layout.row#fetchmore"
+      "flex-layout.row#fetchmore",
+      "flex-layout.row#category_desc"
     ],
     "props": {
       "pagination": "show-more",
@@ -193,7 +198,9 @@
     }
   },
   "flex-layout.row#contentmobile": {
-    "children": ["search-content"],
+    "children": [
+      "search-content"
+  ],
     "props": {
       "preserveLayoutOnMobile": true
     }
@@ -265,7 +272,7 @@
             "(min-width:1300px)": 4,
             "(min-width:991px)": 3,
             "(min-width:320px)": 2
-            
+
           }
         },
         {
@@ -352,7 +359,7 @@
   "rich-text#categ-name":{
     "title": "Nome da Categoria",
     "props": {
-      "text": "### Sobre a Elevage",
+      "text": "# Sobre a Propetz",
       "textAlignment": "CENTER",
       "blockClass":  "category-name",
       "textColor": "white"

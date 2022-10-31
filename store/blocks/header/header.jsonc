@@ -9,8 +9,7 @@
     "children": [
       "flex-layout.row#top-bar",
       "sticky-layout#4-desktop",
-      "flex-layout.row#2-desktop",
-      "flex-layout.row#lele-contact"
+      "flex-layout.row#2-desktop"
     ]
   },
 
@@ -99,19 +98,18 @@
     "props": {
       "title": "Logo",
       "href": "/",
-      "url": "assets/imgs/header/logo.svg",
+      "url": "assets/imgs/header/logo-propetz.svg",
       "width": "180"
     }
   },
   "header-layout.mobile": {
     "children": [
       "sticky-layout#1-mobile",
-      "flex-layout.row#2-mobile",
       "flex-layout.row#top-barmobile"
     ]
   },
   "sticky-layout#1-mobile": {
-    "children": ["flex-layout.row#1-mobile"]
+    "children": ["flex-layout.row#1-mobile", "flex-layout.row#2-mobile"]
   },
 
   "flex-layout.row#1-mobile":{
@@ -153,7 +151,7 @@
     "props": {
       "title": "Logo",
       "href": "/",
-      "url": "assets/imgs/header/logo.svg",
+      "url": "assets/imgs/header/logo-propetz.svg",
       "width": "135"
     }
   },

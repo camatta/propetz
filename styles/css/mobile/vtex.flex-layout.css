@@ -4,8 +4,13 @@
   .flexRowContent--linha2-bottom {
     display: flex;
   }
+  .flexRow--wrapper-dealsmobile {
+    background-color: #E2E3E3;
+    padding: 1.5rem 0px;
+    margin-bottom: 3rem;
+  }
 
-  
+
 }
 
 @media (max-width: 428px) {
@@ -30,15 +35,13 @@
   }
 
   .flexRowContent--main-header-mobile :global(.vtex-category-menu-2-x-sidebar) {
-    background-color: #2EA8BC;
+    background-color: #00AAA6;
     padding: 2rem;
   }
 
   .flexRowContent--main-header-mobile :global(.vtex-category-menu-2-x-sidebarItemContainer) {
-    font: normal normal normal 12px/20px Montserrat !important;
-    letter-spacing: 2.04px;
+    font: normal normal normal 13px/20px Gotham !important;
     color: #FFFFFF;
-    text-transform: uppercase !important;
     border-bottom: 1px solid #fff;
     padding: 1rem 0;
   }
@@ -86,6 +89,10 @@
 
   .flexRowContent--area-sobre {
     padding: 0 .3rem;
+  }
+
+  .flexCol--category-name {
+    min-height: 110px;
   }
 
 }

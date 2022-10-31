@@ -41,7 +41,7 @@
       "minicart-freeshipping-bar-v2",
       "flex-layout.col#coupon-subtotal",
       "minicart-summary",
-      "experimental__visibility-layout#cashback-wrapper",
+      // "experimental__visibility-layout#cashback-wrapper",
       "minicart-checkout-button"
     ]
   },

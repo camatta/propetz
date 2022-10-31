@@ -18,7 +18,7 @@
     "minicart-coupon": {
         "component": "MinicartCoupon"
     },
-    
+
     "minicart-cashback": {
         "component": "MinicartCashback"
     },
@@ -27,7 +27,14 @@
         "component": "Lele"
     },
 
+    "price-promo-pix-boleto": {
+        "component": "PromoPixBoleto"
+    },
+
     "product-name-sku": {
         "component": "ProductNameSku"
+    },
+    "rastreio-datafrete": {
+      "component": "Rastreio"
     }
 }

@@ -1,0 +1,12 @@
+.paragraph--text-topbar::after {
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+}
+.wrapper--last-item .paragraph--text-topbar::after {
+  display: none;
+}
+
+.wrapper--last-item .paragraph--text-topbar .link--last-item {
+  color: #fff;
+}

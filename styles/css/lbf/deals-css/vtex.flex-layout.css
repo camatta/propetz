@@ -1,0 +1,10 @@
+.flexRowContent--box-deal {
+  display: block;
+}
+.flexRow--deals .stretchChildrenWidth {
+  width: 70% !important;
+  margin: auto;
+}
+.flexRow--box-deal::before {
+  display: none;
+}

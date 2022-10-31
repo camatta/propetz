@@ -9,7 +9,7 @@
     }
     .installments--summary{
         /* padding: 0; */
-        font: normal normal normal 14px/10px Montserrat;
+        font: normal normal normal 14px/10px Gotham;
         margin-bottom: 11px;
     }
 
@@ -25,7 +25,7 @@
         padding: 5px 0!important;
     }
     :global(.vtex-search-result-3-x-galleryItem) :global(.vtex-add-to-cart-button-0-x-buttonText){
-        font: normal normal bold 13px/16px Montserrat!important;
+        font: normal normal bold 13px/16px Gotham!important;
     }
 }
 
@@ -35,7 +35,7 @@
     }
     .installments--summary{
         /* padding: 0; */
-        font: normal normal normal 10px/12px Montserrat;
+        font: normal normal normal 10px/12px Gotham;
         margin-bottom: 11px;
     }
 
@@ -52,7 +52,7 @@
     }
     :global(.vtex-search-result-3-x-galleryItem) :global(.vtex-add-to-cart-button-0-x-buttonText),
     :global(.vtex-product-summary-2-x-container) :global(.vtex-add-to-cart-button-0-x-buttonText) {
-        font: normal normal bold 10px/10px Montserrat!important;
+        font: normal normal bold 10px/10px Gotham!important;
         text-transform: uppercase !important;
         max-width: 100px;
         line-height: 12px !important;
@@ -65,7 +65,7 @@
     }
     .installments--summary{
         /* padding: 0; */
-        font: normal normal normal 10px/10px Montserrat;
+        font: normal normal normal 10px/10px Gotham;
         margin-bottom: 11px;
     }
 
@@ -82,7 +82,7 @@
     }
     :global(.vtex-search-result-3-x-galleryItem) :global(.vtex-add-to-cart-button-0-x-buttonText),
     :global(.vtex-product-summary-2-x-container) :global(.vtex-add-to-cart-button-0-x-buttonText) {
-        font: normal normal bold 10px/10px Montserrat!important;
+        font: normal normal bold 10px/10px Gotham!important;
         text-transform: uppercase !important;
         max-width: 100px;
         line-height: 12px !important;

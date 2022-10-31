@@ -1,17 +1,37 @@
 {
 
   "flex-layout.row#top-bar": {
-    "title": "Informações Topo",
+    "children": [
+      "flex-layout.col#frete-bar",
+      "flex-layout.col#parcelamento-bar",
+      "flex-layout.col#rastreio-bar"
+    ],
     "props": {
       "blockClass": "wrapper-topbar"
-    },
+    }
+
+  },
+  "flex-layout.col#frete-bar": {
     "children": [
-      "rich-text#text-frete-gratis",
-      "rich-text#text-parcelamento",
-      "rich-text#text-fidelidade",
-      "link#text-rastreio"
+      "rich-text#text-frete-gratis"
     ]
   },
+  "flex-layout.col#parcelamento-bar": {
+    "children": [
+      "rich-text#text-parcelamento"
+    ]
+  },
+  "flex-layout.col#fidelidade-bar": {
+    "children": [
+      "rich-text#text-fidelidade"
+    ]
+  },
+  "flex-layout.col#rastreio-bar": {
+    "children": [
+      "rich-text#text-rastreio"
+    ]
+  },
+
 
   "rich-text#text-frete-gratis": {
     "props": {
@@ -34,12 +54,10 @@
     }
   },
 
-  "link#text-rastreio": {
+  "rich-text#text-rastreio": {
     "props": {
-      "blockClass": ["text-topbar","last-item-topbar"],
-      "label": "Rastreie o seu pedido",
-      "href": "https://rastreamento.correios.com.br/app/index.php",
-      "target": "_blank"
+      "text": "[Rastreie seu pedido](/rastreio)",
+      "blockClass": ["text-topbar", "last-item"]
     }
   }
 

@@ -18,13 +18,14 @@
 
   .sidebarHeader::after {
     content: '';
-    width: 171px;
-    height: 46px;
+    width: 251px;
+    height: 36px;
     position: absolute;
     left: 0rem;
-    top: 0rem;
-    background-image: url(/assets/vtex/assets-builder/dcorp.store-theme/5.0.0/imgs/header/logo___7a8e060….svg);
+    top: 1rem;
+    background-image: url(https://propetz.vtexassets.com/assets/vtex/assets-builder/propetz.store/1.0.0/imgs/header/logo-propetz___31f4cd5….svg);
     background-repeat: no-repeat;
+    background-size: 80%;
   }
 
   .sidebarItemContainer .plusIcon,

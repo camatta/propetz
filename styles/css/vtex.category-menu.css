@@ -1,5 +1,5 @@
 .container {
-  background-color: #2EA8BC;
+  background-color: #00AAA6;
 }
 
 .departmentLink {
@@ -61,7 +61,7 @@
   position: absolute;
   right: 1rem;
   bottom: 1rem;
-  background-image: url(/assets/vtex/assets-builder/dcorp.store-theme/5.0.0/imgs/header/img-categorias-menu___7a8e060….png);
+  background-image: url(assets/imgs/header/menu-icon.svg);
   background-repeat: no-repeat;
 }
 
@@ -74,7 +74,31 @@
   top: 0;
   background-image: url(/assets/vtex/assets-builder/dcorp.store-theme/5.0.0/imgs/header/banner-lateral-menu___7a8e060….png);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100% 100%;
+}
+
+.departmentList .itemContainer--department:nth-child(2n) .itemContainer--category::before {
+  background-image: url(assets/imgs/categoria/categoria-propetz/maquinas-de-tosa-banner-categoria.jpg);
+}
+
+.departmentList .itemContainer--department:nth-child(3n) .itemContainer--category::before {
+  background-image: url(assets/imgs/categoria/categoria-propetz/laminas-de-tosa-banner-categoria.jpg);
+}
+
+.departmentList .itemContainer--department:nth-child(4n) .itemContainer--category::before {
+  background-image: url(assets/imgs/categoria/categoria-propetz/adaptadores-banner-categoria.jpg);
+}
+
+.departmentList .itemContainer--department:nth-child(5n) .itemContainer--category::before {
+  background-image: url(assets/imgs/categoria/categoria-propetz/tesoura-de-tosa-banner-categoria.jpg);
+}
+
+.departmentList .itemContainer--department:nth-child(6n) .itemContainer--category::before {
+  background-image: url(assets/imgs/categoria/categoria-propetz/guias-de-contenao-banner-categoria.jpg);
+}
+
+.departmentList .itemContainer--department:nth-child(7n) .itemContainer--category::before {
+  background-image: url(assets/imgs/categoria/categoria-propetz/acessorios-banner-categoria.jpg);
 }
 
 .itemContainer--department:nth-child(7n) .itemContainer--category::before {
@@ -126,14 +150,14 @@
 } */
 
 .departmentList .itemContainer:first-child .departmentLink {
-  background-color: #ffa124;
+  background-color: #AB3E00;
   text-align: center;
   padding-left: 1.8rem;
   padding-right: 0.8rem;
   letter-spacing: 0.6px;
   border-radius: 12px;
   position: relative;
-  color: #ffa124;
+  color: #AB3E00;
   margin: 0;
 }
 
@@ -144,7 +168,7 @@
   position: absolute;
   left: 1rem;
   top: 1rem;
-  background-image: url(/assets/vtex/assets-builder/dcorp.store-theme/5.0.0/imgs/header/bar-menu___7a8e060….svg);
+  background-image: url(/assets/vtex/assets-builder/dcorp.store-theme-propetz/1.0.0/imgs/header/bar-menu___7a8e060….svg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;

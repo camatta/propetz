@@ -1,3 +1,7 @@
+.heading--category-name {
+  font-size: 28px;
+}
+
 @media (max-width: 991px) {
 
   .paragraph--text-topbar__mobile {
@@ -23,6 +27,8 @@
   .container--deals .paragraph--deals {
     font-size: 12px;
     padding-left: 0;
+    width: 75%;
+    margin: auto;
   }
 
   .container--deals .paragraph--deals::before {
@@ -33,6 +39,7 @@
     position: absolute;
     left: -1.3rem;
     top: 2%;
+    display: none;
   }
 
   .wrapper--text-copy .paragraph--text-copy {
@@ -44,6 +51,14 @@
     text-transform: capitalize;
     font-size: 20px;
   }
+
+  .heading--category-name {
+    color: #fff;
+    margin: 0;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+}
 
 }
 
@@ -67,8 +82,9 @@
     position: absolute;
     left: -1rem;
     top: 2%;
+    display: none;
   }
-  
+
 }
 
 @media (max-width: 320px) {
@@ -84,5 +100,6 @@
     position: absolute;
     left: -0.8rem;
     top: 1.7%;
+    display: none;
   }
 }

@@ -24,15 +24,15 @@
 
   "image#pinterest": {
     "props": {
-      "src": "assets/imgs/footer/awesome-pinterest.svg",
+      "src": "assets/imgs/footer/Iconpinterest.svg",
       "textAlignment": "center",
       "blockClass": "img-redes-sociais",
       "link": {
-        "url":"https://br.pinterest.com/elevagemoi/",
+        "url":"https://br.pinterest.com/propetz/",
         "newTab": true
       }
     }
-    
+
   },
 
   "flex-layout.col#youtube": {
@@ -50,7 +50,7 @@
       "textAlignment": "center",
       "blockClass": "img-redes-sociais",
       "link": {
-        "url":"https://www.youtube.com/c/ELEVAGECENTER",
+        "url":"https://www.youtube.com/c/PropetzBR",
         "newTab": true
       }
     }
@@ -72,7 +72,7 @@
       "textAlignment": "center",
       "blockClass": "img-redes-sociais",
       "link": {
-        "url":"https://twitter.com/elevagecenter",
+        "url":"https://twitter.com/propetzbr",
         "newTab": true
       }
     }
@@ -94,7 +94,7 @@
       "textAlignment": "center",
       "blockClass": "img-redes-sociais",
       "link": {
-        "url":"https://www.instagram.com/elevagecenter/",
+        "url":"https://www.instagram.com/propetzbr/",
         "newTab": true
       }
     }
@@ -115,7 +115,7 @@
       "textAlignment": "center",
       "blockClass": "img-redes-sociais",
       "link": {
-        "url":"https://www.facebook.com/elevagecenter",
+        "url":"https://www.facebook.com/propetzbr",
         "newTab": true
       }
     }

@@ -36,7 +36,7 @@
 }
 
 .accessCodeOptionBtn :global(.vtex-button) {
-  background-color: #2ea8bc;
+  background-color: #00AAA6;
   color: #fff;
   border: unset;
   text-transform: initial;
@@ -45,7 +45,7 @@
 }
 
 .emailPasswordOptionBtn :global(.vtex-button) {
-  background-color: #ffa124;
+  background-color: #AB3E00;
   color: #fff;
   border: unset;
   text-transform: initial;

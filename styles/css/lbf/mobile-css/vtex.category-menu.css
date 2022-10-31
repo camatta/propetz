@@ -27,7 +27,7 @@
 }
 :global(.vtex-store-drawer-0-x-drawer) .itemContainer .departmentLink,
 :global(.vtex-store-drawer-0-x-drawer) .itemContainer .submenuItem .firstLevelLink{
-    font: normal normal normal 14px/20px Montserrat;
+    font: normal normal normal 14px/20px Gotham;
     text-align: left;
     border: none;
 }

@@ -10,7 +10,7 @@
     "children": ["slider-layout#dealsmob"]
   },
   "slider-layout#dealsmob": {
-    "children": ["flex-layout.col#frete", "flex-layout.col#parcelamentos", "flex-layout.col#pix", "flex-layout.col#fidelidade"],
+    "children": ["flex-layout.col#frete", "flex-layout.col#parcelamentos", "flex-layout.col#pix", "flex-layout.col#fidelidade", "flex-layout.col#pix2", "flex-layout.col#garantia"],
     "props": {
         "blockClass": "dealsmob",
         "itemsPerPage": {
@@ -23,6 +23,78 @@
       }
 
     },
+
+    "flex-layout.col#garantia": {
+      "children": ["flex-layout.row#controlemob6"],
+      "props": {
+        "blockClass": "box-deal"
+      }
+    },
+    "flex-layout.row#controlemob6": {
+      "children": ["flex-layout.col#col-imgdeal6mob", "flex-layout.col#col-textdealmob6"],
+      "props": {
+        "blockClass": "controle-flex"
+      }
+    },
+    "flex-layout.col#col-imgdeal6mob": {
+      "children": ["image#garantia"],
+      "props": {
+        "width": "5%"
+      }
+    },
+    "flex-layout.col#col-textdealmob6": {
+      "children": ["rich-text#dealmob6"]
+    },
+    "image#garantia": {
+      "props": {
+        "src": "https://propetz.vtexassets.com/assets/vtex/assets-builder/dcorp.store-theme-propetz/1.0.0/imgs/beneficios/beneficios-propetz/compra-segura___5fa32addf62866d4136976b63a86f5f6.svg",
+        "width": "50px"
+      }
+    },
+    "rich-text#dealmob6": {
+      "props": {
+        "text": "Compra garantida **10% segura**",
+        "blockClass": "deals"
+      }
+    },
+
+    "flex-layout.col#pix2": {
+      "children": ["flex-layout.row#controlemob5"],
+      "props": {
+        "blockClass": "box-deal"
+      }
+    },
+    "flex-layout.row#controlemob5": {
+      "children": ["flex-layout.col#col-imgdeal5mob", "flex-layout.col#col-textdealmob5"],
+      "props": {
+        "blockClass": "controle-flex"
+      }
+    },
+    "flex-layout.col#col-imgdeal5mob": {
+      "children": ["image#frete"],
+      "props": {
+        "width": "5%"
+      }
+    },
+    "flex-layout.col#col-textdealmob5": {
+      "children": ["rich-text#dealmob5"]
+    },
+    "image#pix2": {
+      "props": {
+        "src": "https://propetz.vtexassets.com/assets/vtex/assets-builder/dcorp.store-theme-propetz/1.0.0/imgs/beneficios/beneficios-propetz/aviso___8aa0a1a128101b9ce417aa021d0d1514.svg",
+        "width": "50px"
+      }
+    },
+    "rich-text#dealmob5": {
+      "props": {
+        "text": "**10% de desconto**no pix e boleto",
+        "blockClass": "deals"
+      }
+    },
+
+
+
+
     "flex-layout.col#frete": {
       "children":["flex-layout.row#controlemob"],
       "props": {
@@ -46,7 +118,8 @@
     },
     "image#frete": {
       "props": {
-        "src": "assets/imgs/beneficios/icon-frete.svg"
+        "src": "https://propetz.vtexassets.com/assets/vtex/assets-builder/dcorp.store-theme-propetz/1.0.0/imgs/beneficios/beneficios-propetz/frete-propetz___3ce1e6906b77e23754a55602e2641d91.svg",
+        "width": "50px"
       }
     },
     "rich-text#dealmob1": {
@@ -79,7 +152,8 @@
     },
     "image#parcela": {
       "props": {
-        "src": "assets/imgs/beneficios/icon-fidelidade.svg"
+        "src": "https://propetz.vtexassets.com/assets/vtex/assets-builder/dcorp.store-theme-propetz/1.0.0/imgs/beneficios/beneficios-propetz/cartao___08e8adc2cd53a4825e1467c42987c41e.svg",
+        "width": "50px"
       }
     },
     "rich-text#dealmob2": {
@@ -111,7 +185,8 @@
     },
     "image#pix": {
       "props": {
-        "src": "assets/imgs/beneficios/icon-desconto.svg"
+        "src": "https://propetz.vtexassets.com/assets/vtex/assets-builder/dcorp.store-theme-propetz/1.0.0/imgs/beneficios/beneficios-propetz/desconto___2eab08cc93f91f9a5ce0c018aeafaed1.svg",
+        "width": "50px"
       }
     },
     "rich-text#dealmob3": {
@@ -143,12 +218,13 @@
     },
     "image#fidel": {
       "props": {
-        "src": "assets/imgs/beneficios/icon-fidelidade.svg"
+        "src": "https://propetz.vtexassets.com/assets/vtex/assets-builder/dcorp.store-theme-propetz/1.0.0/imgs/beneficios/beneficios-propetz/consultoria___22456ef5c0cc2eba2afd14afe1e23693.svg",
+        "width": "50px"
       }
     },
     "rich-text#dealmob4": {
       "props": {
-        "text": "Programa de **fidelidade**",
+        "text": "Fale com nossa **equipe comercial**",
         "blockClass": "deals"
       }
     }

@@ -25,9 +25,9 @@
     padding: 0 0 7px 0;
 }
 .filterTitleSpan{
-    font: normal normal bold 16px/20px Montserrat;
+    font: normal normal bold 16px/20px Gotham;
     letter-spacing: 0px;
-    color: #0099A9;
+    color: #00aaa6;
 }
 
 .filter__container--title{
@@ -73,7 +73,7 @@
 
 .orderByOptionItem {
     font-size: 13px;
-    font-family: 'Montserrat';
+    font-family: 'Gotham';
 }
 
 .orderByOptionsContainer {
@@ -99,4 +99,6 @@
 
 .searchResultContainer  .buttonShowMore--layout :global(.vtex-button) {
     text-transform: initial;
+    background-color: #5867ca;
+    border-color: #5867ca;
 }

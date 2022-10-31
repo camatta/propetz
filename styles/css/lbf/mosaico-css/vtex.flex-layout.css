@@ -1,0 +1,9 @@
+.flexColChild--mosaico3-img {
+  padding-right: 5px;
+}
+.flexColChild--imagem-mosaico-maquina {
+  position: relative;
+}
+.flexColChild--imagem-mosaico-maquina:hover {
+  background: url(assets/imgs/mosaico-propetz/maquina-de-tosa-pet-pro6-propetz-banner-efeito.png);
+}

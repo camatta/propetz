@@ -37,10 +37,10 @@
 
 /* filter mobile */
 :global(.vtex-search-result-3-x-filterApplyButtonWrapper) :global(.vtex-button){
-  background-color: #FFA124;
+  background-color: #AB3E00;
 }
 :global(.vtex-search-result-3-x-filterClearButtonWrapper) :global(.vtex-button){
-  background-color: #2EA8BC;
+  background-color: #00AAA6;
 }
 :global(.vtex-search-result-3-x-filterButtonsBox) :global(.vtex-button__label){
   color: #fff;
