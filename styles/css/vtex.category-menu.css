@@ -224,7 +224,13 @@
 
 @media (max-width: 1580px) {
   .departmentList .itemContainer:first-child .itemContainer--category {
-    max-width: 930px;
+    max-width: 1100px;
+  }
+}
+
+@media (max-width: 1300px) {
+  .departmentList .itemContainer:first-child .itemContainer--category {
+    max-width: 1020px;
   }
 }
 
@@ -256,6 +262,10 @@
     width: 17px;
     height: 12px;
     left: 0.7rem;
+  }
+
+  .departmentList .itemContainer:first-child .itemContainer--category {
+    max-width: 915px;
   }
 
 
