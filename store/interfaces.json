@@ -36,5 +36,8 @@
     },
     "rastreio-datafrete": {
       "component": "Rastreio"
+    },
+    "wpp-contact": {
+        "component": "WppContact"
     }
 }

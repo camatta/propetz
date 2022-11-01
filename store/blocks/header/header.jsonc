@@ -9,7 +9,8 @@
     "children": [
       "flex-layout.row#top-bar",
       "sticky-layout#4-desktop",
-      "flex-layout.row#2-desktop"
+      "flex-layout.row#2-desktop",
+      "wpp-contact"
     ]
   },
 
@@ -105,7 +106,8 @@
   "header-layout.mobile": {
     "children": [
       "sticky-layout#1-mobile",
-      "flex-layout.row#top-barmobile"
+      "flex-layout.row#top-barmobile",
+      "wpp-contact"
     ]
   },
   "sticky-layout#1-mobile": {
