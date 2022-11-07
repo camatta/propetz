@@ -71,8 +71,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  /* background-color: #00aaa6; */
-  background-image: url(/assets/vtex/assets-builder/propetz.store-theme-propetz/2.0.7/imgs/categoria/banner-categ-novo___7a8e060….png) !important;
+  background-color: #00aaa6;
+  /* background-image: url(/assets/vtex/assets-builder/propetz.store-theme-propetz/2.0.8/imgs/categoria/categ-propetz___7a8e060….svg) !important; */
   background-size: cover;
   background-repeat: no-repeat;
   background-image: unset;
