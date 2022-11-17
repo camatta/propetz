@@ -136,7 +136,8 @@
       "menu-item#trocasedevolucoes",
       "menu-item#regrasdepromocao",
       "menu-item#privacidade",
-      "menu-item#icms"
+      "menu-item#icms",
+      "menu-item#distribuidores"
     ]
   },
 
@@ -248,6 +249,23 @@
         "noFollow": false,
         "tagTitle": "imcs",
         "text": "Antecipação de ICMS"
+      }
+    }
+  },
+
+  "menu-item#distribuidores": {
+    "props": {
+      "id": "menu-distribuidores",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "item-menu-footer",
+      "itemProps": {
+        "type": "internal",
+        "href": "/distribuidores",
+        "noFollow": false,
+        "tagTitle": "distribuidores",
+        "text": "Distribuidores"
       }
     }
   },

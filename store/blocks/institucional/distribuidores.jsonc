@@ -1,0 +1,13 @@
+{
+  "store.custom#distribuidores": {
+    "children": [
+      "flex-layout.row#wrapper-distribuidores"
+    ]
+  },
+
+  "flex-layout.row#wrapper-distribuidores": {
+    "children": [
+      "distribuidores"
+    ]
+  }
+}

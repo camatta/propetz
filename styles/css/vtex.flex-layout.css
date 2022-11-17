@@ -117,7 +117,7 @@
 
 
 .flexRowContent--deals {
-  justify-content: space-between;
+  justify-content: center;
 }
 
 .flexRowContent--box-deal {
@@ -126,6 +126,8 @@
 
 .flexRow--deals .flexCol {
   align-items: center;
+  margin-right: 15px;
+  margin-left: 15px;
 }
 
 .flexCol--filterCol {

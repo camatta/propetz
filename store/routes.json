@@ -43,5 +43,8 @@
   },
   "store.custom#rastreio": {
     "path": "/rastreio"
+  },
+  "store.custom#distribuidores": {
+    "path": "/distribuidores"
   }
 }

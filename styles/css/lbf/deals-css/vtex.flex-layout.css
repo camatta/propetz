@@ -2,8 +2,8 @@
   display: block;
 }
 .flexRow--deals .stretchChildrenWidth {
-  width: 70% !important;
-  margin: auto;
+  width: auto !important;
+  margin: 0;
 }
 .flexRow--box-deal::before {
   display: none;
