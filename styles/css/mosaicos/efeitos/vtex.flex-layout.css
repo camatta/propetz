@@ -1,6 +1,6 @@
 /* Mosaico Principal */
 
-.flexCol--mosaico-principal-left .flexColChild--mosaico-principal-left {
+/* .flexCol--mosaico-principal-left .flexColChild--mosaico-principal-left {
   position: relative;
   cursor: pointer;
 }
@@ -67,7 +67,7 @@
 
 .flexCol--mosaico-principal-right .flexColChild--mosaico-principal-right:last-child:hover::after {
   visibility: hidden;
-}
+} */
 
 
 /* Mosaico Topo */
