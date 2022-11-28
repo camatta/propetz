@@ -214,6 +214,75 @@
       }
     },
 
+    
+
+
+
+
+
+    "experimental__visibility-layout#mosaico-meio-modelo3-sem-efeito": {
+      "title": "Mosaico Meio - Modelo 3 Sem Efeito",
+      "children": [
+        "flex-layout.row#mosaico-meio-modelo3-sem-efeito"
+      ]
+    },
+  
+    "flex-layout.row#mosaico-meio-modelo3-sem-efeito": {
+        "title": "Mosaico Meio",
+        "children": [
+          "flex-layout.col#left-mosaico-modelo3-sem-efeito",
+          "flex-layout.col#right-mosaico-modelo3-sem-efeito"
+        ],
+        "props": {
+          "blockClass": ["mosaico-meio-wrapper", "mosaico-meio-modelo2"]
+        }
+      },
+
+      "flex-layout.col#left-mosaico-modelo3-sem-efeito": {
+        "children": [
+          "image#img-mosaico-left-modelo3-sem-efeito"
+        ],
+        "props": {
+          "blockClass": "imagem-mosaico-left-m3"
+        }
+      },
+  
+      "flex-layout.col#right-mosaico-modelo3-sem-efeito": {
+        "children": [
+          "image#img-mosaico-right-modelo3-sem-efeito",
+          "image#img-mosaico-right-modelo3-sem-efeito2",
+          "image#img-mosaico-right-modelo3-sem-efeito3"
+        ],
+        "props": {
+          "blockClass": "imagem-mosaico-right-m3"
+        }
+      },
+
+      "image#img-mosaico-left-modelo3-sem-efeito": {
+        "props": {
+          "src": "assets/imgs/mosaico-propetz/mosaico3-semefeito.png"
+        }
+      },
+
+      "image#img-mosaico-right-modelo3-sem-efeito": {
+        "props": {
+          "src": "assets/imgs/mosaico-propetz/mosaico3-right-semefeito.png"
+        }
+      },
+
+      "image#img-mosaico-right-modelo3-sem-efeito2": {
+        "props": {
+          "src": "assets/imgs/mosaico-propetz/mosaico3-right-semefeito2.png"
+        }
+      },
+
+      "image#img-mosaico-right-modelo3-sem-efeito3": {
+        "props": {
+          "src": "assets/imgs/mosaico-propetz/mosaico3-right-semefeito3.png"
+        }
+      },
+
+
 
     "experimental__visibility-layout#mosaico-meio-modelo3": {
       "title": "Mosaico Meio - Modelo 3",

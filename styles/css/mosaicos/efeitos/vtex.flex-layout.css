@@ -164,6 +164,18 @@
   visibility: hidden;
 }
 
+.flexColChild--imagem-mosaico-left-m3 {
+  padding-right: 2px;
+}
+
+.flexColChild--imagem-mosaico-left-m3 :global(.vtex-store-components-3-x-imageElement) {
+  height: 100%;
+}
+
+.flexCol--imagem-mosaico-right-m3 :global(.vtex-store-components-3-x-imageElement) {
+  height: 100%;
+}
+
 @media (max-width: 428px) {
   .flexCol--mosaico-right-wrapper .flexColChild--mosaico-right-wrapper:last-child::after,
   .flexCol--mosaico-right-wrapper .flexColChild--mosaico-right-wrapper:first-child::after,
