@@ -196,4 +196,8 @@
     height: auto;
   }
 
+  .flexCol--imagem-mosaico-right-m3 :global(.vtex-store-components-3-x-imageElement) {
+    height: auto;
+  }
+
 }
