@@ -7,3 +7,16 @@
   margin: auto;
 }
 
+.flexRowContent--wrapper-topbar .stretchChildrenWidth {
+  width: auto !important;
+}
+
+.flexRowContent--wrapper-topbar {
+  justify-content: center;
+}
+
+.flexRowContent--wrapper-topbar .flexCol {
+  margin-right: 3rem;
+  margin-left: 3rem;
+}
+

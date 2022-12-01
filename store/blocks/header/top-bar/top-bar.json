@@ -1,16 +1,33 @@
 {
+  "experimental__visibility-layout#top-bar": {
+    "title": "Benefícios - Topo",
+    "children": ["flex-layout.row#top-bar"]
+  },
 
   "flex-layout.row#top-bar": {
     "children": [
-      "flex-layout.col#frete-bar",
-      "flex-layout.col#parcelamento-bar",
-      "flex-layout.col#rastreio-bar"
+      "experimental__visibility-layout#col-frete-bar",
+      "experimental__visibility-layout#col-parcelamento-bar",
+      "experimental__visibility-layout#col-rastreio-bar"
     ],
     "props": {
       "blockClass": "wrapper-topbar"
     }
 
   },
+
+  "experimental__visibility-layout#col-frete-bar": {
+    "children":["flex-layout.col#frete-bar"]
+  },
+
+  "experimental__visibility-layout#col-parcelamento-bar": {
+    "children":["flex-layout.col#parcelamento-bar"]
+  },
+
+  "experimental__visibility-layout#col-rastreio-bar": {
+    "children":["flex-layout.col#rastreio-bar"]
+  },
+
   "flex-layout.col#frete-bar": {
     "children": [
       "rich-text#text-frete-gratis"
@@ -21,11 +38,7 @@
       "rich-text#text-parcelamento"
     ]
   },
-  "flex-layout.col#fidelidade-bar": {
-    "children": [
-      "rich-text#text-fidelidade"
-    ]
-  },
+  
   "flex-layout.col#rastreio-bar": {
     "children": [
       "rich-text#text-rastreio"
@@ -34,6 +47,7 @@
 
 
   "rich-text#text-frete-gratis": {
+    "title": "Texto 1",
     "props": {
       "blockClass": "text-topbar",
       "text": "**Frete grátis** acima de R$499*"
@@ -41,20 +55,15 @@
   },
 
   "rich-text#text-parcelamento": {
+    "title": "Texto 2",
     "props": {
       "blockClass": "text-topbar",
       "text": "Parcelamento em até **10x sem juros**"
     }
   },
 
-  "rich-text#text-fidelidade": {
-    "props": {
-      "blockClass": "text-topbar",
-      "text": "Programa de **fidelidade**"
-    }
-  },
-
   "rich-text#text-rastreio": {
+    "title": "Texto 3",
     "props": {
       "text": "[Rastreie seu pedido](/rastreio)",
       "blockClass": ["text-topbar", "last-item"]

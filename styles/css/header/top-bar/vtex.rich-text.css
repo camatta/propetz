@@ -9,10 +9,10 @@
   line-height: 0.5;
 }
 
-.paragraph--text-topbar::after {
+/* .paragraph--text-topbar::after {
   content: '';
   position: absolute;
-  right: 0;
+  right: -49%;
   top: 50%;
   width: 1px;
   height: 17px;
@@ -24,7 +24,7 @@
 
 .container--last-item-topbar .paragraph--text-topbar::after {
   display: none;
-}
+} */
 
 .container--last-item-topbar .paragraph--text-topbar {
   text-decoration: underline;
