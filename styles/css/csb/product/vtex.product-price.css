@@ -22,8 +22,9 @@
 
 @media (max-width: 428px) {
   :global(.vtex-product-price-1-x-installments--summary) {
-    height: 10px;
+    height: auto;
     overflow: hidden;
+    line-height: 1.5;
   }
 
   :global(.vtex-product-price-1-x-installments--pdp-parcelado) {
