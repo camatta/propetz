@@ -9,12 +9,12 @@
 
 @media (max-width: 428px) {
   :global(.vtex-product-summary-2-x-productNameContainer) {
-    height: 58px;
+    height: 64px;
     overflow: hidden;
   }
 }
 
-@media screen and (min-width: 375px) and (max-width: 375px) { 
+@media screen and (min-width: 375px) and (max-width: 375px) {
   :global(.vtex-product-summary-2-x-productNameContainer) {
     height: 65px;
   }
