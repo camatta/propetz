@@ -2,4 +2,8 @@
   .brandName {
     font-size: 14px;
   }
+  .productNameContainer {
+    height: 74px;
+    overflow: hidden;
+  }
 }
