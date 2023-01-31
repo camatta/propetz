@@ -39,6 +39,7 @@ export const Input = styled.input`
     font-family: Gotham,arial,sans-serif;
     @media (max-width: 428px) {
         font-size: 14px;
+        font-family: revert;
     }
     @media (max-width: 404px) {
         font-size: 12px;
