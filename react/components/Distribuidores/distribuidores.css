@@ -15,6 +15,11 @@
 
 :global(.estado-wrapper) {
   margin-bottom: 4rem;
+  padding-left: 0;
+}
+
+:global(.estado-title) {
+  list-style-type: none;
 }
 
 :global(.estado-title h2) {

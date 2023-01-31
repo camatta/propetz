@@ -41,6 +41,9 @@
   "store.custom#frete": {
     "path": "/frete"
   },
+  "store.custom#distribuidores": {
+    "path": "/distribuidores"
+  },
   "store.custom#rastreio": {
     "path": "/rastreio"
   }
