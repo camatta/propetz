@@ -15,13 +15,13 @@
 
 }
 
-@media (max-width: 428px) {
+@media (max-width: 575px) {
   .paragraph--frete {
     width: 100%
   }
 
   .container--text-copy {
-    justify-content: center;
+    justify-content: center !important;
   }
 
   .container--deals .paragraph--deals {
