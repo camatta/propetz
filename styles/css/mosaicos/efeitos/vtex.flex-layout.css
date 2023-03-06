@@ -176,7 +176,7 @@
   height: 100%;
 }
 
-@media (max-width: 428px) {
+@media (max-width: 575px) {
   .flexCol--mosaico-right-wrapper .flexColChild--mosaico-right-wrapper:last-child::after,
   .flexCol--mosaico-right-wrapper .flexColChild--mosaico-right-wrapper:first-child::after,
   .flexCol--imagem-mosaico-left .flexColChild--imagem-mosaico-left:last-child::after,
