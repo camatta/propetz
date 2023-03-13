@@ -6,3 +6,31 @@
 .wrapper--link-rastreio .paragraph--text-topbar .link--text-topbar {
   color: #fff;
 }
+.paragraph--deals {
+  color: #202020;
+    font-size: 14px;
+}
+
+@media(max-width: 575px){
+  .link--deals {
+    font-size: 12px;
+  }
+
+}
+@media (max-width: 404px) {
+  .link--deals {
+    font-size: 11px;
+  }
+
+}
+@media(max-width: 385px){
+  .link--deals {
+    font-size: 10px;
+  }
+}
+
+@media(max-width: 320px){
+  .link--deals {
+    font-size: 8px;
+  }
+}
