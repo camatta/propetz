@@ -9,6 +9,7 @@
 .link--deals {
   color: #202020;
     font-size: 14px;
+    text-decoration: inherit;
 }
 
 @media(max-width: 575px){
