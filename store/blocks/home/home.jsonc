@@ -9,6 +9,8 @@
       "experimental__visibility-layout#mosaico-meio",
       "experimental__visibility-layout#mosaico-meio-modelo2",
       "experimental__visibility-layout#mosaico-meio-modelo3-sem-efeito",
+      "experimental__visibility-layout#mosaico-meio-modelo4",
+      "experimental__visibility-layout#mosaico-meio-modelo5",
       /* You can make references to blocks defined in other files.
        * For example, `flex-layout.row#deals` is defined in the `deals.json` file. */
       "__fold__.experimentalLazyAssets",

@@ -176,6 +176,16 @@
   height: 100%;
 }
 
+.flexRowContent--lh-0 {
+  line-height: 0;
+}
+
+.flexRowContent--mosaico-meio-modelo4e5-mobi {
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
 @media (max-width: 575px) {
   .flexCol--mosaico-right-wrapper .flexColChild--mosaico-right-wrapper:last-child::after,
   .flexCol--mosaico-right-wrapper .flexColChild--mosaico-right-wrapper:first-child::after,

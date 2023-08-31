@@ -214,12 +214,6 @@
       }
     },
 
-    
-
-
-
-
-
     "experimental__visibility-layout#mosaico-meio-modelo3-sem-efeito": {
       "title": "Mosaico Meio - Modelo 3 Sem Efeito",
       "children": [
@@ -543,94 +537,232 @@
     "children": ["image#mob1", "image#mob2"]
   },
 
-    "image#mob1": {
-      "props": {
-        "src": "assets/imgs/mosaicos/mosaico-meio2.png"
-      }
-    },
+  "image#mob1": {
+    "props": {
+      "src": "assets/imgs/mosaicos/mosaico-meio2.png"
+    }
+  },
 
-    "image#mob2": {
-      "props": {
-        "src": "assets/imgs/mosaicos/mosaico-meio2.png"
-      }
-    },
+  "image#mob2": {
+    "props": {
+      "src": "assets/imgs/mosaicos/mosaico-meio2.png"
+    }
+  },
 
-    "flex-layout.row#mosaicomeiomob": {
-      "children": ["flex-layout.row#bloco1meio" ],
-      "props": {
-        "blockClass": "mosaicomeio-mob"
-      }
-    },
-    "flex-layout.row#mosaicomeiolinhamob": {
-      "children": ["flex-layout.row#bloco2meio"],
-      "props": {
-        "blockClass": "mosaicomeio-mob"
-      }
-    },
-    "flex-layout.row#mosaicomeiolinhamob3": {
-      "children": ["flex-layout.row#bloco3meio"],
-      "props": {
-        "blockClass": "mosaicomeio-mob"
-      }
-    },
-    "flex-layout.row#bloco1meio": {
-      "children": ["flex-layout.col#imagemos1"]
-    },
-    "flex-layout.col#imagemos1": {
-      "children": ["image#meio1mob"]
-    },
-    "image#meio1mob": {
-      "props": {
-        "src": "assets/imgs/mosaicos/maquina-tosa-mob.png"
-      }
-
-    },
-    "flex-layout.row#bloco2meio": {
-      "children": ["flex-layout.col#imagemosm2", "flex-layout.col#imagemosm3"],
-      "props": {
-        "blockClass": "flex__me"
-      }
-    },
-
-    "flex-layout.col#imagemosm2": {
-      "children": ["image#meio2mob"]
-    },
-    "image#meio2mob": {
-      "props": {
-        "src": "assets/imgs/mosaicos/lamina-tosa-mob.png"
-      }
-    },
-    "flex-layout.col#imagemosm3": {
-      "children": ["image#meio3mob"]
-    },
-    "image#meio3mob": {
-      "props": {
-        "src": "assets/imgs/mosaicos/secador-mob.png"
-      }
-    },
-    "flex-layout.row#bloco3meio": {
-      "children": ["flex-layout.col#imagemos4", "flex-layout.col#imagemosm5"],
-      "props": {
-        "blockClass": "flex__me"
-      }
-    },
-    "flex-layout.col#imagemos4": {
-      "children": ["image#meio4mob"]
-    },
-    "image#meio4mob": {
-      "props": {
-        "src": "assets/imgs/mosaicos/lamina-tosa-mob.png"
-      }
-    },
-    "flex-layout.col#imagemosm5": {
-      "children": ["image#meio5mob"]
-    },
-    "image#meio5mob": {
-      "props": {
-        "src": "assets/imgs/mosaicos/secador-mob.png"
-      }
+  "flex-layout.row#mosaicomeiomob": {
+    "children": ["flex-layout.row#bloco1meio" ],
+    "props": {
+      "blockClass": "mosaicomeio-mob"
+    }
+  },
+  "flex-layout.row#mosaicomeiolinhamob": {
+    "children": ["flex-layout.row#bloco2meio"],
+    "props": {
+      "blockClass": "mosaicomeio-mob"
+    }
+  },
+  "flex-layout.row#mosaicomeiolinhamob3": {
+    "children": ["flex-layout.row#bloco3meio"],
+    "props": {
+      "blockClass": "mosaicomeio-mob"
+    }
+  },
+  "flex-layout.row#bloco1meio": {
+    "children": ["flex-layout.col#imagemos1"]
+  },
+  "flex-layout.col#imagemos1": {
+    "children": ["image#meio1mob"]
+  },
+  "image#meio1mob": {
+    "props": {
+      "src": "assets/imgs/mosaicos/maquina-tosa-mob.png"
     }
 
+  },
+  "flex-layout.row#bloco2meio": {
+    "children": ["flex-layout.col#imagemosm2", "flex-layout.col#imagemosm3"],
+    "props": {
+      "blockClass": "flex__me"
+    }
+  },
 
+  "flex-layout.col#imagemosm2": {
+    "children": ["image#meio2mob"]
+  },
+  "image#meio2mob": {
+    "props": {
+      "src": "assets/imgs/mosaicos/lamina-tosa-mob.png"
+    }
+  },
+  "flex-layout.col#imagemosm3": {
+    "children": ["image#meio3mob"]
+  },
+  "image#meio3mob": {
+    "props": {
+      "src": "assets/imgs/mosaicos/secador-mob.png"
+    }
+  },
+  "flex-layout.row#bloco3meio": {
+    "children": ["flex-layout.col#imagemos4", "flex-layout.col#imagemosm5"],
+    "props": {
+      "blockClass": "flex__me"
+    }
+  },
+  "flex-layout.col#imagemos4": {
+    "children": ["image#meio4mob"]
+  },
+  "image#meio4mob": {
+    "props": {
+      "src": "assets/imgs/mosaicos/lamina-tosa-mob.png"
+    }
+  },
+  "flex-layout.col#imagemosm5": {
+    "children": ["image#meio5mob"]
+  },
+  "image#meio5mob": {
+    "props": {
+      "src": "assets/imgs/mosaicos/secador-mob.png"
+    }
+  },
+
+  "experimental__visibility-layout#mosaico-meio-modelo4": {
+    "title": "Mosaico Meio - Modelo 4",
+    "children": [
+      "responsive-layout.desktop#mosaico-meio-modelo4",
+      "responsive-layout.mobile#mosaico-meio-modelo4e5"
+    ]
+  },
+  "responsive-layout.desktop#mosaico-meio-modelo4": {
+    "title": "Mosaico Meio - Modelo 4 - Desktop",
+    "children": [
+      "flex-layout.row#mosaico-meio-modelo4-desk"
+    ]
+  },
+  "flex-layout.row#mosaico-meio-modelo4-desk": {
+    "props": {
+      "blockClass": ["mosaico-meio-modelo4", "lh-0"]
+    },
+    "children": [
+      "flex-layout.col#left-mosaico-meio-modelo4-desk",
+      "flex-layout.col#right-mosaico-meio-modelo4-desk"
+    ]
+  },
+  "flex-layout.col#left-mosaico-meio-modelo4-desk": {
+    "children": ["image#left-mosaico-meio-modelo4-desk"]
+  },
+  "flex-layout.col#right-mosaico-meio-modelo4-desk": {
+    "children": ["image#right-mosaico-meio-modelo4-desk"]
+  },
+  "image#left-mosaico-meio-modelo4-desk": {
+    "props": {
+      "src": "assets/imgs/mosaicos/banner-pluma.png",
+      "alt": "Pluma x, a mais leve do mundo",
+      "title": "Pluma x, a mais leve do mundo",
+      "maxWidth": "760px",
+      "maxHeight": "592px",
+      "blockClass": "image-mosaico-modelo4"
+    }
+  },
+  "image#right-mosaico-meio-modelo4-desk": {
+    "props": {
+      "src": "assets/imgs/mosaicos/banner-promo-15off.png",
+      "alt": "Promoção! 15% off em toda a linha",
+      "title": "Promoção! 15% off em toda a linha",
+      "maxWidth": "760px",
+      "maxHeight": "592px",
+      "blockClass": ["image-mosaico-modelo4", "gradient-effect-modelo4"],
+      "link": {
+        "url": "teste"
+      }
+    }
+  },
+
+  "responsive-layout.mobile#mosaico-meio-modelo4e5": {
+    "title": "Mosaico Meio - Modelo 4 e 5 - Mobile",
+    "children": [
+      "flex-layout.row#mosaico-meio-modelo4e5-mobi"
+    ]
+  },
+  "flex-layout.row#mosaico-meio-modelo4e5-mobi": {
+    "props": {
+      "blockClass": ["mosaico-meio-modelo4e5-mobi", "lh-0"],
+      "colSizing": "auto"
+    },
+    "children": [
+      "flex-layout.col#top-mosaico-meio-modelo4e5-mobi",
+      "flex-layout.col#bot-mosaico-meio-modelo4e5-mobi"
+    ]
+  },
+  "flex-layout.col#top-mosaico-meio-modelo4e5-mobi": {
+    "children": ["image#top-mosaico-meio-modelo4e5-mobi"]
+  },
+  "flex-layout.col#bot-mosaico-meio-modelo4e5-mobi": {
+    "children": ["image#bot-mosaico-meio-modelo4e5-mobi"]
+  },
+  "image#top-mosaico-meio-modelo4e5-mobi": {
+    "props": {
+      "src": "assets/imgs/mosaicos/banner-pluma-mobile.png",
+      "alt": "Pluma x, a mais leve do mundo",
+      "title": "Pluma x, a mais leve do mundo",
+      "maxWidth": "406px",
+      "maxHeight": "281px",
+      "blockClass": ["image-mosaico-modelo4"]
+    }
+  },
+  "image#bot-mosaico-meio-modelo4e5-mobi": {
+    "props": {
+      "src": "assets/imgs/mosaicos/banner-promo-15off-mobile.png",
+      "alt": "Promoção! 15% off em toda a linha",
+      "title": "Promoção! 15% off em toda a linha",
+      "maxWidth": "406px",
+      "maxHeight": "281px",
+      "blockClass": "image-mosaico-modelo4"
+    }
+  },
+
+  "experimental__visibility-layout#mosaico-meio-modelo5": {
+    "title": "Mosaico Meio - Modelo 5",
+    "children": [
+      "responsive-layout.desktop#mosaico-meio-modelo5"
+    ]
+  },
+  "responsive-layout.desktop#mosaico-meio-modelo5": {
+    "title": "Mosaico Meio - Modelo 5 - Desktop",
+    "children": ["flex-layout.row#mosaico-meio-modelo5-desk"]
+  },
+  "flex-layout.row#mosaico-meio-modelo5-desk": {
+    "props": {
+      "blockClass": ["mosaico-meio-modelo5-desk", "lh-0"],
+      "colSizing": "auto"
+    },
+    "children": [
+      "flex-layout.col#mosaico-meio-modelo5-desk"
+    ]
+  },
+  "flex-layout.col#mosaico-meio-modelo5-desk": {
+    "children": [
+      "image#top-mosaico-meio-modelo5-desk",
+      "image#bot-mosaico-meio-modelo5-desk"
+    ]
+  },
+  "image#top-mosaico-meio-modelo5-desk": {
+    "props": {
+      "src": "assets/imgs/mosaicos/pluma-desk-row.png",
+      "alt": "Pluma x, a mais leve do mundo",
+      "title": "Pluma x, a mais leve do mundo",
+      "maxWidth": "1520px",
+      "maxHeight": "296px",
+      "blockClass": ["image-mosaico-modelo5", "w100-hauto-obfc"]
+    }
+  },
+  "image#bot-mosaico-meio-modelo5-desk": {
+    "props": {
+      "src": "assets/imgs/mosaicos/promo-desk-row.png",
+      "alt": "Promoção! 15% off em toda a linha",
+      "title": "Promoção! 15% off em toda a linha",
+      "maxWidth": "1520px",
+      "maxHeight": "296px",
+      "blockClass": ["image-mosaico-modelo5", "w100-hauto-obfc"]
+    }
+  }
 }
-

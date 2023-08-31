@@ -1,3 +1,10 @@
 .imageElement--pop-efeito {
   position: relative;
 }
+
+.imageElement--image-mosaico-modelo4,
+.imageElement--w100-hauto-obfc {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
