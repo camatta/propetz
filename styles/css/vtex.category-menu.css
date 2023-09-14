@@ -78,11 +78,11 @@
 }
 
 .departmentList .itemContainer--department:nth-child(2n) .itemContainer--category::before {
-  background-image: url(assets/imgs/categoria/categoria-propetz/maquinas-de-tosa-banner-categoria.jpg);
+  background-image: url(assets/imgs/categoria/categoria-propetz/Banner-Categoria-Maquinas-de-Tosa.jpg);
 }
 
 .departmentList .itemContainer--department:nth-child(3n) .itemContainer--category::before {
-  background-image: url(assets/imgs/categoria/categoria-propetz/laminas-de-tosa-banner-categoria.jpg);
+  background-image: url(assets/imgs/categoria/categoria-propetz/Banner-Categoria-Laminas-de-Tosa.jpg);
 }
 
 .departmentList .itemContainer--department:nth-child(4n) .itemContainer--category::before {
