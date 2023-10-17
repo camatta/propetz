@@ -8,3 +8,16 @@
   height: auto;
   object-fit: cover;
 }
+
+.imageElement--left-mosaico-novo,
+.imageElement--right-mosaico-novo {
+  height: 100%;
+  width: 100%;
+}
+
+@media (max-width: 575px) {
+  .imageElement--left-mosaico-novo,
+  .imageElement--right-mosaico-novo {
+  height: auto;
+}
+}

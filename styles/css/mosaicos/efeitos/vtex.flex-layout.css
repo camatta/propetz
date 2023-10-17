@@ -186,6 +186,11 @@
   text-align: center;
 }
 
+.flexColChild--mosaico-left-novo,
+.flexColChild--mosaico-right-novo {
+  line-height: 0;
+}
+
 @media (max-width: 575px) {
   .flexCol--mosaico-right-wrapper .flexColChild--mosaico-right-wrapper:last-child::after,
   .flexCol--mosaico-right-wrapper .flexColChild--mosaico-right-wrapper:first-child::after,
