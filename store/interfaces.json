@@ -42,5 +42,9 @@
     },
     "distribuidores": {
         "component": "Distribuidores"
+    },
+    "contador": {
+        "component": "Contador",
+        "composition": "children"
     }
 }

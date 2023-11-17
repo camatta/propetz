@@ -191,6 +191,10 @@
   line-height: 0;
 }
 
+.flexRow--mosaico-meio-novo {
+  margin-top: 1rem;
+}
+
 @media (max-width: 575px) {
   .flexCol--mosaico-right-wrapper .flexColChild--mosaico-right-wrapper:last-child::after,
   .flexCol--mosaico-right-wrapper .flexColChild--mosaico-right-wrapper:first-child::after,
