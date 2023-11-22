@@ -30,6 +30,7 @@
     "props": {
       "src":"assets/imgs/footer/bandeiras-elevage.png",
       "width": "120px",
+      "height": "180px",
       "blockClass": "image-pagamentos"
     }    
   },
@@ -47,7 +48,9 @@
   },
   "image#bandeiras2": {
     "props": {
-      "src":"assets/imgs/footer/selo2.png"
+      "src":"assets/imgs/footer/selo2.png",
+      "width": "69px",
+      "height": "49px"
     }
   },
   "flex-layout.row#copyrights": {
@@ -72,6 +75,8 @@
   "image#nairuz": {
     "props": {
       "src": "assets/imgs/footer/nairuz.png",
+      "width": "75px",
+      "height": "14px",
       "blockClass": "nairuz-logo"
     }
   },
