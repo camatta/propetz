@@ -41,7 +41,8 @@
         "skusFilter": "ALL",
         "simulationBehavior": "skip",
         "maxItemsPerPage": 12
-      }
+      },
+      "blockClass": "categoria"
     }
   },
 
