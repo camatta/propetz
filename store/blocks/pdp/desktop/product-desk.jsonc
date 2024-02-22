@@ -195,6 +195,7 @@
     },
     "children": [
       "flex-layout.row#list-price-savings",
+      "preco-ipi",
       "price-promo-pix-boleto",
       "product-installments",
       "sku-selector",

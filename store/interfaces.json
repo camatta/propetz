@@ -46,5 +46,11 @@
     "contador": {
         "component": "Contador",
         "composition": "children"
+    },
+    "preco-ipi": {
+        "component": "PrecoComIPI"
+    },
+    "preco-ipi-carrinho": {
+        "component": "PrecoComIPICarrinho"
     }
 }

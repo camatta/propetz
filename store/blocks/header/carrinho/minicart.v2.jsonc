@@ -5,7 +5,7 @@
       "MinicartIcon": "icon-cart#minicart-icon",
       "blockClass": "minicart-wrapper"
     },
-    "children": ["minicart-base-content"]
+    "children": ["minicart-base-content", "preco-ipi-carrinho"]
   },
 
   "icon-cart#minicart-icon": {
