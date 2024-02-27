@@ -22,7 +22,7 @@ const Distribuidores = () => {
       }
     );
     const my_user = await api_response.json();
-    console.log(my_user);
+    //console.log(my_user);
     setId(my_user);
   };
 

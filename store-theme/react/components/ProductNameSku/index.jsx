@@ -7,7 +7,7 @@ import "./productnamesku.css";
 const ProductNameSku = () => {
 
   const productContext = useProduct ()
-  console.log('productContext', productContext)
+  //console.log('productContext', productContext)
 
   const {selectedItem} = useProduct()
   const nameSku = (selectedItem?.nameComplete)

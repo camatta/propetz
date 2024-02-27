@@ -1,10 +1,12 @@
 import useProduct from 'vtex.product-context/useProduct'
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import axios from 'axios';
 
 import { FormattedCurrency } from 'vtex.format-currency'
 
 import './precocomipi.css';
+
+const API_URL = '_v/ratesandbenefits'
 
 const PrecoComIPI = () => {
 
@@ -12,14 +14,15 @@ const PrecoComIPI = () => {
   const [calculatedPriceWithTax, setPriceWithTax] = useState(null);
 
   useEffect(() => {
+    const originURL = window.location.origin
 
     const fetchData = async () => {
       try {
         const apiEndpoints = [
-          '/api/rnb/pvt/calculatorconfiguration/3d7d788a-e88e-420a-94b4-b05414a42919',
-          '/api/rnb/pvt/calculatorconfiguration/56e3f05c-725a-4105-868e-20b559ca191a',
-          '/api/rnb/pvt/calculatorconfiguration/2dc9ff66-4920-4c61-b5e9-01d083b7bae7',
-          '/api/rnb/pvt/calculatorconfiguration/8e0dbbfa-e440-4260-bc4e-7d5fe2291a8f'
+          `${originURL}/${API_URL}/3d7d788a-e88e-420a-94b4-b05414a42919`,
+          `${originURL}/${API_URL}/56e3f05c-725a-4105-868e-20b559ca191a`,
+          `${originURL}/${API_URL}/2dc9ff66-4920-4c61-b5e9-01d083b7bae7`,
+          `${originURL}/${API_URL}/8e0dbbfa-e440-4260-bc4e-7d5fe2291a8f`
         ];
 
         // Realizar consultas em paralelo para os 4 endpoints
@@ -39,7 +42,7 @@ const PrecoComIPI = () => {
 
 
       // Exibir no console as informações organizadas
-      console.log('Informações das regras de taxa:', taxRules);
+      //console.log('Informações das regras de taxa:', taxRules);
 
 
       taxRules.forEach(taxRule => {
@@ -53,12 +56,12 @@ const PrecoComIPI = () => {
           // Atualizar o contexto do produto com o novo preço
           setPriceWithTax(calculatedPriceWithTax);
 
-          console.log(`A taxa de ID "${taxRule.collectionId}" está presente no produto, e o valor que deve ser aplicado é "${taxRule.percentualTax}%".`);
-          console.log(`Preço cheio: ${fullPrice}`);
+          //console.log(`A taxa de ID "${taxRule.collectionId}" está presente no produto, e o valor que deve ser aplicado é "${taxRule.percentualTax}%".`);
+          //console.log(`Preço cheio: ${fullPrice}`);
           // Atualizar o estado local com o novo preço
           setPriceWithTax(calculatedPriceWithTax);
 
-          console.log('Preço com taxa', calculatedPriceWithTax);
+          //console.log('Preço com taxa', calculatedPriceWithTax);
         }
       });
     } catch (error) {
@@ -73,7 +76,7 @@ const PrecoComIPI = () => {
   return (
     <div>
       {calculatedPriceWithTax !== null && (
-        <div className="precoComIPI "><FormattedCurrency value={calculatedPriceWithTax} /><span className="precoAvista"> preço com IPI</span></div>
+        <div className="precoComIPI"><FormattedCurrency value={calculatedPriceWithTax} /><span className="precoAvista"> preço com IPI</span></div>
       )}
     </div>
   )
