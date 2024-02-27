@@ -14,7 +14,7 @@ const PrecoComIPI = () => {
   const [calculatedPriceWithTax, setPriceWithTax] = useState(null);
 
   useEffect(() => {
-    const originURL = window.location.origin
+    const originURL = 'https://propetz.myvtex.com'
 
     const fetchData = async () => {
       try {
