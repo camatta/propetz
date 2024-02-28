@@ -14,7 +14,7 @@ const PrecoComIPICarrinho = () => {
   const [hasExecuted, setHasExecuted] = useState(false);
 
   useEffect(() => {
-    const originURL = 'https://propetz.myvtex.com'
+    const originURL = window.location.origin
 
     const fetchData = async () => {
       try {
@@ -28,6 +28,7 @@ const PrecoComIPICarrinho = () => {
               const skuResponse = await axios.get(`${originURL}/${SKU_API_URL}/${itemId}`);
 
               const { ProductClustersIds } = skuResponse.data;
+              const productClusters = ProductClustersIds.split(',')
 
               // Verificar se ProductClustersIds não é nulo
               if (ProductClustersIds !== null) {
@@ -36,31 +37,34 @@ const PrecoComIPICarrinho = () => {
                 // Verificar se contém as opções específicas
                 if (ProductClustersIds.includes('159') || ProductClustersIds.includes('160') || ProductClustersIds.includes('161') || ProductClustersIds.includes('162')) {
                   // Para cada opção, acessar a API correspondente
-                  const percentualTaxPromises = [];
-
-                  if (ProductClustersIds.includes('159')) {
-                    percentualTaxPromises.push(axios.get(`${originURL}/${TAX_API_URL}/3d7d788a-e88e-420a-94b4-b05414a42919`));
-                  }
-
-                  if (ProductClustersIds.includes('160')) {
-                    percentualTaxPromises.push(axios.get(`${originURL}/${TAX_API_URL}/56e3f05c-725a-4105-868e-20b559ca191a`));
-                  }
-
-                  if (ProductClustersIds.includes('161')) {
-                    percentualTaxPromises.push(axios.get(`${originURL}/${TAX_API_URL}/2dc9ff66-4920-4c61-b5e9-01d083b7bae7`));
-                  }
-
-                  if (ProductClustersIds.includes('162')) {
-                    percentualTaxPromises.push(axios.get(`${originURL}/${TAX_API_URL}/8e0dbbfa-e440-4260-bc4e-7d5fe2291a8f`));
-                  }
+                  const percentualTaxPromises = [
+                    axios.get(`${originURL}/${TAX_API_URL}/3d7d788a-e88e-420a-94b4-b05414a42919`),
+                    axios.get(`${originURL}/${TAX_API_URL}/56e3f05c-725a-4105-868e-20b559ca191a`),
+                    axios.get(`${originURL}/${TAX_API_URL}/2dc9ff66-4920-4c61-b5e9-01d083b7bae7`),
+                    axios.get(`${originURL}/${TAX_API_URL}/8e0dbbfa-e440-4260-bc4e-7d5fe2291a8f`)
+                  ];
 
                   // Aguardar todas as promessas serem resolvidas
                   const percentualTaxResponses = await Promise.all(percentualTaxPromises);
 
+                  const taxRules = percentualTaxResponses.map(response => {
+                    const { name, percentualTax, collections, isActive } = response.data;
+                    const collectionId = collections && typeof collections === 'object' && collections[0] && collections[0].id ? collections[0].id : null;
+          
+                    return {
+                      name,
+                      percentualTax,
+                      collectionId,
+                      isActive
+                    };
+                  });
+
                   // Para cada resposta, calcular o novo preço e atualizar o OrderForm
-                  percentualTaxResponses.forEach(response => {
-                    if(response.data.isActive) {
-                      const percentualTax = response.data.percentualTax;
+                  taxRules.forEach(taxRule => {
+                    const isTaxPresent = productClusters.some(cluster => cluster === taxRule.collectionId);
+
+                    if(isTaxPresent && taxRule.isActive) {
+                      const percentualTax = taxRule.percentualTax;
 
                       // Encontrar o item correspondente no OrderForm
                       const updatedItems = orderFormContext.orderForm.items.map(item => {

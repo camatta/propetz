@@ -4,7 +4,7 @@ import axios from 'axios';
 
 import { FormattedCurrency } from 'vtex.format-currency'
 
-import './precocomipi.css';
+import styles from './precocomipi.css';
 
 const API_URL = '_v/ratesandbenefits'
 
@@ -12,9 +12,16 @@ const PrecoComIPI = () => {
 
   const { product } = useProduct();
   const [calculatedPriceWithTax, setPriceWithTax] = useState(null);
+  const [cashPrice, setCashPrice] = useState(0)
+  const [isFetching, setIsFetching] = useState(true)
 
   useEffect(() => {
-    const originURL = 'https://propetz.myvtex.com'
+    const originURL = window.location.origin
+
+    const fullPrice = product?.priceRange.sellingPrice.highPrice;
+    const cashPrice = fullPrice - (fullPrice / 100 * 10)
+
+    setCashPrice(cashPrice)
 
     const fetchData = async () => {
       try {
@@ -30,13 +37,14 @@ const PrecoComIPI = () => {
 
         // Salvar as informações de cada resposta
         const taxRules = responses.map(response => {
-          const { name, percentualTax, collections } = response.data;
+          const { name, percentualTax, collections, isActive } = response.data;
           const collectionId = collections && typeof collections === 'object' && collections[0] && collections[0].id ? collections[0].id : null;
 
           return {
             name,
             percentualTax,
-            collectionId
+            collectionId,
+            isActive
           };
         });
 
@@ -44,14 +52,12 @@ const PrecoComIPI = () => {
       // Exibir no console as informações organizadas
       //console.log('Informações das regras de taxa:', taxRules);
 
-
       taxRules.forEach(taxRule => {
         const isTaxPresent = product.productClusters.some(cluster => cluster.id === taxRule.collectionId);
 
-        if (isTaxPresent) {
-          const fullPrice = product?.priceRange.sellingPrice.highPrice;
+        if (isTaxPresent && taxRule.isActive) {
           // Calcular o preço com o adicional da taxa
-          const calculatedPriceWithTax = fullPrice * (1 + taxRule.percentualTax / 100);
+          const calculatedPriceWithTax = cashPrice * (1 + taxRule.percentualTax / 100);
 
           // Atualizar o contexto do produto com o novo preço
           setPriceWithTax(calculatedPriceWithTax);
@@ -64,8 +70,11 @@ const PrecoComIPI = () => {
           //console.log('Preço com taxa', calculatedPriceWithTax);
         }
       });
+
+      setIsFetching(false)
     } catch (error) {
       console.error('Erro ao obter dados da API:', error);
+      setIsFetching(false)
     }
   };
 
@@ -74,11 +83,17 @@ const PrecoComIPI = () => {
 
   // Se você não precisar renderizar nada, retornar null ou um componente vazio
   return (
-    <div>
-      {calculatedPriceWithTax !== null && (
-        <div className="precoComIPI"><FormattedCurrency value={calculatedPriceWithTax} /><span className="precoAvista"> preço com IPI</span></div>
+    <>
+      {calculatedPriceWithTax !== null && !isFetching ? (
+        <div className={styles.precoComIPI}>
+          <FormattedCurrency value={calculatedPriceWithTax} /><span>{' '}à vista</span>
+        </div>
+      ) : calculatedPriceWithTax === null && !isFetching && (
+        <div className={styles.precoComIPI}>
+          <FormattedCurrency value={cashPrice} /><span>{' '}à vista</span>
+        </div>
       )}
-    </div>
+    </>
   )
 };
   

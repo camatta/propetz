@@ -1,8 +1,6 @@
 /* Style */
 
-:global(.vtex-product-summary-2-x-container) :global(.precoComIPI) {
+.precoComIPI {
   color: #b71515;
-  text-align: center;
   font-size: 12px;
-  display: none;
 }
