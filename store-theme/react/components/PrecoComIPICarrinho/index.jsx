@@ -2,8 +2,6 @@ import { useEffect, useState } from 'react';
 import axios from 'axios';
 import { OrderForm } from 'vtex.order-manager';
 
-import './precocomipicarrinho.css';
-
 const SKU_API_URL = '_v/catalogsku'
 const TAX_API_URL = '_v/ratesandbenefits'
 
