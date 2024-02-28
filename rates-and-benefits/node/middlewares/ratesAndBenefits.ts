@@ -1,4 +1,4 @@
-export async function ratesAndBenefits( ctx: Context ) {
+export async function ratesAndBenefits( ctx: Context, next: () => Promise<any> ) {
   const {
     state: { code },
     clients: { ratesAndBenefits }
@@ -6,4 +6,6 @@ export async function ratesAndBenefits( ctx: Context ) {
 
   const data = await ratesAndBenefits.getPromotionById(code.toString())
   ctx.body = data
+
+  await next()
 }
