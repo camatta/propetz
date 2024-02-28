@@ -6,7 +6,7 @@ import { validate } from './middlewares/validate'
 import { ratesAndBenefits } from './middlewares/ratesAndBenefits'
 import { catalogSku } from './middlewares/catalogSku'
 
-const TIMEOUT_MS = 800
+const TIMEOUT_MS = 3000
 
 // Create a LRU memory cache for the Status client.
 // The 'max' parameter sets the size of the cache.
