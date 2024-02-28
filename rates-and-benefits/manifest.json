@@ -1,7 +1,7 @@
 {
   "name": "rates-and-benefits",
   "vendor": "propetz",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "title": "Service Taxes, Rates and Skus",
   "description": "Service developed to retrieve data from taxes, rates and skus",
   "mustUpdateAt": "2018-01-04",
