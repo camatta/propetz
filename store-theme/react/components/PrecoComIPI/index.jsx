@@ -60,7 +60,7 @@ const PrecoComIPI = () => {
           const calculatedPriceWithTax = cashPrice * (1 + taxRule.percentualTax / 100);
 
           // Atualizar o contexto do produto com o novo preço
-          setPriceWithTax(calculatedPriceWithTax);
+          //setPriceWithTax(calculatedPriceWithTax);
 
           //console.log(`A taxa de ID "${taxRule.collectionId}" está presente no produto, e o valor que deve ser aplicado é "${taxRule.percentualTax}%".`);
           //console.log(`Preço cheio: ${fullPrice}`);
