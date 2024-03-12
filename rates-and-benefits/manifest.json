@@ -1,7 +1,7 @@
 {
   "name": "rates-and-benefits",
   "vendor": "propetz",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "title": "Service Taxes, Rates and Skus",
   "description": "Service developed to retrieve data from taxes, rates and skus",
   "mustUpdateAt": "2018-01-04",
@@ -18,6 +18,9 @@
   "policies": [
     {
       "name": "colossus-fire-event"
+    },
+    {
+      "name": "GerenciarPromocoesETarifas"
     },
     {
       "name": "colossus-write-logs"
